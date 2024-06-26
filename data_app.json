@@ -1,0 +1,23 @@
+{
+  "login": {
+    "taikhoansai_user": "truongtestsai",
+    "taikhoansai_password": "12341234",
+    "taikhoandung_user": "ungroup",
+    "taikhoandung_password": "12341234",
+    "quenmatkhau_user": "truongvck5",
+    "quenmatkhau_sdt": "0359667777",
+    "khung_anhdaidien": "Yêu thương Việt Nam"
+  },
+  "goivon": {
+    "khampha_chiase": "Trường test chia sẻ gọi vốn bằng app",
+    "dentu": "Lạng Sơn",
+    "sodienthoai": "0835210360",
+    "bietdanh2": "Ohhh Noo"
+  },
+  "hoctap": {
+    "khampha_chiase": "Trường test chia sẻ học tập bằng app",
+    "dentu": "Lạng Sơn",
+    "sodienthoai": "0835210360",
+    "bietdanh2": "Ohhh Noo"
+  }
+}

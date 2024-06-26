@@ -1,0 +1,388 @@
+2024-06-26 Wednesday 09:34:14 root:INFO:--------------
+2024-06-26 Wednesday 09:34:14 root:INFO:Giám sát - Tìm kiếm xe
+2024-06-26 Wednesday 09:34:14 root:INFO:Mã - Minitor01
+2024-06-26 Wednesday 09:34:14 root:INFO:Tên sự kiện - Tìm xe
+2024-06-26 Wednesday 09:34:14 root:INFO:Kết quả - Hiển thị đúng thông tin xe và màu sắc xe được chọn
+2024-06-26 Wednesday 09:34:14 root:INFO:43C05815_C
+2024-06-26 Wednesday 09:34:14 root:INFO:True
+2024-06-26 Wednesday 09:34:24 root:INFO:--------------
+2024-06-26 Wednesday 09:34:24 root:INFO:Giám sát - chọn nhóm
+2024-06-26 Wednesday 09:34:24 root:INFO:Mã - Minitor02
+2024-06-26 Wednesday 09:34:24 root:INFO:Tên sự kiện - Chọn 1 nhóm phương tiện
+2024-06-26 Wednesday 09:34:24 root:INFO:Kết quả - Hiển thị danh sách xe của 1 nhóm phương tiện
+2024-06-26 Wednesday 09:34:29 root:INFO:False
+2024-06-26 Wednesday 09:34:44 root:INFO:--------------
+2024-06-26 Wednesday 09:34:44 root:INFO:Giám sát - chọn nhóm
+2024-06-26 Wednesday 09:34:44 root:INFO:Mã - Minitor03
+2024-06-26 Wednesday 09:34:44 root:INFO:Tên sự kiện - Chọn Tất cả nhóm phương tiện
+2024-06-26 Wednesday 09:34:44 root:INFO:Kết quả - Hiển thị tất cả xe của tất cả nhóm phương tiện
+2024-06-26 Wednesday 09:34:44 root:INFO:True
+2024-06-26 Wednesday 09:34:57 root:INFO:--------------
+2024-06-26 Wednesday 09:34:57 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:34:57 root:INFO:Mã - Minitor04
+2024-06-26 Wednesday 09:34:57 root:INFO:Tên sự kiện - Nợ phí
+2024-06-26 Wednesday 09:34:57 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:35:00 root:INFO:True
+2024-06-26 Wednesday 09:35:00 root:INFO:trạng thái phương tiện Nợ phí, số lượng 0
+2024-06-26 Wednesday 09:35:05 root:INFO:--------------
+2024-06-26 Wednesday 09:35:05 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:35:05 root:INFO:Mã - Minitor05
+2024-06-26 Wednesday 09:35:05 root:INFO:Tên sự kiện - Di chuyển
+2024-06-26 Wednesday 09:35:05 root:INFO:Kết quả - Hiển thị đủ số xe 'Di chuyển"
+2024-06-26 Wednesday 09:35:10 root:INFO:False
+2024-06-26 Wednesday 09:35:10 root:INFO:trạng thái phương tiện Di chuyển, số lượng 18
+2024-06-26 Wednesday 09:35:16 root:INFO:--------------
+2024-06-26 Wednesday 09:35:16 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:35:16 root:INFO:Mã - Minitor06
+2024-06-26 Wednesday 09:35:16 root:INFO:Tên sự kiện - Dừng đỗ
+2024-06-26 Wednesday 09:35:16 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng đỗ"
+2024-06-26 Wednesday 09:35:21 root:INFO:False
+2024-06-26 Wednesday 09:35:22 root:INFO:trạng thái phương tiện Dừng đỗ, số lượng 41
+2024-06-26 Wednesday 09:35:28 root:INFO:--------------
+2024-06-26 Wednesday 09:35:28 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:35:28 root:INFO:Mã - Minitor07
+2024-06-26 Wednesday 09:35:28 root:INFO:Tên sự kiện - Dừng bật
+2024-06-26 Wednesday 09:35:28 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng bật"
+2024-06-26 Wednesday 09:35:33 root:INFO:False
+2024-06-26 Wednesday 09:35:33 root:INFO:trạng thái phương tiện Dừng - Bật, số lượng 6
+2024-06-26 Wednesday 09:35:38 root:INFO:--------------
+2024-06-26 Wednesday 09:35:38 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:35:38 root:INFO:Mã - Minitor08
+2024-06-26 Wednesday 09:35:38 root:INFO:Tên sự kiện - Bật máy
+2024-06-26 Wednesday 09:35:38 root:INFO:Kết quả - Hiển thị đủ số xe 'Bật máy"
+2024-06-26 Wednesday 09:35:43 root:INFO:False
+2024-06-26 Wednesday 09:35:44 root:INFO:trạng thái phương tiện Bật máy, số lượng 24
+2024-06-26 Wednesday 09:35:50 root:INFO:--------------
+2024-06-26 Wednesday 09:35:50 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:35:50 root:INFO:Mã - Minitor09
+2024-06-26 Wednesday 09:35:50 root:INFO:Tên sự kiện - Tắt máy
+2024-06-26 Wednesday 09:35:50 root:INFO:Kết quả - Hiển thị đủ số xe 'Tắt máy"
+2024-06-26 Wednesday 09:35:55 root:INFO:False
+2024-06-26 Wednesday 09:35:56 root:INFO:trạng thái phương tiện Tắt máy, số lượng 40
+2024-06-26 Wednesday 09:36:01 root:INFO:--------------
+2024-06-26 Wednesday 09:36:01 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:36:01 root:INFO:Mã - Minitor10
+2024-06-26 Wednesday 09:36:01 root:INFO:Tên sự kiện - Quá tốc độ
+2024-06-26 Wednesday 09:36:01 root:INFO:Kết quả - Hiển thị đủ số xe 'Quá tốc độ"
+2024-06-26 Wednesday 09:36:03 root:INFO:True
+2024-06-26 Wednesday 09:36:04 root:INFO:trạng thái phương tiện Quá tốc độ, số lượng 0
+2024-06-26 Wednesday 09:36:09 root:INFO:--------------
+2024-06-26 Wednesday 09:36:09 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:36:09 root:INFO:Mã - Minitor11
+2024-06-26 Wednesday 09:36:09 root:INFO:Tên sự kiện - Mất GPS
+2024-06-26 Wednesday 09:36:09 root:INFO:Kết quả - Hiển thị đủ số xe 'Mất GPS"
+2024-06-26 Wednesday 09:36:14 root:INFO:False
+2024-06-26 Wednesday 09:36:15 root:INFO:trạng thái phương tiện Mất GPS, số lượng 1
+2024-06-26 Wednesday 09:36:20 root:INFO:--------------
+2024-06-26 Wednesday 09:36:20 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:36:20 root:INFO:Mã - Minitor12
+2024-06-26 Wednesday 09:36:20 root:INFO:Tên sự kiện - Mất GMS
+2024-06-26 Wednesday 09:36:20 root:INFO:Kết quả - Hiển thị đủ số xe 'Mất GMS"
+2024-06-26 Wednesday 09:36:25 root:INFO:False
+2024-06-26 Wednesday 09:36:25 root:INFO:trạng thái phương tiện Mất GSM, số lượng 5
+2024-06-26 Wednesday 09:36:31 root:INFO:--------------
+2024-06-26 Wednesday 09:36:31 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:36:31 root:INFO:Mã - Minitor13
+2024-06-26 Wednesday 09:36:31 root:INFO:Tên sự kiện - Tổng số xe
+2024-06-26 Wednesday 09:36:31 root:INFO:Kết quả - Tổng các trạng thái
+2024-06-26 Wednesday 09:36:36 root:INFO:False
+2024-06-26 Wednesday 09:36:37 root:INFO:trạng thái phương tiện Tất cả, số lượng 70
+2024-06-26 Wednesday 09:36:40 root:INFO:--------------
+2024-06-26 Wednesday 09:36:40 root:INFO:Giám sát - Icon đi tới Google
+2024-06-26 Wednesday 09:36:40 root:INFO:Mã - Minitor14
+2024-06-26 Wednesday 09:36:40 root:INFO:Tên sự kiện - Icon goto Google
+2024-06-26 Wednesday 09:36:40 root:INFO:Kết quả - Chuyển tới trang Google map
+2024-06-26 Wednesday 09:36:40 root:INFO:True
+2024-06-26 Wednesday 09:36:47 root:INFO:--------------
+2024-06-26 Wednesday 09:36:47 root:INFO:Giám sát - Icon bật vị trí
+2024-06-26 Wednesday 09:36:47 root:INFO:Mã - Minitor15
+2024-06-26 Wednesday 09:36:47 root:INFO:Tên sự kiện - Icon Bật định vị
+2024-06-26 Wednesday 09:36:47 root:INFO:Kết quả - Bật và chuyển tới vị trí hiện tại
+2024-06-26 Wednesday 09:36:47 root:INFO:True
+2024-06-26 Wednesday 09:36:50 root:INFO:--------------
+2024-06-26 Wednesday 09:36:50 root:INFO:Giám sát - Icon thay đổi map
+2024-06-26 Wednesday 09:36:50 root:INFO:Mã - Minitor16
+2024-06-26 Wednesday 09:36:50 root:INFO:Tên sự kiện - Icon đổi loại bản đồ
+2024-06-26 Wednesday 09:36:50 root:INFO:Kết quả - Chuyển qua bản đồ bình anh, bản đồ google
+2024-06-26 Wednesday 09:36:50 root:INFO:True
+2024-06-26 Wednesday 09:37:01 root:INFO:--------------
+2024-06-26 Wednesday 09:37:01 root:INFO:Giám sát - Trạng thái xe
+2024-06-26 Wednesday 09:37:01 root:INFO:Mã - Minitor05
+2024-06-26 Wednesday 09:37:01 root:INFO:Tên sự kiện - Lấy dữ liệu để check bao gồm API, Chi tiết xe
+2024-06-26 Wednesday 09:37:01 root:INFO:Kết quả - Click vào 1 xe ở giám sát: xem tổng quan xe, xem chi tiết xe, check api web trả về
+2024-06-26 Wednesday 09:37:06 root:INFO:False
+2024-06-26 Wednesday 09:37:06 root:INFO:trạng thái phương tiện Di chuyển, số lượng 21
+2024-06-26 Wednesday 09:37:40 root:INFO:--------------
+2024-06-26 Wednesday 09:37:40 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:40 root:INFO:Mã - Minitor17
+2024-06-26 Wednesday 09:37:40 root:INFO:Tên sự kiện - Lấy dữ liệu để check bao gồm API, Chi tiết xe
+2024-06-26 Wednesday 09:37:40 root:INFO:Kết quả - Click vào 1 xe ở giám sát: xem tổng quan xe, xem chi tiết xe, check api web trả về
+2024-06-26 Wednesday 09:37:40 root:INFO:True
+2024-06-26 Wednesday 09:37:40 root:INFO:--------------
+2024-06-26 Wednesday 09:37:40 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:40 root:INFO:Mã - Minitor18
+2024-06-26 Wednesday 09:37:40 root:INFO:Tên sự kiện - Biển số
+2024-06-26 Wednesday 09:37:40 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:40 root:INFO:Tổng quan - biển số xe - 43C03880_C
+2024-06-26 Wednesday 09:37:40 root:INFO:Chi tiết - biển số xe - 43C03880_C
+2024-06-26 Wednesday 09:37:40 root:INFO:Check api - biển số xe - 43C03880_C
+2024-06-26 Wednesday 09:37:40 root:INFO:True
+2024-06-26 Wednesday 09:37:40 root:INFO:--------------
+2024-06-26 Wednesday 09:37:40 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:40 root:INFO:Mã - Minitor19
+2024-06-26 Wednesday 09:37:40 root:INFO:Tên sự kiện - Giờ cập nhật
+2024-06-26 Wednesday 09:37:40 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:40 root:INFO:Tổng quan - Thời gian - 09:37 26/06/2024
+2024-06-26 Wednesday 09:37:40 root:INFO:Chi tiết - Thời gian - 09:37 26/06/2024
+2024-06-26 Wednesday 09:37:40 root:INFO:Check api - Thời gian - 09:37 26/06/2024
+2024-06-26 Wednesday 09:37:40 root:INFO:True
+2024-06-26 Wednesday 09:37:41 root:INFO:--------------
+2024-06-26 Wednesday 09:37:41 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:41 root:INFO:Mã - Minitor20
+2024-06-26 Wednesday 09:37:41 root:INFO:Tên sự kiện - Địa chỉ
+2024-06-26 Wednesday 09:37:41 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:41 root:INFO:Tổng quan - Địa chỉ - Yết Kiêu, P. Thọ Quang, Q. Sơn Trà, TP. Đà Nẵng
+2024-06-26 Wednesday 09:37:41 root:INFO:Chi tiết - Địa chỉ - Yết Kiêu, P. Thọ Quang, Q. Sơn Trà, TP. Đà Nẵng
+2024-06-26 Wednesday 09:37:41 root:INFO:Check api - Địa chỉ - Yết Kiêu, P. Thọ Quang, Q. Sơn Trà, TP. Đà Nẵng
+2024-06-26 Wednesday 09:37:41 root:INFO:True
+2024-06-26 Wednesday 09:37:41 root:INFO:--------------
+2024-06-26 Wednesday 09:37:41 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:41 root:INFO:Mã - Minitor21
+2024-06-26 Wednesday 09:37:41 root:INFO:Tên sự kiện - Vận tốc gps
+2024-06-26 Wednesday 09:37:41 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:41 root:INFO:Tổng quan - Vận tốc gps - 36 Km/h
+2024-06-26 Wednesday 09:37:41 root:INFO:Chi tiết - Vận tốc gps - 33 Km/h
+2024-06-26 Wednesday 09:37:41 root:INFO:Check api - Vận tốc gps - 36 Km/h
+2024-06-26 Wednesday 09:37:41 root:INFO:False
+2024-06-26 Wednesday 09:37:41 root:INFO:--------------
+2024-06-26 Wednesday 09:37:41 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:41 root:INFO:Mã - Minitor22
+2024-06-26 Wednesday 09:37:41 root:INFO:Tên sự kiện - Động cơ
+2024-06-26 Wednesday 09:37:41 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:41 root:INFO:Tổng quan - Động cơ - Bật
+2024-06-26 Wednesday 09:37:41 root:INFO:Chi tiết - Động cơ - Bật
+2024-06-26 Wednesday 09:37:41 root:INFO:True
+2024-06-26 Wednesday 09:37:42 root:INFO:--------------
+2024-06-26 Wednesday 09:37:42 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:42 root:INFO:Mã - Minitor23
+2024-06-26 Wednesday 09:37:42 root:INFO:Tên sự kiện - Điều hòa
+2024-06-26 Wednesday 09:37:42 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:42 root:INFO:Tổng quan - Điều hòa - Tắt
+2024-06-26 Wednesday 09:37:42 root:INFO:Chi tiết - Điều hòa - Tắt
+2024-06-26 Wednesday 09:37:42 root:INFO:True
+2024-06-26 Wednesday 09:37:42 root:INFO:--------------
+2024-06-26 Wednesday 09:37:42 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:42 root:INFO:Mã - Minitor24
+2024-06-26 Wednesday 09:37:42 root:INFO:Tên sự kiện - Cửa xe
+2024-06-26 Wednesday 09:37:42 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:42 root:INFO:Tổng quan - Cửa xe - Đóng cửa
+2024-06-26 Wednesday 09:37:42 root:INFO:True
+2024-06-26 Wednesday 09:37:42 root:INFO:--------------
+2024-06-26 Wednesday 09:37:42 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:42 root:INFO:Mã - Minitor25
+2024-06-26 Wednesday 09:37:42 root:INFO:Tên sự kiện - Số sim
+2024-06-26 Wednesday 09:37:42 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:42 root:INFO:Tổng quan - Số sim - 0832529107
+2024-06-26 Wednesday 09:37:42 root:INFO:True
+2024-06-26 Wednesday 09:37:43 root:INFO:--------------
+2024-06-26 Wednesday 09:37:43 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:43 root:INFO:Mã - Minitor26
+2024-06-26 Wednesday 09:37:43 root:INFO:Tên sự kiện - Ngày đăng ký
+2024-06-26 Wednesday 09:37:43 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:43 root:INFO:Tổng quan - Ngày đăng ký - 25/05/2021
+2024-06-26 Wednesday 09:37:43 root:INFO:True
+2024-06-26 Wednesday 09:37:43 root:INFO:--------------
+2024-06-26 Wednesday 09:37:43 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:43 root:INFO:Mã - Minitor27
+2024-06-26 Wednesday 09:37:43 root:INFO:Tên sự kiện - Imei
+2024-06-26 Wednesday 09:37:43 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:43 root:INFO:Tổng quan - Imei - 868133049112873
+2024-06-26 Wednesday 09:37:43 root:INFO:True
+2024-06-26 Wednesday 09:37:43 root:INFO:--------------
+2024-06-26 Wednesday 09:37:43 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:43 root:INFO:Mã - Minitor28
+2024-06-26 Wednesday 09:37:43 root:INFO:Tên sự kiện - Km trong ngày
+2024-06-26 Wednesday 09:37:43 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:43 root:INFO:Chi tiết - Km trong ngày - 1572
+2024-06-26 Wednesday 09:37:43 root:INFO:Check api - Km trong ngày - 1572
+2024-06-26 Wednesday 09:37:43 root:INFO:True
+2024-06-26 Wednesday 09:37:44 root:INFO:--------------
+2024-06-26 Wednesday 09:37:44 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:44 root:INFO:Mã - Minitor29
+2024-06-26 Wednesday 09:37:44 root:INFO:Tên sự kiện - Km tích lũy
+2024-06-26 Wednesday 09:37:44 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:44 root:INFO:Tổng quan - Km tích lũy - 0 km
+2024-06-26 Wednesday 09:37:44 root:INFO:True
+2024-06-26 Wednesday 09:37:44 root:INFO:--------------
+2024-06-26 Wednesday 09:37:44 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:44 root:INFO:Mã - Minitor30
+2024-06-26 Wednesday 09:37:44 root:INFO:Tên sự kiện - Dừng đỗ
+2024-06-26 Wednesday 09:37:44 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:44 root:INFO:Tổng quan - Dừng đỗ - 10 lần
+2024-06-26 Wednesday 09:37:44 root:INFO:True
+2024-06-26 Wednesday 09:37:45 root:INFO:--------------
+2024-06-26 Wednesday 09:37:45 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:45 root:INFO:Mã - Minitor31
+2024-06-26 Wednesday 09:37:45 root:INFO:Tên sự kiện - Số lần mở cửa
+2024-06-26 Wednesday 09:37:45 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:45 root:INFO:Tổng quan - Số lần mở cửa - 0
+2024-06-26 Wednesday 09:37:45 root:INFO:True
+2024-06-26 Wednesday 09:37:45 root:INFO:--------------
+2024-06-26 Wednesday 09:37:45 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:45 root:INFO:Mã - Minitor32
+2024-06-26 Wednesday 09:37:45 root:INFO:Tên sự kiện - Nhiên liệu
+2024-06-26 Wednesday 09:37:45 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:45 root:INFO:Tổng quan - Nhiên liệu - 364/403L
+2024-06-26 Wednesday 09:37:45 root:INFO:True
+2024-06-26 Wednesday 09:37:45 root:INFO:--------------
+2024-06-26 Wednesday 09:37:45 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:45 root:INFO:Mã - Minitor33
+2024-06-26 Wednesday 09:37:45 root:INFO:Tên sự kiện - Nhiệt độ
+2024-06-26 Wednesday 09:37:45 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:45 root:INFO:Tổng quan - Nhiệt độ - Mất kết nối cảm biến
+2024-06-26 Wednesday 09:37:45 root:INFO:True
+2024-06-26 Wednesday 09:37:46 root:INFO:--------------
+2024-06-26 Wednesday 09:37:46 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:46 root:INFO:Mã - Minitor34
+2024-06-26 Wednesday 09:37:46 root:INFO:Tên sự kiện - Thẻ nhớ
+2024-06-26 Wednesday 09:37:46 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:46 root:INFO:Tổng quan - Thẻ nhớ - Bình thường
+2024-06-26 Wednesday 09:37:46 root:INFO:True
+2024-06-26 Wednesday 09:37:46 root:INFO:--------------
+2024-06-26 Wednesday 09:37:46 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:46 root:INFO:Mã - Minitor35
+2024-06-26 Wednesday 09:37:46 root:INFO:Tên sự kiện - Nhóm đội
+2024-06-26 Wednesday 09:37:46 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:46 root:INFO:Tổng quan - Nhóm đội - VICONSHIPCAM
+2024-06-26 Wednesday 09:37:46 root:INFO:True
+2024-06-26 Wednesday 09:37:46 root:INFO:--------------
+2024-06-26 Wednesday 09:37:46 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:46 root:INFO:Mã - Minitor36
+2024-06-26 Wednesday 09:37:46 root:INFO:Tên sự kiện - Vin
+2024-06-26 Wednesday 09:37:46 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:46 root:INFO:Tổng quan - Vin - None
+2024-06-26 Wednesday 09:37:46 root:INFO:True
+2024-06-26 Wednesday 09:37:47 root:INFO:--------------
+2024-06-26 Wednesday 09:37:47 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:47 root:INFO:Mã - Minitor37
+2024-06-26 Wednesday 09:37:47 root:INFO:Tên sự kiện - Lái xe
+2024-06-26 Wednesday 09:37:47 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:47 root:INFO:Chi tiết - Lái xe - LE DAI HUYNH
+2024-06-26 Wednesday 09:37:47 root:INFO:Check api - Lái xe - LE DAI HUYNH
+2024-06-26 Wednesday 09:37:47 root:INFO:True
+2024-06-26 Wednesday 09:37:47 root:INFO:--------------
+2024-06-26 Wednesday 09:37:47 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:47 root:INFO:Mã - Minitor38
+2024-06-26 Wednesday 09:37:47 root:INFO:Tên sự kiện - Bằng lái
+2024-06-26 Wednesday 09:37:47 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:47 root:INFO:Chi tiết - Bằng lái - 480177015083
+2024-06-26 Wednesday 09:37:47 root:INFO:Check api - Bằng lái - 480177015083
+2024-06-26 Wednesday 09:37:47 root:INFO:True
+2024-06-26 Wednesday 09:37:47 root:INFO:--------------
+2024-06-26 Wednesday 09:37:47 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:47 root:INFO:Mã - Minitor39
+2024-06-26 Wednesday 09:37:47 root:INFO:Tên sự kiện - Điện thoại
+2024-06-26 Wednesday 09:37:47 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:47 root:INFO:Tổng quan - Điện thoại - None
+2024-06-26 Wednesday 09:37:47 root:INFO:True
+2024-06-26 Wednesday 09:37:48 root:INFO:--------------
+2024-06-26 Wednesday 09:37:48 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:48 root:INFO:Mã - Minitor40
+2024-06-26 Wednesday 09:37:48 root:INFO:Tên sự kiện - Thời gian lái xe liên tục
+2024-06-26 Wednesday 09:37:48 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:48 root:INFO:Chi tiết - Thời gian lái xe liên tục - 44 phút
+2024-06-26 Wednesday 09:37:48 root:INFO:Check api -Thời gian lái xe liên tục - 44 phút
+2024-06-26 Wednesday 09:37:48 root:INFO:True
+2024-06-26 Wednesday 09:37:48 root:INFO:--------------
+2024-06-26 Wednesday 09:37:48 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:48 root:INFO:Mã - Minitor41
+2024-06-26 Wednesday 09:37:48 root:INFO:Tên sự kiện - Thời gian lái xe trong ngày
+2024-06-26 Wednesday 09:37:48 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:48 root:INFO:Chi tiết - Thời gian lái xe trong ngày - 50 phút
+2024-06-26 Wednesday 09:37:48 root:INFO:Check api -Thời gian lái xe trong ngày - 50 phút
+2024-06-26 Wednesday 09:37:48 root:INFO:True
+2024-06-26 Wednesday 09:37:48 root:INFO:--------------
+2024-06-26 Wednesday 09:37:48 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:48 root:INFO:Mã - Minitor42
+2024-06-26 Wednesday 09:37:48 root:INFO:Tên sự kiện - Số lần quá tốc độ
+2024-06-26 Wednesday 09:37:48 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:48 root:INFO:Chi tiết - Sô lần quá tốc độ - 0 lần
+2024-06-26 Wednesday 09:37:48 root:INFO:Check api -Thời gian lái xe trong ngày - 0 lần
+2024-06-26 Wednesday 09:37:48 root:INFO:True
+2024-06-26 Wednesday 09:37:49 root:INFO:--------------
+2024-06-26 Wednesday 09:37:49 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:49 root:INFO:Mã - Minitor43
+2024-06-26 Wednesday 09:37:49 root:INFO:Tên sự kiện - Sở quản lý
+2024-06-26 Wednesday 09:37:49 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:49 root:INFO:Tổng quan - Sở quản lý - None
+2024-06-26 Wednesday 09:37:49 root:INFO:True
+2024-06-26 Wednesday 09:37:49 root:INFO:--------------
+2024-06-26 Wednesday 09:37:49 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:49 root:INFO:Mã - Minitor44
+2024-06-26 Wednesday 09:37:49 root:INFO:Tên sự kiện - Tên gói cước
+2024-06-26 Wednesday 09:37:49 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:49 root:INFO:Tổng quan - Tên gói cước - SCVINAQCB010
+2024-06-26 Wednesday 09:37:49 root:INFO:True
+2024-06-26 Wednesday 09:37:49 root:INFO:--------------
+2024-06-26 Wednesday 09:37:49 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:49 root:INFO:Mã - Minitor45
+2024-06-26 Wednesday 09:37:49 root:INFO:Tên sự kiện - Nhà mạng
+2024-06-26 Wednesday 09:37:49 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:49 root:INFO:Tổng quan - Nhà mạng - Vina
+2024-06-26 Wednesday 09:37:49 root:INFO:True
+2024-06-26 Wednesday 09:37:50 root:INFO:--------------
+2024-06-26 Wednesday 09:37:50 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:50 root:INFO:Mã - Minitor46
+2024-06-26 Wednesday 09:37:50 root:INFO:Tên sự kiện - Dung lượng gói cước
+2024-06-26 Wednesday 09:37:50 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:50 root:INFO:Tổng quan - Dung lượng gói cước - 10240 MB
+2024-06-26 Wednesday 09:37:50 root:INFO:True
+2024-06-26 Wednesday 09:37:50 root:INFO:--------------
+2024-06-26 Wednesday 09:37:50 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:50 root:INFO:Mã - Minitor47
+2024-06-26 Wednesday 09:37:50 root:INFO:Tên sự kiện - Số ngày lưu trữ
+2024-06-26 Wednesday 09:37:50 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:50 root:INFO:Tổng quan - Số ngày lưu trữ - 0 ngày
+2024-06-26 Wednesday 09:37:50 root:INFO:True
+2024-06-26 Wednesday 09:37:50 root:INFO:--------------
+2024-06-26 Wednesday 09:37:50 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:50 root:INFO:Mã - Minitor48
+2024-06-26 Wednesday 09:37:50 root:INFO:Tên sự kiện - Số kênh lưu trữ
+2024-06-26 Wednesday 09:37:50 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:50 root:INFO:Tổng quan - Số kênh lưu trữ - 0
+2024-06-26 Wednesday 09:37:50 root:INFO:True
+2024-06-26 Wednesday 09:37:51 root:INFO:--------------
+2024-06-26 Wednesday 09:37:51 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:51 root:INFO:Mã - Minitor49
+2024-06-26 Wednesday 09:37:51 root:INFO:Tên sự kiện - Tính năng định vị
+2024-06-26 Wednesday 09:37:51 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:51 root:INFO:Tổng quan - Định vị - Có
+2024-06-26 Wednesday 09:37:51 root:INFO:True
+2024-06-26 Wednesday 09:37:51 root:INFO:--------------
+2024-06-26 Wednesday 09:37:51 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:51 root:INFO:Mã - Minitor50
+2024-06-26 Wednesday 09:37:51 root:INFO:Tên sự kiện - Tính năng ảnh
+2024-06-26 Wednesday 09:37:51 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:51 root:INFO:Tổng quan - Ảnh - Có
+2024-06-26 Wednesday 09:37:51 root:INFO:True
+2024-06-26 Wednesday 09:37:51 root:INFO:--------------
+2024-06-26 Wednesday 09:37:51 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:51 root:INFO:Mã - Minitor51
+2024-06-26 Wednesday 09:37:51 root:INFO:Tên sự kiện - Tính năng video
+2024-06-26 Wednesday 09:37:51 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:51 root:INFO:Tổng quan - Video - Có
+2024-06-26 Wednesday 09:37:51 root:INFO:True
+2024-06-26 Wednesday 09:37:52 root:INFO:--------------
+2024-06-26 Wednesday 09:37:52 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:52 root:INFO:Mã - Minitor52
+2024-06-26 Wednesday 09:37:52 root:INFO:Tên sự kiện - Kênh lắp camera
+2024-06-26 Wednesday 09:37:52 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:52 root:INFO:Tổng quan - Kênh lắp camera - 1,2
+2024-06-26 Wednesday 09:37:52 root:INFO:True
+2024-06-26 Wednesday 09:37:52 root:INFO:--------------
+2024-06-26 Wednesday 09:37:52 root:INFO:Giám sát - Thông tin chi tiết xe
+2024-06-26 Wednesday 09:37:52 root:INFO:Mã - Minitor53
+2024-06-26 Wednesday 09:37:52 root:INFO:Tên sự kiện - Kênh hoạt động
+2024-06-26 Wednesday 09:37:52 root:INFO:Kết quả - None
+2024-06-26 Wednesday 09:37:52 root:INFO:Tổng quan - Kênh hoạt động - 1,2
+2024-06-26 Wednesday 09:37:52 root:INFO:True
