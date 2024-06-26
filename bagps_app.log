@@ -1,0 +1,77 @@
+2024-06-27 Thursday 16:34:38 root:INFO:--------------
+2024-06-27 Thursday 16:34:38 root:INFO:Login với tài khoản: ungroup
+2024-06-27 Thursday 16:34:38 root:INFO:Login với mật khẩu: 12341234
+2024-06-27 Thursday 16:34:38 root:INFO:--------------
+2024-06-27 Thursday 16:34:38 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:34:38 root:INFO:Mã - Login01
+2024-06-27 Thursday 16:34:38 root:INFO:Tên sự kiện - Đăng nhập với tài khoản khách hàng có quyền giám sát
+2024-06-27 Thursday 16:34:38 root:INFO:Kết quả - Trang giám sát online
+Có danh sách xe và có xe trên bản đồ
+2024-06-27 Thursday 16:34:39 root:INFO:Tìm kiếm phương tiện
+2024-06-27 Thursday 16:34:39 root:INFO:True
+2024-06-27 Thursday 16:34:53 root:INFO:--------------
+2024-06-27 Thursday 16:34:53 root:INFO:Login với tài khoản: truongtq@bagroup.vn
+2024-06-27 Thursday 16:34:53 root:INFO:Login với mật khẩu: atgmj123
+2024-06-27 Thursday 16:34:53 root:INFO:--------------
+2024-06-27 Thursday 16:34:53 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:34:53 root:INFO:Mã - Login02
+2024-06-27 Thursday 16:34:53 root:INFO:Tên sự kiện - Đăng nhập với tài khoản bình anh
+2024-06-27 Thursday 16:34:53 root:INFO:Kết quả - Vào trang danh sách xe
+2024-06-27 Thursday 16:34:54 root:INFO:Tìm kiếm phương tiện
+2024-06-27 Thursday 16:34:54 root:INFO:True
+2024-06-27 Thursday 16:35:08 root:INFO:--------------
+2024-06-27 Thursday 16:35:08 root:INFO:Login với tài khoản: 43E02740
+2024-06-27 Thursday 16:35:08 root:INFO:Login với mật khẩu: 12341234
+2024-06-27 Thursday 16:35:08 root:INFO:--------------
+2024-06-27 Thursday 16:35:08 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:35:08 root:INFO:Mã - Login03
+2024-06-27 Thursday 16:35:08 root:INFO:Tên sự kiện - Đăng nhập với tài khoản đại lý
+2024-06-27 Thursday 16:35:08 root:INFO:Kết quả - Vào trang danh sách xe
+2024-06-27 Thursday 16:35:08 root:INFO:Tìm kiếm phương tiện
+2024-06-27 Thursday 16:35:08 root:INFO:True
+2024-06-27 Thursday 16:35:23 root:INFO:--------------
+2024-06-27 Thursday 16:35:23 root:INFO:Login với tài khoản: truongvck1
+2024-06-27 Thursday 16:35:23 root:INFO:Login với mật khẩu: 12341234
+2024-06-27 Thursday 16:35:23 root:INFO:--------------
+2024-06-27 Thursday 16:35:23 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:35:23 root:INFO:Mã - Login04
+2024-06-27 Thursday 16:35:23 root:INFO:Tên sự kiện - Đăng nhập với tài khoản khách hàng không có quyền giám sát
+2024-06-27 Thursday 16:35:23 root:INFO:Kết quả - Bạn không có quyền
+2024-06-27 Thursday 16:35:26 root:INFO:True
+2024-06-27 Thursday 16:35:46 root:INFO:--------------
+2024-06-27 Thursday 16:35:46 root:INFO:Login với tài khoản: truongtq@bagroup.vn
+2024-06-27 Thursday 16:35:46 root:INFO:Login với mật khẩu: 11111
+2024-06-27 Thursday 16:35:46 root:INFO:--------------
+2024-06-27 Thursday 16:35:46 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:35:46 root:INFO:Mã - Login05
+2024-06-27 Thursday 16:35:46 root:INFO:Tên sự kiện - Đăng nhập với tài khoản đúng, mật khẩu sai
+2024-06-27 Thursday 16:35:46 root:INFO:Kết quả - Tài khoản và mật khẩu không đúng
+2024-06-27 Thursday 16:35:46 root:INFO:Tài khoản hoặc mật khẩu không chính xác. Vui lòng kiểm tra lại
+2024-06-27 Thursday 16:35:46 root:INFO:True
+2024-06-27 Thursday 16:35:53 root:INFO:--------------
+2024-06-27 Thursday 16:35:53 root:INFO:Login với tài khoản: truongtestsai
+2024-06-27 Thursday 16:35:53 root:INFO:Login với mật khẩu: 12341234
+2024-06-27 Thursday 16:35:53 root:INFO:--------------
+2024-06-27 Thursday 16:35:53 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:35:53 root:INFO:Mã - Login06
+2024-06-27 Thursday 16:35:53 root:INFO:Tên sự kiện - Quên tài khoản
+2024-06-27 Thursday 16:35:53 root:INFO:Kết quả - Hiện popup thông báo "Vui lòng gọi đến số 19006464 để được hỗ trợ"
+2024-06-27 Thursday 16:35:54 root:INFO:Vui lòng gọi đến số 19006464 để được hỗ trợ
+2024-06-27 Thursday 16:35:54 root:INFO:True
+2024-06-27 Thursday 16:35:56 root:INFO:--------------
+2024-06-27 Thursday 16:35:56 root:INFO:Màn hình đăng nhập - Login
+2024-06-27 Thursday 16:35:56 root:INFO:Mã - Login07
+2024-06-27 Thursday 16:35:56 root:INFO:Tên sự kiện - Quên mật khẩu
+2024-06-27 Thursday 16:35:56 root:INFO:Kết quả - Hiện popup "Quên mật khẩu"
+2024-06-27 Thursday 16:35:56 root:INFO:Quên mật khẩu
+2024-06-27 Thursday 16:35:56 root:INFO:True
+2024-06-27 Thursday 16:36:23 root:INFO:Màn hình đăng nhập - Ghi nhớ đăng nhập
+2024-06-27 Thursday 16:36:23 root:INFO:Mã - Login08
+2024-06-27 Thursday 16:36:23 root:INFO:Tên sự kiện - Ghi nhớ đăng nhập - Bỏ chọn
+2024-06-27 Thursday 16:36:23 root:INFO:Kết quả - Bỏ lưu account cho lần 2 login
+2024-06-27 Thursday 16:36:24 root:INFO:True
+2024-06-27 Thursday 16:36:50 root:INFO:Màn hình đăng nhập - Ghi nhớ đăng nhập
+2024-06-27 Thursday 16:36:50 root:INFO:Mã - Login09
+2024-06-27 Thursday 16:36:50 root:INFO:Tên sự kiện - Ghi nhớ đăng nhập - Tích chọn
+2024-06-27 Thursday 16:36:50 root:INFO:Kết quả - Tự động lưu account cho lần sau login
+2024-06-27 Thursday 16:36:51 root:INFO:True
