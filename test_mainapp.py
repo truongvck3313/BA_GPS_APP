@@ -21,38 +21,38 @@ import module_gps_appv3
 
 class Test(unittest.TestCase):
     def test_run(self):
-        module_other_app.clearData(var_app.checklistpath, "Checklist", "", "")
-        module_other_app.clear_log()
-        module_other_app.delete_image()
+        # module_other_app.clearData(var_app.checklistpath, "Checklist", "", "")
+        # module_other_app.clear_log()
+        # module_other_app.delete_image()
         # module_gps_appv3.ModuleTest()
         # module_other_app.notification_telegram()
-
+        module_other_app.write_caseif()
 
         # #Đăng nhập
-        caseid_app.caseid_login01(self="")
-        caseid_app.caseid_login02(self="")
-        caseid_app.caseid_login03(self="")
-        caseid_app.caseid_login04(self="")
-        caseid_app.caseid_login05(self="")
-        caseid_app.caseid_login06(self="")
-        caseid_app.caseid_login07(self="")
-        caseid_app.caseid_login08(self="")
-        caseid_app.caseid_login09(self="")
-
-        caseid_app.caseid_login10(self="")
-        caseid_app.caseid_login11(self="")
-        caseid_app.caseid_login12(self="")
-        caseid_app.caseid_login13(self="")
-        caseid_app.caseid_login14(self="")
-        caseid_app.caseid_login15(self="")
-        caseid_app.caseid_login16(self="")
-        caseid_app.caseid_login17(self="")
-        caseid_app.caseid_login18(self="")
-        caseid_app.caseid_login19(self="")
-        caseid_app.caseid_login20(self="")
+        # caseid_app.caseid_login01(self="")
+        # caseid_app.caseid_login02(self="")
+        # caseid_app.caseid_login03(self="")
+        # caseid_app.caseid_login04(self="")
+        # caseid_app.caseid_login05(self="")
+        # caseid_app.caseid_login06(self="")
+        # caseid_app.caseid_login07(self="")
+        # caseid_app.caseid_login08(self="")
+        # caseid_app.caseid_login09(self="")
+        #
+        # caseid_app.caseid_login10(self="")
+        # caseid_app.caseid_login11(self="")
+        # caseid_app.caseid_login12(self="")
+        # caseid_app.caseid_login13(self="")
+        # caseid_app.caseid_login14(self="")
+        # caseid_app.caseid_login15(self="")
+        # caseid_app.caseid_login16(self="")
+        # caseid_app.caseid_login17(self="")
+        # caseid_app.caseid_login18(self="")
+        # caseid_app.caseid_login19(self="")
+        # caseid_app.caseid_login20(self="")
         #
         #
-        ##Giám sát
+        # #Giám sát
         # caseid_app.caseid_minitor01(self="")
         # caseid_app.caseid_minitor02(self="")
         # caseid_app.caseid_minitor03(self="")

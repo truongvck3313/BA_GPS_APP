@@ -197,11 +197,11 @@ def get_datachecklist(ma):
 
 def write_caseif():
     n = 0
-    while (n < 23):
+    while (n < 84):
         var_app.driver.implicitly_wait(1)
         n += 1
         n = str(n)
-        print("try:\n   if case == 'Utility"+n+"':\n       caseid.caseid_utility"+n+"(self)\nexcept:\n    pass")
+        print("try:\n   if case == 'Minitor"+n+"':\n       caseid_app.caseid_minitor"+n+"(self)\nexcept:\n    pass")
         n = int(n)
 
 
@@ -209,11 +209,11 @@ def write_caseif():
 
 def write_caseif1():
     n = 0
-    while (n < 23):
+    while (n < 84):
         var_app.driver.implicitly_wait(1)
         n += 1
         n = str(n)
-        print("try:\n   caseid.caseid_utility"+n+"(self)\nexcept:\n     pass")
+        print("try:\n   caseid_app.caseid_minitor"+n+"(self)\nexcept:\n     pass")
         n = int(n)
         
 
