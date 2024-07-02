@@ -244,14 +244,49 @@ class overview:
 
     def vehicle_status(self, code, eventname, result, status_vehicle, name_status, quaility_vehicle, path_image):
         var_app.driver.implicitly_wait(5)
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon).click()
-            time.sleep(1.5)
-        except:
+        if code == "Minitor04":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "cttoancau", "12341234")
+        if code == "Minitor14":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "tranquocdungdn", "12341234")
+        if code == "Minitor24":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "ctyanhngocminh", "12341234")
+        if code == "Minitor34":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "truonganphat", "12341234")
+        if code == "Minitor44":
             login_app.login.check_logout(self)
             login_app.login.login_v3(self, "43E02740", "12341234")
-            var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon).click()
-            time.sleep(1.5)
+        if code == "Minitor54":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "43E02743", "12341234")
+        if code == "Minitor64":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "ungroup", "12341234")
+        if code == "Minitor74":
+            login_app.login.check_logout(self)
+            login_app.login.login_v3(self, "ungroup_1", "12341234")
+
+
+
+        var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon).click()
+        time.sleep(1.5)
+
+
+
+
+
+
+        # try:
+        #     var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon).click()
+        #     time.sleep(1.5)
+        # except:
+        #     login_app.login.check_logout(self)
+        #     login_app.login.login_v3(self, "43E02740", "12341234")
+        #     var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon).click()
+        #     time.sleep(1.5)
 
         name_status = var_app.driver.find_element(By.XPATH, name_status).text
         quaility_vehicle = var_app.driver.find_element(By.XPATH, quaility_vehicle).text
