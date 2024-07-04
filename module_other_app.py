@@ -218,6 +218,17 @@ def write_caseif1():
         
 
 
+def write_caseif2():
+    n = 84
+    while (n < 155):
+        var_app.driver.implicitly_wait(1)
+        n += 1
+        n = str(n)
+        print("caseid_app.caseid_minitor"+n+"(self='""')")
+        n = int(n)
+#caseid_app.caseid_minitor83(self="")
+
+
 def write_result_text_try_if(code, eventname, result, path_module, path_text, check_result, name_image):
     var_app.logging.info("--------------")
     var_app.logging.info(path_module)
@@ -226,6 +237,7 @@ def write_result_text_try_if(code, eventname, result, path_module, path_text, ch
     var_app.logging.info("Kết quả - " + result)
     try:
         check_text = var_app.driver.find_element(By.XPATH, path_text).text
+        writeData(var_app.checklistpath, "Checklist", code, 11, check_text)
         var_app.logging.info(check_text)
         if check_text == check_result:
             var_app.logging.info("True")

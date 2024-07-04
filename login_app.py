@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from appium.webdriver.common.appiumby import AppiumBy
 import var_app
 import module_other_app
-
+from retry import retry
 
 
 
@@ -13,6 +13,7 @@ import module_other_app
 
 class login:
 
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def login(self, user, password, code, eventname, result, pathcheck, desire, pathimage):
         var_app.driver.implicitly_wait(5)
         try:
@@ -85,6 +86,7 @@ class login:
 
 
 
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def login_wrong(self, user, password, code, eventname, result):
         var_app.driver.implicitly_wait(5)
         try:
@@ -308,6 +310,8 @@ class login:
         time.sleep(0.5)
 
 
+
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def login_v3(self, user, password):
         var_app.driver.implicitly_wait(10)
         login.check_logout(self)

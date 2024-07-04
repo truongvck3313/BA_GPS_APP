@@ -10,8 +10,8 @@ import requests
 import json
 from retry import retry
 
-from appium.webdriver.common.touch_action import TouchAction
-from appium.webdriver.common.multi_action import MultiAction
+# from appium.webdriver.common.touch_action import TouchAction
+# from appium.webdriver.common.multi_action import MultiAction
 
 
 
@@ -54,13 +54,17 @@ def call_api950(vehicle_plate):
             'method': 'getVehicleOnlineByCompanyIDAndGroupNew',
             'groupIDs': ""
             }
-    headers = {"cookie": "_ga=GA1.1.987778944.1710466198; route_column_truongvck1=chkVgps,chkCoVong,chkKm; route_column_class_truongvck1=vtgps,vtcovong,km; route_column_partner1001=chkVgps,chkCoVong,chkKm; route_column_class_partner1001=vtgps,vtcovong,km; route_column_ungroup_1=chkVgps,chkCoVong,chkKm; route_column_class_ungroup_1=vtgps,vtcovong,km; route_column_truongtq@bagroup.vn=chkVgps,chkCoVong,chkKm; route_column_class_truongtq@bagroup.vn=vtgps,vtcovong,km; route_column_ungroup=chkVgps,chkCoVong,chkKm,chkCua,chkVbgt; route_column_class_ungroup=vtgps,vtcovong,km,cua,vtbgt; route_column_43e02743=chkVgps,chkCoVong; route_column_class_43e02743=vtgps,vtcovong; route_column_viconshipdanang1=chkCoVong,chkAddress; route_column_class_viconshipdanang1=vtcovong,addr; route_column_43e02740=chkVgps,chkCoVong,chkKm; route_column_class_43e02740=vtgps,vtcovong,km; _ga_9LVRP2FDNH=GS1.1.1719224668.12.0.1719224668.0.0.0; CultureInfo=vi-VN; ResourceVersion=20240625v1; ASP.NET_SessionId=dxyzbsn2ec5ab4kchynfzxx1; ARRAffinity=369bb8b1dab68ca0e7a2dc8719a27d710fd20d197411d8ead2a35c03dfd4c644; browsers=[{'PK_BrowserVersionID':1,'Name':'Chrome','Version':'90','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':2,'Name':'Edg','Version':'100','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':3,'Name':'Firefox','Version':'90','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':4,'Name':'OPR','Version':'38','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':6,'Name':'Safari','Version':'10','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':7,'Name':'IE','Version':'21','CreatedDate':'2022-03-21T00:00:00'}]; __zi=2000.SSZzejyD6jSbWlwbsKiDrs-0ghkNHHMLCvAWfOK71uCYrF_ZXGDEpINHykE71K-38jNxhuKAI8icrFkbDW.1; Login_.ASPXFORMSAUTH=73662042ADEB03EC4B32DAC13D82D3A45575430EDC7BD8688D7864E675031261CD109BF70A6293B62A2F42F18A07988FA9949F4C5016EBCB7BF647F71F0A2D7EB646946B3C5C6980F99A141DA6194D22AE666EE66CB8ABD2C8A59C194995CBAC; __AntiXsrfToken=52ca4293c31f4526b4e4c79c1a49f192; _ga_02FC5P5V42=GS1.1.1719285456.251.1.1719285919.0.0.0"}
+    headers = {"cookie": "_ga=GA1.1.987778944.1710466198; route_column_truongvck1=chkVgps,chkCoVong,chkKm; route_column_class_truongvck1=vtgps,vtcovong,km; route_column_partner1001=chkVgps,chkCoVong,chkKm; route_column_class_partner1001=vtgps,vtcovong,km; route_column_ungroup_1=chkVgps,chkCoVong,chkKm; route_column_class_ungroup_1=vtgps,vtcovong,km; route_column_truongtq@bagroup.vn=chkVgps,chkCoVong,chkKm; route_column_class_truongtq@bagroup.vn=vtgps,vtcovong,km; route_column_ungroup=chkVgps,chkCoVong,chkKm,chkCua,chkVbgt; route_column_class_ungroup=vtgps,vtcovong,km,cua,vtbgt; route_column_43e02743=chkVgps,chkCoVong; route_column_class_43e02743=vtgps,vtcovong; route_column_viconshipdanang1=chkCoVong,chkAddress; route_column_class_viconshipdanang1=vtcovong,addr; route_column_43e02740=chkVgps,chkCoVong,chkKm; route_column_class_43e02740=vtgps,vtcovong,km; _ga_9LVRP2FDNH=GS1.1.1719632056.14.1.1719634757.0.0.0; route_column_vuthingocgls=chkVgps,chkCoVong,chkKm; route_column_class_vuthingocgls=vtgps,vtcovong,km; CultureInfo=vi-VN; ASP.NET_SessionId=0bkekxfychfah4p11f4l0ily; ARRAffinity=369bb8b1dab68ca0e7a2dc8719a27d710fd20d197411d8ead2a35c03dfd4c644; __AntiXsrfToken=7bb760b14fc54556afe537fb33316950; browsers=[{'PK_BrowserVersionID':1,'Name':'Chrome','Version':'90','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':2,'Name':'Edg','Version':'100','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':3,'Name':'Firefox','Version':'90','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':4,'Name':'OPR','Version':'38','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':6,'Name':'Safari','Version':'10','CreatedDate':'2022-03-21T00:00:00'},{'PK_BrowserVersionID':7,'Name':'IE','Version':'21','CreatedDate':'2022-03-21T00:00:00'}]; ResourceVersion=20240703v1; __zi=2000.SSZzejyD6jSbWlwbsKiDrs-0ghkNHHMLCvAWfOK71uCYr__ZXG1EpINIykE71a-38jRxhuK9I8icr_kbDW.1; Login_.ASPXFORMSAUTH=7712804AF7378C97AC05FCC2FF80B6D593BFCFCBF01646D3CAA2D9BA9D678B726468DB2ED706F288079022FA89A20694648C5D36D1F072C1FABE7C601060F5E2632B1E6539FA2110231BD5D1D6AA3E60A314AE508C8CE23E4BF41E7B0F64316F; _ga_02FC5P5V42=GS1.1.1719977763.271.1.1719977784.0.0.0"}
+
 
     response = requests.request("POST", api_url, data=todo, headers=headers)
     response.json()
     res = json.loads(response.text)
     print(res)
-    print("Phương tiện 0: ", res['data'][0]['plate'])
+    try:
+        print("Phương tiện 0: ", res['data'][0]['plate'])
+    except:
+        pass
 
     n = -1
     while (n < 100):
@@ -379,10 +383,10 @@ class overview:
 
 class detail:
 
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def detail_vehicle(self, code, eventname, result):
         var_app.driver.implicitly_wait(2)
         module_other_app.clearData_luutamthoi(var_app.path_luutamthoi, "Sheet1", "", "", "")
-
 
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
@@ -390,16 +394,11 @@ class detail:
             pass
 
         var_app.driver.implicitly_wait(5)
-        try:
-            overview.vehicle_status(self, "Minitor05", eventname, result,
-                                                var_app.status_move, var_app.name_move, var_app.quaility_move,
-                                                "_GiamSat_TrangThai_DiChuyen.png")
-        except:
-            login_app.login.check_logout(self)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-            overview.vehicle_status(self, "Minitor05", eventname, result,
-                                                var_app.status_move, var_app.name_move, var_app.quaility_move,
-                                                "_GiamSat_TrangThai_DiChuyen.png")
+        login_app.login.check_logout(self)
+        login_app.login.login_v3(self, "43E02740", "12341234")
+        overview.vehicle_status(self, "Minitor05", eventname, result,
+                                            var_app.status_move, var_app.name_move, var_app.quaility_move,
+                                            "_GiamSat_TrangThai_DiChuyen.png")
 
 
         var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
@@ -1259,14 +1258,17 @@ class affiliate_link:
             pass
 
         var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
-        time.sleep(2.5)
+        time.sleep(3)
         var_app.driver.find_element(By.XPATH, link).click()
         time.sleep(2.5)
 
         module_other_app.write_result_text_try_if(code, eventname, result, "Giám sát - đi tới link liên kết click vào xe",
                                               path_check, desire, path_image)
 
-        var_app.driver.find_element(By.XPATH, link_iconx).click()
+        try:
+            var_app.driver.find_element(By.XPATH, link_iconx).click()
+        except:
+            pass
         time.sleep(1)
         var_app.driver.press_keycode(4)
         time.sleep(2)
@@ -1286,12 +1288,25 @@ class affiliate_link:
             time.sleep(2.5)
         except:
             pass
-        var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
-        time.sleep(2)
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
+            time.sleep(3)
+        except:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(2)
+            var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
+            time.sleep(2.5)
+            var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
+            time.sleep(3)
+
+
 
         scroll_and_click(startX, startY, endX, endY, duration, link)
         var_app.driver.find_element(By.XPATH, link).click()
-        time.sleep(3)
+        time.sleep(3.5)
         if code == "Minitor84":
             module_other_app.write_result_displayed_try(code, eventname, result, "Giám sát - đi tới link liên kết click vào xe",
                                                     path_check, path_image)
