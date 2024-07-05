@@ -1,61 +1,20 @@
-2024-07-04 Thursday 17:13:06 root:INFO:--------------
-2024-07-04 Thursday 17:13:06 root:INFO:Lộ trình - Tìm kiếm
-2024-07-04 Thursday 17:13:06 root:INFO:Mã - Route01
-2024-07-04 Thursday 17:13:06 root:INFO:Tên sự kiện - Tìm kiếm và lựa chọn phương tiện
-2024-07-04 Thursday 17:13:06 root:INFO:Kết quả - Hiển thị lộ trình xe được chọn
-2024-07-04 Thursday 17:13:07 root:INFO:True
-2024-07-04 Thursday 17:13:56 root:INFO:--------------
-2024-07-04 Thursday 17:13:56 root:INFO:Lộ trình - Chọn mốc thời gian
-2024-07-04 Thursday 17:13:56 root:INFO:Mã - Route03
-2024-07-04 Thursday 17:13:56 root:INFO:Tên sự kiện - 4h
-2024-07-04 Thursday 17:13:56 root:INFO:Kết quả - Hiển thị lộ trình xe trong 4h
-2024-07-04 Thursday 17:13:56 root:INFO:True
-2024-07-04 Thursday 17:14:34 root:INFO:--------------
-2024-07-04 Thursday 17:14:34 root:INFO:Lộ trình - Chọn mốc thời gian
-2024-07-04 Thursday 17:14:34 root:INFO:Mã - Route04
-2024-07-04 Thursday 17:14:34 root:INFO:Tên sự kiện - 8h
-2024-07-04 Thursday 17:14:34 root:INFO:Kết quả - Hiển thị lộ trình xe trong 8h
-2024-07-04 Thursday 17:14:34 root:INFO:True
-2024-07-04 Thursday 17:14:57 root:INFO:--------------
-2024-07-04 Thursday 17:14:57 root:INFO:Lộ trình - Chọn mốc thời gian
-2024-07-04 Thursday 17:14:57 root:INFO:Mã - Route05
-2024-07-04 Thursday 17:14:57 root:INFO:Tên sự kiện - 24h
-2024-07-04 Thursday 17:14:57 root:INFO:Kết quả - Hiển thị lộ trình xe trong 24h
-2024-07-04 Thursday 17:14:57 root:INFO:True
-2024-07-04 Thursday 17:15:03 root:INFO:--------------
-2024-07-04 Thursday 17:15:03 root:INFO:Lộ trình - Chọn mốc thời gian
-2024-07-04 Thursday 17:15:03 root:INFO:Mã - Route06
-2024-07-04 Thursday 17:15:03 root:INFO:Tên sự kiện - Tùy chọn
-2024-07-04 Thursday 17:15:03 root:INFO:Kết quả - Hiển thị lộ trình xe tùy chọn theo lịch
-2024-07-04 Thursday 17:15:03 root:INFO:True
-2024-07-04 Thursday 17:15:08 root:INFO:--------------
-2024-07-04 Thursday 17:15:08 root:INFO:Lộ trình - Icon
-2024-07-04 Thursday 17:15:08 root:INFO:Mã - Route07
-2024-07-04 Thursday 17:15:08 root:INFO:Tên sự kiện - Mở lộ trình(icon 3 dấu gạch)
-2024-07-04 Thursday 17:15:08 root:INFO:Kết quả - None
-2024-07-04 Thursday 17:15:08 root:INFO:Lộ trình
-2024-07-04 Thursday 17:15:08 root:INFO:True
-2024-07-04 Thursday 17:15:12 root:INFO:--------------
-2024-07-04 Thursday 17:15:12 root:INFO:Lộ trình - Icon
-2024-07-04 Thursday 17:15:12 root:INFO:Mã - Route08
-2024-07-04 Thursday 17:15:12 root:INFO:Tên sự kiện - Ẩn lộ trình(icon dấu thăng)
-2024-07-04 Thursday 17:15:12 root:INFO:Kết quả - None
-2024-07-04 Thursday 17:15:14 root:INFO:True
-2024-07-04 Thursday 17:15:19 root:INFO:--------------
-2024-07-04 Thursday 17:15:19 root:INFO:Lộ trình - Chọn icon
-2024-07-04 Thursday 17:15:19 root:INFO:Mã - Route09
-2024-07-04 Thursday 17:15:19 root:INFO:Tên sự kiện - Icon vị trí(icon mũi tên)
-2024-07-04 Thursday 17:15:19 root:INFO:Kết quả - None
-2024-07-04 Thursday 17:15:19 root:INFO:True
-2024-07-04 Thursday 17:15:23 root:INFO:--------------
-2024-07-04 Thursday 17:15:23 root:INFO:Lộ trình - Chọn icon
-2024-07-04 Thursday 17:15:23 root:INFO:Mã - Route10
-2024-07-04 Thursday 17:15:23 root:INFO:Tên sự kiện - Icon lộ trình
-2024-07-04 Thursday 17:15:23 root:INFO:Kết quả - None
-2024-07-04 Thursday 17:15:23 root:INFO:True
-2024-07-04 Thursday 17:15:28 root:INFO:--------------
-2024-07-04 Thursday 17:15:28 root:INFO:Lộ trình - Chọn icon
-2024-07-04 Thursday 17:15:28 root:INFO:Mã - Route11
-2024-07-04 Thursday 17:15:28 root:INFO:Tên sự kiện - Icon đổi bản đồ 
-2024-07-04 Thursday 17:15:28 root:INFO:Kết quả - None
-2024-07-04 Thursday 17:15:28 root:INFO:True
+2024-07-05 Friday 11:24:50 root:INFO:--------------
+2024-07-05 Friday 11:24:50 root:INFO:Phương tiện - Tìm kiếm
+2024-07-05 Friday 11:24:50 root:INFO:Mã - Vehicle01
+2024-07-05 Friday 11:24:50 root:INFO:Tên sự kiện - Tìm kiếm phương tiện
+2024-07-05 Friday 11:24:50 root:INFO:Kết quả - Hiển thị theo biển số phương tiện
+2024-07-05 Friday 11:24:50 root:INFO:43C11608_C
+2024-07-05 Friday 11:24:50 root:INFO:True
+2024-07-05 Friday 11:24:56 root:INFO:--------------
+2024-07-05 Friday 11:24:56 root:INFO:Phương tiện - Chú thích
+2024-07-05 Friday 11:24:56 root:INFO:Mã - Vehicle02
+2024-07-05 Friday 11:24:56 root:INFO:Tên sự kiện - Icon Chú thích
+2024-07-05 Friday 11:24:56 root:INFO:Kết quả - Hiển thị bảng chú thích
+2024-07-05 Friday 11:24:57 root:INFO:Chú thích
+2024-07-05 Friday 11:24:57 root:INFO:True
+2024-07-05 Friday 11:25:07 root:INFO:--------------
+2024-07-05 Friday 11:25:07 root:INFO:Phương tiện - Chọn nhóm
+2024-07-05 Friday 11:25:07 root:INFO:Mã - Vehicle03
+2024-07-05 Friday 11:25:07 root:INFO:Tên sự kiện - Chọn nhóm
+2024-07-05 Friday 11:25:07 root:INFO:Kết quả - Hiển thị toàn bộ phương tiện của nhóm
+2024-07-05 Friday 11:25:07 root:INFO:True

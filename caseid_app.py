@@ -1,6 +1,7 @@
 import login_app
 import module_other_app
 import route
+import vehicle
 import var_app
 import minitor_app
 import time
@@ -8,7 +9,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 
 
-
+import vehicle
 
 
 def caseid_login01(self):
@@ -1515,7 +1516,25 @@ def caseid_route11(self):
     route.overview.route_icon(self, "Route11", eventname, result, var_app.icon_map)
 
 
+def caseid_vehicle01(self):
+    module_other_app.get_datachecklist("Vehicle01")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.search_vehicle(self, "Vehicle01", eventname, result)
 
+
+def caseid_vehicle02(self):
+    module_other_app.get_datachecklist("Vehicle02")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.vehicle_note(self, "Vehicle02", eventname, result)
+
+
+def caseid_vehicle03(self):
+    module_other_app.get_datachecklist("Vehicle03")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.select_group(self, "Vehicle03", eventname, result)
 
 
 
