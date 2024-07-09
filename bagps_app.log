@@ -1,20 +1,28 @@
-2024-07-05 Friday 11:24:50 root:INFO:--------------
-2024-07-05 Friday 11:24:50 root:INFO:Phương tiện - Tìm kiếm
-2024-07-05 Friday 11:24:50 root:INFO:Mã - Vehicle01
-2024-07-05 Friday 11:24:50 root:INFO:Tên sự kiện - Tìm kiếm phương tiện
-2024-07-05 Friday 11:24:50 root:INFO:Kết quả - Hiển thị theo biển số phương tiện
-2024-07-05 Friday 11:24:50 root:INFO:43C11608_C
-2024-07-05 Friday 11:24:50 root:INFO:True
-2024-07-05 Friday 11:24:56 root:INFO:--------------
-2024-07-05 Friday 11:24:56 root:INFO:Phương tiện - Chú thích
-2024-07-05 Friday 11:24:56 root:INFO:Mã - Vehicle02
-2024-07-05 Friday 11:24:56 root:INFO:Tên sự kiện - Icon Chú thích
-2024-07-05 Friday 11:24:56 root:INFO:Kết quả - Hiển thị bảng chú thích
-2024-07-05 Friday 11:24:57 root:INFO:Chú thích
-2024-07-05 Friday 11:24:57 root:INFO:True
-2024-07-05 Friday 11:25:07 root:INFO:--------------
-2024-07-05 Friday 11:25:07 root:INFO:Phương tiện - Chọn nhóm
-2024-07-05 Friday 11:25:07 root:INFO:Mã - Vehicle03
-2024-07-05 Friday 11:25:07 root:INFO:Tên sự kiện - Chọn nhóm
-2024-07-05 Friday 11:25:07 root:INFO:Kết quả - Hiển thị toàn bộ phương tiện của nhóm
-2024-07-05 Friday 11:25:07 root:INFO:True
+2024-07-09 Tuesday 17:25:53 root:INFO:--------------
+2024-07-09 Tuesday 17:25:53 root:INFO:Phương tiện - Trạng thái xe
+2024-07-09 Tuesday 17:25:53 root:INFO:Mã - Vehicle07
+2024-07-09 Tuesday 17:25:53 root:INFO:Tên sự kiện - Nợ phí
+2024-07-09 Tuesday 17:25:53 root:INFO:Kết quả - Hiển thị đủ số xe 'Nợ phí"
+2024-07-09 Tuesday 17:25:55 root:INFO:True
+2024-07-09 Tuesday 17:25:55 root:INFO:trạng thái phương tiện Nợ phí, số lượng 0
+2024-07-09 Tuesday 17:26:05 root:INFO:--------------
+2024-07-09 Tuesday 17:26:05 root:INFO:Phương tiện - Trạng thái xe
+2024-07-09 Tuesday 17:26:05 root:INFO:Mã - Vehicle08
+2024-07-09 Tuesday 17:26:05 root:INFO:Tên sự kiện - Di chuyển
+2024-07-09 Tuesday 17:26:05 root:INFO:Kết quả - Hiển thị đủ số xe 'Di chuyển"
+2024-07-09 Tuesday 17:26:05 root:INFO:True
+2024-07-09 Tuesday 17:26:05 root:INFO:trạng thái phương tiện Di chuyển, số lượng 25
+2024-07-09 Tuesday 17:26:16 root:INFO:--------------
+2024-07-09 Tuesday 17:26:16 root:INFO:Phương tiện - Trạng thái xe
+2024-07-09 Tuesday 17:26:16 root:INFO:Mã - Vehicle09
+2024-07-09 Tuesday 17:26:16 root:INFO:Tên sự kiện - Dừng đỗ
+2024-07-09 Tuesday 17:26:16 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng đỗ"
+2024-07-09 Tuesday 17:26:16 root:INFO:True
+2024-07-09 Tuesday 17:26:16 root:INFO:trạng thái phương tiện Dừng đỗ, số lượng 38
+2024-07-09 Tuesday 17:26:25 root:INFO:--------------
+2024-07-09 Tuesday 17:26:25 root:INFO:Phương tiện - Trạng thái xe
+2024-07-09 Tuesday 17:26:25 root:INFO:Mã - Vehicle10
+2024-07-09 Tuesday 17:26:25 root:INFO:Tên sự kiện - Dừng bật
+2024-07-09 Tuesday 17:26:25 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng bật"
+2024-07-09 Tuesday 17:26:25 root:INFO:True
+2024-07-09 Tuesday 17:26:25 root:INFO:trạng thái phương tiện Dừng - Bật, số lượng 7

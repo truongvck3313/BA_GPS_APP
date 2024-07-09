@@ -1537,6 +1537,64 @@ def caseid_vehicle03(self):
     vehicle.overview.select_group(self, "Vehicle03", eventname, result)
 
 
+def caseid_vehicle04(self):
+    module_other_app.get_datachecklist("Vehicle04")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.arrange_vehicle(self, "Vehicle04", eventname, result)
+
+
+def caseid_vehicle05(self):
+    module_other_app.get_datachecklist("Vehicle05")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.arrange_time(self, "Vehicle05", eventname, result)
+
+def caseid_vehicle06(self):
+    module_other_app.get_datachecklist("Vehicle06")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.arrange_default(self, "Vehicle06", eventname, result)
+
+
+def caseid_vehicle07(self):
+    module_other_app.get_datachecklist("Vehicle07")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.status_vehicle(self, "Vehicle07", eventname, result,
+                                        var_app.status_feedebt1, var_app.name_feedebt1, var_app.quaility_feedebt1, "_PhuongTien_TrangThai_NoPhi.png")
+
+
+def caseid_vehicle08(self):
+    module_other_app.get_datachecklist("Vehicle08")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.status_vehicle(self, "Vehicle08", eventname, result,
+                                        var_app.status_move1, var_app.name_move1, var_app.quaility_move1, "_PhuongTien_TrangThai_DiChuyen.png")
+
+
+def caseid_vehicle09(self):
+    module_other_app.get_datachecklist("Vehicle09")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.status_vehicle(self, "Vehicle09", eventname, result,
+                                        var_app.status_stopparking1, var_app.name_stopparking1, var_app.quaility_stopparking1, "_PhuongTien_TrangThai_DungDo.png")
+
+def caseid_vehicle10(self):
+    module_other_app.get_datachecklist("Vehicle10")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.status_vehicle(self, "Vehicle10", eventname, result,
+                                        var_app.status_stop_turning_on1, var_app.name_stop_turning_on1, var_app.quaility_stop_turning_on1, "_PhuongTien_TrangThai_DungBat.png")
+
+def caseid_vehicle11(self):
+    module_other_app.get_datachecklist("Vehicle11")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    vehicle.overview.status_vehicle(self, "Vehicle11", eventname, result,
+                                        var_app.status_turn_on_the_machine1, var_app.name_turn_on_the_machine1, var_app.quaility_turn_on_the_machine1, "_PhuongTien_TrangThai_BatMay.png")
+
+
 
 
 

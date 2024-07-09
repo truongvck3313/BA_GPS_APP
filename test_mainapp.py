@@ -224,12 +224,19 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_route09(self="")
         # caseid_app.caseid_route10(self="")
         # caseid_app.caseid_route11(self="")
+        #
+        #
+        # caseid_app.caseid_vehicle01(self="")
+        # caseid_app.caseid_vehicle02(self="")
+        # caseid_app.caseid_vehicle03(self="")
+        # caseid_app.caseid_vehicle04(self="")
+        # caseid_app.caseid_vehicle05(self="")
+        # caseid_app.caseid_vehicle06(self="")
 
-
-        caseid_app.caseid_vehicle01(self="")
-        caseid_app.caseid_vehicle02(self="")
-        caseid_app.caseid_vehicle03(self="")
-
+        # caseid_app.caseid_vehicle07(self="")
+        # caseid_app.caseid_vehicle08(self="")
+        # caseid_app.caseid_vehicle09(self="")
+        caseid_app.caseid_vehicle10(self="")
 
 
 
