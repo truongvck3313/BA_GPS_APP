@@ -22,7 +22,7 @@ class overview:
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(4)
+            time.sleep(7)
         except:
             pass
 
@@ -39,7 +39,6 @@ class overview:
         var_app.driver.find_element(By.XPATH, var_app.search_vehicle1).click()
         var_app.driver.find_element(By.XPATH, var_app.search_vehicle1).clear()
         time.sleep(1)
-
 
 
     def vehicle_note(self, code, eventname, result):
@@ -62,7 +61,6 @@ class overview:
             var_app.driver.find_element(By.XPATH, var_app.vehicle_note_iconx).click()
         except:
             pass
-
 
 
     def select_group(self, code, eventname, result):
@@ -110,7 +108,6 @@ class overview:
                 pass
             n = int(n)
         time.sleep(2)
-
 
 
     def arrange_vehicle(self, code, eventname, result):
@@ -168,7 +165,6 @@ class overview:
                 module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_Phuongtien_SapXepTheo_BienKiemSoat.png")
 
 
-
     def arrange_time(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
@@ -180,6 +176,10 @@ class overview:
         var_app.driver.implicitly_wait(5)
         var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
         time.sleep(1)
+        overview.status_vehicle(self, "Vehicle08", eventname, result,
+                                        var_app.status_move1, var_app.name_move1, var_app.quaility_move1,
+                                        "_PhuongTien_TrangThai_DiChuyen.png")
+
 
         time1 = var_app.driver.find_element(By.XPATH, var_app.stt_time1).text
         time2 = var_app.driver.find_element(By.XPATH, var_app.stt_time2).text
@@ -236,7 +236,6 @@ class overview:
                 module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_Phuongtien_SapXepTheo_ThoiGian.png")
 
 
-
     def arrange_default(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
@@ -260,7 +259,6 @@ class overview:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("True")
         module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
-
 
 
     def status_vehicle(self, code, eventname, result, status_vehicle, name_status, quaility_vehicle, path_image):
@@ -318,7 +316,162 @@ class overview:
         var_app.logging.info("trạng thái phương tiện {}, số lượng {}".format(name_status, quaility_vehicle))
 
 
+    def detailinfnfo_vehicle(self, code, eventname, result, info_vehicle, path_image):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+            var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
+            time.sleep(1)
+        except:
+            pass
 
+        var_app.driver.implicitly_wait(5)
+        var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon1).click()
+        time.sleep(1.5)
+        var_app.driver.find_element(By.XPATH, var_app.status_move1).click()
+        time.sleep(1.5)
+
+        check_info = var_app.driver.find_element(By.XPATH, info_vehicle).text
+
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Phương tiện - Thông tin xe",
+                                              info_vehicle, None, path_image)
+
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_info)
+
+
+
+
+
+
+
+
+
+    def detail_custom(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(5)
+        var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon1).click()
+        time.sleep(1.5)
+        var_app.driver.find_element(By.XPATH, var_app.status_total1).click()
+        time.sleep(1)
+        var_app.driver.find_element(By.XPATH, var_app.vehicle1).click()
+        time.sleep(2)
+        var_app.driver.find_element(By.XPATH, var_app.detail_custom).click()
+        time.sleep(2)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Trạng thái xe",
+                                              var_app.check_detail_custom, "Thiết lập mục ưa thích", "_PhuongTien_TuyChon.png")
+
+
+    def detail_custom_search(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(5)
+        tinhnang3 = var_app.driver.find_element(By.XPATH, var_app.detail_custom_search3).text
+        var_app.driver.find_element(By.XPATH, var_app.detail_custom_search_input).send_keys(tinhnang3)
+        time.sleep(1.5)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Tùy chọn",
+                                              var_app.check_detail_custom_search, tinhnang3, "_PhuongTien_TimKiem.png")
+
+        var_app.driver.find_element(By.XPATH, var_app.detail_custom_search_input).clear()
+
+
+    def detail_choose_max_favorites(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+        except:
+            pass
+
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.detail_custom_search3)
+        except:
+            overview.detail_custom(self, "Vehicle25", eventname, result)
+
+
+        setup_favorite1 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).get_attribute("checked")
+        print("checkbox: ", setup_favorite1)
+        if setup_favorite1 == "false":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).click()
+
+        setup_favorite2 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite2).get_attribute("checked")
+        print("checkbox: ", setup_favorite2)
+        if setup_favorite2 == "false":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite2).click()
+
+        setup_favorite3 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite3).get_attribute("checked")
+        print("checkbox: ", setup_favorite3)
+        if setup_favorite3 == "false":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite3).click()
+
+        setup_favorite4 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite4).get_attribute("checked")
+        print("checkbox: ", setup_favorite4)
+        if setup_favorite4 == "false":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite4).click()
+
+        module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Thiết lập mục ưu thích",
+                                              var_app.check_detail_choose_max_favorites, "Bạn đã chọn số tiện ích tối đa. Vui lòng bỏ chọn một tiện ích trước", "_PhuongTien_ThietLapMucUaThich1.png")
+
+        time.sleep(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.detail_favorites_iconx1).click()
+            time.sleep(0.5)
+            var_app.driver.find_element(By.XPATH, var_app.detail_favorites_iconx).click()
+        except:
+            time.sleep(5)
+            var_app.driver.find_element(By.XPATH, var_app.detail_favorites_iconx).click()
+        time.sleep(1)
+
+
+    def detail_choose_min_favorites(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(5)
+        except:
+            pass
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.detail_custom_search3)
+        except:
+            overview.detail_custom(self, "Vehicle25", eventname, result)
+
+        setup_favorite1 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).get_attribute("checked")
+        print("checkbox: ", setup_favorite1)
+        if setup_favorite1 == "false":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).click()
+
+        time.sleep(1)
+        var_app.driver.find_element(By.XPATH, var_app.setup_favorite_save).click()
+        time.sleep(1.5)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Thiết lập mục ưu thích",
+                                              var_app.check_detail_choose_min_favorites, "Lưu mục ưa thích thành công", "_PhuongTien_ThietLapMucUaThich2.png")
+
+
+        var_app.driver.find_element(By.XPATH, var_app.vehicle1).click()
+        time.sleep(2)
+        var_app.driver.find_element(By.XPATH, var_app.detail_custom).click()
+        time.sleep(2)
+        setup_favorite1 = var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).get_attribute("checked")
+        print("checkbox: ", setup_favorite1)
+        if setup_favorite1 == "true":
+            var_app.driver.find_element(By.XPATH, var_app.setup_favorite1).click()
+
+        time.sleep(1)
+        var_app.driver.find_element(By.XPATH, var_app.setup_favorite_save).click()
+        time.sleep(1.5)
 
 
 

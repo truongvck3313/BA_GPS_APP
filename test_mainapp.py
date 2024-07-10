@@ -226,18 +226,37 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_route11(self="")
         #
         #
-        # caseid_app.caseid_vehicle01(self="")
-        # caseid_app.caseid_vehicle02(self="")
-        # caseid_app.caseid_vehicle03(self="")
-        # caseid_app.caseid_vehicle04(self="")
-        # caseid_app.caseid_vehicle05(self="")
-        # caseid_app.caseid_vehicle06(self="")
+        caseid_app.caseid_vehicle01(self="")
+        caseid_app.caseid_vehicle02(self="")
+        caseid_app.caseid_vehicle03(self="")
+        caseid_app.caseid_vehicle04(self="")
+        caseid_app.caseid_vehicle05(self="")
+        caseid_app.caseid_vehicle06(self="")
 
-        # caseid_app.caseid_vehicle07(self="")
-        # caseid_app.caseid_vehicle08(self="")
-        # caseid_app.caseid_vehicle09(self="")
+        caseid_app.caseid_vehicle07(self="")
+        caseid_app.caseid_vehicle08(self="")
+        caseid_app.caseid_vehicle09(self="")
         caseid_app.caseid_vehicle10(self="")
+        caseid_app.caseid_vehicle11(self="")
+        caseid_app.caseid_vehicle12(self="")
+        caseid_app.caseid_vehicle13(self="")
+        caseid_app.caseid_vehicle14(self="")
+        caseid_app.caseid_vehicle15(self="")
+        caseid_app.caseid_vehicle16(self="")
 
+        caseid_app.caseid_vehicle17(self="")
+        caseid_app.caseid_vehicle18(self="")
+        caseid_app.caseid_vehicle19(self="")
+        caseid_app.caseid_vehicle20(self="")
+        caseid_app.caseid_vehicle21(self="")
+        caseid_app.caseid_vehicle22(self="")
+        caseid_app.caseid_vehicle23(self="")
+        caseid_app.caseid_vehicle24(self="")
+
+        caseid_app.caseid_vehicle25(self="")
+        caseid_app.caseid_vehicle26(self="")
+        caseid_app.caseid_vehicle27(self="")
+        caseid_app.caseid_vehicle28(self="")
 
 
 

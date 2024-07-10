@@ -1274,6 +1274,8 @@ class affiliate_link:
         time.sleep(2)
 
 
+
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def affiliate_link_detail(self, code, eventname, result, startX, startY, endX, endY, duration,
                               link, path_check, desire, path_image):
         var_app.driver.implicitly_wait(2)
@@ -1283,20 +1285,22 @@ class affiliate_link:
         except:
             pass
 
+
         try:
             var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
             time.sleep(2.5)
         except:
-            pass
-
+            overview.vehicle_status(self, "Minitor83", eventname, result,
+                                                var_app.status_all, var_app.name_all,
+                                                var_app.quaility_all, "_GiamSat_TrangThai_Tatca.png")
+            var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
+            time.sleep(2.5)
         try:
             var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
             time.sleep(3)
         except:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
             time.sleep(5)
-            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(2)
             var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_choose1).click()
             time.sleep(2.5)
             var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
