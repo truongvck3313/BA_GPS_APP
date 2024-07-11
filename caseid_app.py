@@ -6,7 +6,7 @@ import var_app
 import minitor_app
 import time
 from appium.webdriver.common.appiumby import AppiumBy
-
+import homepage_app
 
 
 import vehicle
@@ -1715,6 +1715,91 @@ def caseid_vehicle28(self):
     vehicle.overview.detail_choose_min_favorites(self, "Vehicle28", eventname, result)
 
 
+def caseid_toolbar01(self):
+    module_other_app.get_datachecklist("Toolbar01")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.utility_list(self, "Toolbar01", eventname, result)
+
+
+def caseid_toolbar02(self):
+    module_other_app.get_datachecklist("Toolbar02")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.utility_list_search(self, "Toolbar02", eventname, result)
+
+
+def caseid_toolbar03(self):
+    module_other_app.get_datachecklist("Toolbar03")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.notification(self, "Toolbar03", eventname, result)
+
+def caseid_toolbar04(self):
+    module_other_app.get_datachecklist("Toolbar04")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.see_notification(self, "Toolbar04", eventname, result)
+
+def caseid_toolbar05(self):
+    module_other_app.get_datachecklist("Toolbar05")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.delete_notification(self, "Toolbar05", eventname, result)
+
+
+def caseid_toolbar06(self):
+    module_other_app.get_datachecklist("Toolbar06")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.warning_list(self, "Toolbar06", eventname, result)
+
+def caseid_toolbar07(self):
+    module_other_app.get_datachecklist("Toolbar07")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.warning_list_search(self, "Toolbar07", eventname, result)
+
+def caseid_toolbar08(self):
+    module_other_app.get_datachecklist("Toolbar08")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.warning_list_mark_as_read(self, "Toolbar08", eventname, result)
+
+def caseid_toolbar09(self):
+    module_other_app.get_datachecklist("Toolbar09")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.support_customer(self, "Toolbar09", eventname, result)
+
+def caseid_toolbar10(self):
+    module_other_app.get_datachecklist("Toolbar10")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.support_customer_search(self, "Toolbar10", eventname, result)
+
+def caseid_toolbar11(self):
+    module_other_app.get_datachecklist("Toolbar11")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.support_customer_link_affiliate(self, "Toolbar11", eventname, result,
+                                                         var_app.link_lost_signal, var_app.check_link_lost_signal,
+                                                         "Hướng dẫn xử lý", "_TrangChu_HoTroKhachHang_MatTinHieu.png")
+def caseid_toolbar12(self):
+    module_other_app.get_datachecklist("Toolbar12")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.support_customer_link_affiliate(self, "Toolbar12", eventname, result,
+                                                         var_app.link_change_sea, var_app.check_change_sea,
+                                                         "Đổi biển", "_TrangChu_HoTroKhachHang_DoiBien.png")
+
+def caseid_toolbar13(self):
+    module_other_app.get_datachecklist("Toolbar13")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    homepage_app.toolbar.support_customer_link_affiliate(self, "Toolbar13", eventname, result,
+                                                         var_app.link_camera_error, var_app.check_camera_error,
+                                                         "Hướng dẫn xử lý", "_TrangChu_HoTroKhachHang_LoiCamera.png")
 
 
 

@@ -45,7 +45,7 @@ def timerun():
 
 
 
-def clearData(file,sheetName,ketqua, tenanh):
+def clearData(file,sheetName,ketqua, tenanh, data):
     wordbook = openpyxl.load_workbook(file)
     sheet = wordbook.get_sheet_by_name(sheetName)
     i = 9
@@ -54,6 +54,7 @@ def clearData(file,sheetName,ketqua, tenanh):
         i = str(i)
         sheet["H"+i] = ketqua
         sheet["I"+i] = tenanh
+        sheet["K"+i] = data
         i = int(i)
     wordbook.save(file)
 

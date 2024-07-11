@@ -1,14 +1,11 @@
 import time
 from selenium.webdriver.common.by import By
 from appium.webdriver.common.appiumby import AppiumBy
-from selenium.common.exceptions import NoSuchElementException
 import re
 import login_app
 import var_app
 import module_other_app
-import requests
-import json
-from retry import retry
+
 
 
 

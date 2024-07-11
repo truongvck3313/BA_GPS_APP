@@ -311,6 +311,36 @@ class login:
 
 
 
+
+    def check_logout1(self, name_account, user, password):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(7)
+        except:
+            pass
+        var_app.driver.implicitly_wait(5)
+        try:
+            var_app.driver.press_keycode(4)
+            var_app.driver.find_element(By.XPATH, var_app.account).click()
+            time.sleep(1)
+            check_account = var_app.driver.find_element(By.XPATH, var_app.path_check_account).text
+            if check_account == name_account:
+                pass
+            else:
+                var_app.driver.find_element(By.XPATH, var_app.logout).click()
+                time.sleep(1.5)
+                var_app.driver.find_element(By.XPATH, var_app.logout_all_devices).click()
+                time.sleep(2)
+                var_app.driver.press_keycode(4)
+                login.login_v3(self, user, password)
+        except:
+            pass
+        time.sleep(0.5)
+
+
+
+
     @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def login_v3(self, user, password):
         var_app.driver.implicitly_wait(10)
