@@ -100,8 +100,12 @@ class overview:
             var_app.logging.info("Tên sự kiện - " + eventname)
             var_app.logging.info("Kết quả - " + result)
             check_time = time_hour_local - time_hour_app
+            print("check time", check_time)
+            print(time_hour_local)
+            print(time_hour_app)
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, str(check_time))
-            if check_time == 1:
+            var_app.logging.info(check_time)
+            if check_time == 1 or 0:
                 var_app.logging.info("True")
                 module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
             else:

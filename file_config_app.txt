@@ -1,6 +1,6 @@
 - ModeTest: "0"
 - ModuleTest: "0"
-- TimeRun: ""
+- TimeRun: "17:50"
 - LogPath: "C:/Users/truongtq.BA/PycharmProjects/pythonProject/app_gpsv3/bagps_app.log"
 - CheckListPath: "C:/Users/truongtq.BA/PycharmProjects/pythonProject/app_gpsv3/GPS_APPChecklistForAutoTest.xlsx"
 - ImagePath: "C:/Users/truongtq.BA/PycharmProjects/pythonProject/app_gpsv3/anhchup/"

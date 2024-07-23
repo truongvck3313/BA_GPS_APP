@@ -187,7 +187,7 @@ class login:
             time.sleep(1)
 
 
-
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def remember_login(self, code, eventname, result, checked, desire, name_image):
         var_app.driver.implicitly_wait(3)
         try:

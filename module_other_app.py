@@ -266,6 +266,7 @@ def write_result_text_try_if_other(code, eventname, result, path_module, path_te
     var_app.logging.info("Kết quả - " + result)
     try:
         check_text = var_app.driver.find_element(By.XPATH, path_text).text
+        writeData(var_app.checklistpath, "Checklist", code, 11, check_text)
         var_app.logging.info(check_text)
         if check_text != check_result:
             var_app.logging.info("True")

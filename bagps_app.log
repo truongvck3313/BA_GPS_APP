@@ -1,28 +1,19 @@
-2024-07-11 Thursday 17:21:49 root:INFO:--------------
-2024-07-11 Thursday 17:21:49 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
-2024-07-11 Thursday 17:21:49 root:INFO:Mã - Toolbar09
-2024-07-11 Thursday 17:21:49 root:INFO:Tên sự kiện - Chọn chức năng "Hỗ trợ khách hàng"
-2024-07-11 Thursday 17:21:49 root:INFO:Kết quả - Chuyển tới trang "Hỗ trợ khách hàng"
-2024-07-11 Thursday 17:21:50 root:INFO:Hỗ trợ khách hàng
-2024-07-11 Thursday 17:21:50 root:INFO:True
-2024-07-11 Thursday 17:21:53 root:INFO:--------------
-2024-07-11 Thursday 17:21:53 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
-2024-07-11 Thursday 17:21:53 root:INFO:Mã - Toolbar10
-2024-07-11 Thursday 17:21:53 root:INFO:Tên sự kiện - Tìm kiếm hỗ trợ
-2024-07-11 Thursday 17:21:53 root:INFO:Kết quả - Hiển thị tính năng đã nhập
-2024-07-11 Thursday 17:21:53 root:INFO:Đổi biển
-2024-07-11 Thursday 17:21:53 root:INFO:True
-2024-07-11 Thursday 17:21:59 root:INFO:--------------
-2024-07-11 Thursday 17:21:59 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
-2024-07-11 Thursday 17:21:59 root:INFO:Mã - Toolbar11
-2024-07-11 Thursday 17:21:59 root:INFO:Tên sự kiện - Mất tín hiệu
-2024-07-11 Thursday 17:21:59 root:INFO:Kết quả - None
-2024-07-11 Thursday 17:22:00 root:INFO:Hướng dẫn xử lý
-2024-07-11 Thursday 17:22:00 root:INFO:True
-2024-07-11 Thursday 17:22:07 root:INFO:--------------
-2024-07-11 Thursday 17:22:07 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
-2024-07-11 Thursday 17:22:07 root:INFO:Mã - Toolbar12
-2024-07-11 Thursday 17:22:07 root:INFO:Tên sự kiện - Đổi biển
-2024-07-11 Thursday 17:22:07 root:INFO:Kết quả - None
-2024-07-11 Thursday 17:22:07 root:INFO:Đổi biển
-2024-07-11 Thursday 17:22:07 root:INFO:True
+2024-07-23 Tuesday 13:07:23 root:INFO:--------------
+2024-07-23 Tuesday 13:07:23 root:INFO:
+2024-07-23 Tuesday 13:07:23 root:INFO:Mã - 
+2024-07-23 Tuesday 13:07:23 root:INFO:Tên sự kiện - 
+2024-07-23 Tuesday 13:07:23 root:INFO:Kết quả - 
+2024-07-23 Tuesday 13:07:23 root:INFO:False
+2024-07-23 Tuesday 13:07:43 root:INFO:--------------
+2024-07-23 Tuesday 13:07:43 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-07-23 Tuesday 13:07:43 root:INFO:Mã - 
+2024-07-23 Tuesday 13:07:43 root:INFO:Tên sự kiện - 
+2024-07-23 Tuesday 13:07:43 root:INFO:Kết quả - 
+2024-07-23 Tuesday 13:07:43 root:INFO:True
+2024-07-23 Tuesday 13:07:46 root:INFO:--------------
+2024-07-23 Tuesday 13:07:46 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-07-23 Tuesday 13:07:46 root:INFO:Mã - Media36
+2024-07-23 Tuesday 13:07:46 root:INFO:Tên sự kiện - Click vào video
+2024-07-23 Tuesday 13:07:46 root:INFO:Kết quả - None
+2024-07-23 Tuesday 13:07:46 root:INFO:43C11008_C
+2024-07-23 Tuesday 13:07:46 root:INFO:True

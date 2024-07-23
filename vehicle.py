@@ -5,7 +5,7 @@ import re
 import login_app
 import var_app
 import module_other_app
-
+from retry import retry
 
 
 
@@ -313,6 +313,7 @@ class overview:
         var_app.logging.info("trạng thái phương tiện {}, số lượng {}".format(name_status, quaility_vehicle))
 
 
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def detailinfnfo_vehicle(self, code, eventname, result, info_vehicle, path_image):
         var_app.driver.implicitly_wait(1)
         try:
@@ -353,6 +354,8 @@ class overview:
             pass
 
         var_app.driver.implicitly_wait(5)
+        var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
+        time.sleep(1)
         var_app.driver.find_element(By.XPATH, var_app.vehicle_status_icon1).click()
         time.sleep(1.5)
         var_app.driver.find_element(By.XPATH, var_app.status_total1).click()

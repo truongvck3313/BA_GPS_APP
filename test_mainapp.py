@@ -15,7 +15,7 @@ import route
 #pip install selenium==4.21.0
 
 # module_other_app.timerun()
-
+# pyinstaller.exe --icon=C:\Users\dungntk\ba_v2\ba_v2\icon_ba.ico .\test_main.py
 
 
 
@@ -27,7 +27,7 @@ class Test(unittest.TestCase):
         # module_gps_appv3.ModuleTest()
         # module_other_app.notification_telegram()
 
-        #Đăng nhập
+        # Đăng nhập
         # caseid_app.caseid_login01(self="")
         # caseid_app.caseid_login02(self="")
         # caseid_app.caseid_login03(self="")
@@ -252,27 +252,91 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle22(self="")
         # caseid_app.caseid_vehicle23(self="")
         # caseid_app.caseid_vehicle24(self="")
-
+        #
         # caseid_app.caseid_vehicle25(self="")
         # caseid_app.caseid_vehicle26(self="")
         # caseid_app.caseid_vehicle27(self="")
         # caseid_app.caseid_vehicle28(self="")
-
+        #
         # caseid_app.caseid_toolbar01(self="")
         # caseid_app.caseid_toolbar02(self="")
         #
         # caseid_app.caseid_toolbar03(self="")
         # caseid_app.caseid_toolbar04(self="")
         # caseid_app.caseid_toolbar05(self="")
-
+        #
         # caseid_app.caseid_toolbar06(self="")
         # caseid_app.caseid_toolbar07(self="")
         # caseid_app.caseid_toolbar08(self="")
+        # #
+        # caseid_app.caseid_toolbar09(self="")
+        # caseid_app.caseid_toolbar10(self="")
+        # caseid_app.caseid_toolbar11(self="")
+        # caseid_app.caseid_toolbar12(self="")
+        # caseid_app.caseid_toolbar13(self="")
+        # caseid_app.caseid_toolbar14(self="")
+        # caseid_app.caseid_toolbar15(self="")
+        # caseid_app.caseid_toolbar16(self="")
+        # caseid_app.caseid_toolbar17(self="")
+        # caseid_app.caseid_toolbar18(self="")
+        # caseid_app.caseid_toolbar19(self="")
+        # caseid_app.caseid_toolbar20(self="")
+        # caseid_app.caseid_toolbar21(self="")
+        #
+        # caseid_app.caseid_toolbar22(self="")
+        # caseid_app.caseid_toolbar23(self="")
+        # caseid_app.caseid_toolbar24(self="")
+        # caseid_app.caseid_toolbar25(self="")
+        # caseid_app.caseid_toolbar26(self="")
+        # caseid_app.caseid_toolbar27(self="")
+        # caseid_app.caseid_toolbar28(self="")
+        #
+        # caseid_app.caseid_favorite01(self="")
+        # caseid_app.caseid_favorite02(self="")
+        # caseid_app.caseid_favorite03(self="")
+        # caseid_app.caseid_favorite04(self="")
+        # caseid_app.caseid_favorite05(self="")
+        # caseid_app.caseid_favorite06(self="")
+        #
+        # caseid_app.caseid_media01(self="")
+        # caseid_app.caseid_media02(self="")
+        # caseid_app.caseid_media03(self="")
+        # caseid_app.caseid_media04(self="")
+        # caseid_app.caseid_media05(self="")
+        # caseid_app.caseid_media06(self="")
+        # caseid_app.caseid_media07(self="")
+        # caseid_app.caseid_media08(self="")
+        # caseid_app.caseid_media09(self="")
+        #
+        # caseid_app.caseid_media10(self="")
+        # caseid_app.caseid_media11(self="")
+        # caseid_app.caseid_media12(self="")
+        # caseid_app.caseid_media13(self="")
+        # caseid_app.caseid_media14(self="")
+        # caseid_app.caseid_media15(self="")
+        # caseid_app.caseid_media16(self="")
+        # caseid_app.caseid_media17(self="")
+        # caseid_app.caseid_media18(self="")
+        # caseid_app.caseid_media19(self="")
+        # caseid_app.caseid_media20(self="")
+        # caseid_app.caseid_media21(self="")
+        # caseid_app.caseid_media22(self="")
+        # caseid_app.caseid_media23(self="")
+        # caseid_app.caseid_media24(self="")
+        # caseid_app.caseid_media25(self="")
+        #
+        # caseid_app.caseid_media26(self="")
+        # caseid_app.caseid_media27(self="")
+        # caseid_app.caseid_media28(self="")
+        # caseid_app.caseid_media29(self="")
+        # caseid_app.caseid_media30(self="")
+        # caseid_app.caseid_media31(self="")
+        # caseid_app.caseid_media32(self="")
+        # caseid_app.caseid_media33(self="")
+        # caseid_app.caseid_media34(self="")
+        # caseid_app.caseid_media35(self="")
+        caseid_app.caseid_media36(self="")
 
-        caseid_app.caseid_toolbar09(self="")
-        caseid_app.caseid_toolbar10(self="")
-        caseid_app.caseid_toolbar11(self="")
-        caseid_app.caseid_toolbar12(self="")
 
 
 

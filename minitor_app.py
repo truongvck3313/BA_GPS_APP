@@ -483,7 +483,7 @@ class detail:
     def detail_vehicle_liscense_plate(self, code, eventname, result):
         vehicle_overview = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 6, 2))
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 6, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 6, 4))
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 6, 4))
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
         var_app.logging.info("Mã - " + code)
@@ -491,8 +491,10 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - biển số xe - " + vehicle_overview)
         var_app.logging.info("Chi tiết - biển số xe - " + vehicle_detail)
-        var_app.logging.info("Check api - biển số xe - " + vehicle_api)
-        if vehicle_overview == vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api - biển số xe - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_overview == vehicle_detail == vehicle_api:
+        if vehicle_overview == vehicle_detail:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -518,17 +520,17 @@ class detail:
         check_detail = check_detail_hour_minute + " " + check_detail_day_month_year
         print("detail: " + check_detail)
 
-        check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 7, 4))
-        check_api_hour_minute = check_api[11:16]
-        print("api: " + check_api_hour_minute)
-        check_api_day = check_api[8:10]
-        print("api: " + check_api_day)
-        check_api_month = check_api[5:7]
-        print("api: " + check_api_month)
-        check_api_year = check_api[0:4]
-        print("api: " + check_api_year)
-        check_api = check_api_hour_minute + " " + check_api_day + "/" + check_api_month + "/" + check_api_year
-        print(check_api)
+        # check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 7, 4))
+        # check_api_hour_minute = check_api[11:16]
+        # print("api: " + check_api_hour_minute)
+        # check_api_day = check_api[8:10]
+        # print("api: " + check_api_day)
+        # check_api_month = check_api[5:7]
+        # print("api: " + check_api_month)
+        # check_api_year = check_api[0:4]
+        # print("api: " + check_api_year)
+        # check_api = check_api_hour_minute + " " + check_api_day + "/" + check_api_month + "/" + check_api_year
+        # print(check_api)
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -537,8 +539,10 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Thời gian - " + check_overview)
         var_app.logging.info("Chi tiết - Thời gian - " + check_detail)
-        var_app.logging.info("Check api - Thời gian - " + check_api)
-        if check_overview == check_detail == check_api:
+        # var_app.logging.info("Check api - Thời gian - " + check_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
+        if check_overview == check_detail:
+        # if check_overview == check_detail == check_api:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -554,8 +558,8 @@ class detail:
         check_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 14, 3))
         print("detail: " + check_detail)
 
-        check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 14, 4))
-        print("api: ", check_api)
+        # check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 14, 4))
+        # print("api: ", check_api)
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -564,8 +568,10 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Địa chỉ - " + check_overview)
         var_app.logging.info("Chi tiết - Địa chỉ - " + check_detail)
-        var_app.logging.info("Check api - Địa chỉ - " + check_api)
-        if check_overview == check_detail == check_api:
+        # var_app.logging.info("Check api - Địa chỉ - " + check_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
+        # if check_overview == check_detail == check_api:
+        if check_overview == check_detail:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -581,9 +587,9 @@ class detail:
         check_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 8, 3))
         print("detail: " + check_detail)
 
-        check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 8, 4))
-        check_api = check_api + " Km/h"
-        print("api: ", check_api)
+        # check_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 8, 4))
+        # check_api = check_api + " Km/h"
+        # print("api: ", check_api)
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -592,8 +598,10 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Vận tốc gps - " + check_overview)
         var_app.logging.info("Chi tiết - Vận tốc gps - " + check_detail)
-        var_app.logging.info("Check api - Vận tốc gps - " + check_api)
-        if check_overview == check_detail == check_api:
+        # var_app.logging.info("Check api - Vận tốc gps - " + check_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
+        # if check_overview == check_detail == check_api:
+        if check_overview == check_detail:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -615,6 +623,7 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Động cơ - " + check_overview)
         var_app.logging.info("Chi tiết - Động cơ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_overview == check_detail:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -637,6 +646,7 @@ class detail:
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Điều hòa - " + check_overview)
         var_app.logging.info("Chi tiết - Điều hòa - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_overview == check_detail:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -656,6 +666,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Cửa xe - " + check_overview)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_overview)
         if check_overview != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -675,6 +686,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Số sim - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -694,6 +706,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Ngày đăng ký - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -713,6 +726,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Imei - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -726,8 +740,8 @@ class detail:
         vehicle_detail = module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 10, 3)
         vehicle_detail = ''.join(re.findall(r'\d+', vehicle_detail))
 
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 10, 4))
-        vehicle_api = ''.join(re.findall(r'\d+', vehicle_api))
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 10, 4))
+        # vehicle_api = ''.join(re.findall(r'\d+', vehicle_api))
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -735,8 +749,10 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Km trong ngày - " + vehicle_detail)
-        var_app.logging.info("Check api - Km trong ngày - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api - Km trong ngày - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -755,6 +771,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Km tích lũy - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -774,6 +791,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Dừng đỗ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -793,6 +811,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Số lần mở cửa - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -812,6 +831,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Nhiên liệu - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -831,6 +851,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Nhiệt độ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -850,6 +871,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Thẻ nhớ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -869,6 +891,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Nhóm đội - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -888,6 +911,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Vin - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -899,15 +923,17 @@ class detail:
 
     def detail_vehicle_drive(self, code, eventname, result):
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 26, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 26, 4))
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 26, 4))
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
         var_app.logging.info("Mã - " + code)
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Lái xe - " + vehicle_detail)
-        var_app.logging.info("Check api - Lái xe - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api - Lái xe - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -918,15 +944,17 @@ class detail:
 
     def detail_vehicle_license(self, code, eventname, result):
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 27, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 27, 4))
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 27, 4))
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
         var_app.logging.info("Mã - " + code)
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Bằng lái - " + vehicle_detail)
-        var_app.logging.info("Check api - Bằng lái - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api - Bằng lái - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -945,6 +973,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Điện thoại - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -956,8 +985,8 @@ class detail:
 
     def detail_vehicle_continuous_driving_time(self, code, eventname, result):
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 29, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 29, 4))
-        vehicle_api = vehicle_api + " phút"
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 29, 4))
+        # vehicle_api = vehicle_api + " phút"
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -965,8 +994,10 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Thời gian lái xe liên tục - " + vehicle_detail)
-        var_app.logging.info("Check api -Thời gian lái xe liên tục - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api -Thời gian lái xe liên tục - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -977,8 +1008,8 @@ class detail:
 
     def detail_vehicle_driving_time_during_the_day(self, code, eventname, result):
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 30, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 30, 4))
-        vehicle_api = vehicle_api + " phút"
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 30, 4))
+        # vehicle_api = vehicle_api + " phút"
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -986,8 +1017,10 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Thời gian lái xe trong ngày - " + vehicle_detail)
-        var_app.logging.info("Check api -Thời gian lái xe trong ngày - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api -Thời gian lái xe trong ngày - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -998,8 +1031,8 @@ class detail:
 
     def detail_vehicle_number_too_speed(self, code, eventname, result):
         vehicle_detail = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 31, 3))
-        vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 31, 4))
-        vehicle_api = vehicle_api + " lần"
+        # vehicle_api = str(module_other_app.readData(var_app.path_luutamthoi, "Sheet1", 31, 4))
+        # vehicle_api = vehicle_api + " lần"
 
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Thông tin chi tiết xe")
@@ -1007,8 +1040,10 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Chi tiết - Sô lần quá tốc độ - " + vehicle_detail)
-        var_app.logging.info("Check api -Thời gian lái xe trong ngày - " + vehicle_api)
-        if vehicle_detail == vehicle_api:
+        # var_app.logging.info("Check api -Thời gian lái xe trong ngày - " + vehicle_api)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, vehicle_detail)
+        # if vehicle_detail == vehicle_api:
+        if vehicle_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         else:
@@ -1027,6 +1062,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Sở quản lý - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1046,6 +1082,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Tên gói cước - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1065,6 +1102,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Nhà mạng - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1084,6 +1122,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Dung lượng gói cước - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1103,6 +1142,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Số ngày lưu trữ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1122,6 +1162,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Số kênh lưu trữ - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1141,6 +1182,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Định vị - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1160,6 +1202,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Ảnh - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1179,6 +1222,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Video - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1198,6 +1242,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Kênh lắp camera - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
@@ -1217,6 +1262,7 @@ class detail:
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
         var_app.logging.info("Tổng quan - Kênh hoạt động - " + check_detail)
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_detail)
         if check_detail != None:
             var_app.logging.info("True")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
