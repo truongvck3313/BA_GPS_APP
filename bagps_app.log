@@ -1,19 +1,106 @@
-2024-07-23 Tuesday 13:07:23 root:INFO:--------------
-2024-07-23 Tuesday 13:07:23 root:INFO:
-2024-07-23 Tuesday 13:07:23 root:INFO:Mã - 
-2024-07-23 Tuesday 13:07:23 root:INFO:Tên sự kiện - 
-2024-07-23 Tuesday 13:07:23 root:INFO:Kết quả - 
-2024-07-23 Tuesday 13:07:23 root:INFO:False
-2024-07-23 Tuesday 13:07:43 root:INFO:--------------
-2024-07-23 Tuesday 13:07:43 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
-2024-07-23 Tuesday 13:07:43 root:INFO:Mã - 
-2024-07-23 Tuesday 13:07:43 root:INFO:Tên sự kiện - 
-2024-07-23 Tuesday 13:07:43 root:INFO:Kết quả - 
-2024-07-23 Tuesday 13:07:43 root:INFO:True
-2024-07-23 Tuesday 13:07:46 root:INFO:--------------
-2024-07-23 Tuesday 13:07:46 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
-2024-07-23 Tuesday 13:07:46 root:INFO:Mã - Media36
-2024-07-23 Tuesday 13:07:46 root:INFO:Tên sự kiện - Click vào video
-2024-07-23 Tuesday 13:07:46 root:INFO:Kết quả - None
-2024-07-23 Tuesday 13:07:46 root:INFO:43C11008_C
-2024-07-23 Tuesday 13:07:46 root:INFO:True
+2024-08-02 Friday 16:08:12 root:INFO:--------------
+2024-08-02 Friday 16:08:12 root:INFO:Trang chủ - Hình ảnh video - Giám sát hình ảnh
+2024-08-02 Friday 16:08:12 root:INFO:Mã - Media17
+2024-08-02 Friday 16:08:12 root:INFO:Tên sự kiện - Chọn chức năng "Giám sát camera"
+2024-08-02 Friday 16:08:12 root:INFO:Kết quả - Mở popup "Giám sát nhiều camera"
+2024-08-02 Friday 16:08:12 root:INFO:GIÁM SÁT NHIỀU CAMERA
+2024-08-02 Friday 16:08:12 root:INFO:True
+2024-08-02 Friday 16:08:22 root:INFO:--------------
+2024-08-02 Friday 16:08:22 root:INFO:Trang chủ - Giám sát camera
+2024-08-02 Friday 16:08:22 root:INFO:Mã - Media18
+2024-08-02 Friday 16:08:22 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-02 Friday 16:08:22 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:23 root:INFO:43C01339_C
+2024-08-02 Friday 16:08:23 root:INFO:True
+2024-08-02 Friday 16:08:24 root:INFO:--------------
+2024-08-02 Friday 16:08:24 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-02 Friday 16:08:24 root:INFO:Mã - Media19
+2024-08-02 Friday 16:08:24 root:INFO:Tên sự kiện - Biển số xe
+2024-08-02 Friday 16:08:24 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:25 root:INFO:43C01339_C
+2024-08-02 Friday 16:08:25 root:INFO:True
+2024-08-02 Friday 16:08:27 root:INFO:--------------
+2024-08-02 Friday 16:08:27 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-02 Friday 16:08:27 root:INFO:Mã - Media20
+2024-08-02 Friday 16:08:27 root:INFO:Tên sự kiện - Kênh
+2024-08-02 Friday 16:08:27 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:27 root:INFO:Kênh 1
+2024-08-02 Friday 16:08:27 root:INFO:True
+2024-08-02 Friday 16:08:29 root:INFO:--------------
+2024-08-02 Friday 16:08:29 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-02 Friday 16:08:29 root:INFO:Mã - Media21
+2024-08-02 Friday 16:08:29 root:INFO:Tên sự kiện - Thời gian
+2024-08-02 Friday 16:08:29 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:29 root:INFO:02/08/2024 16:08:24
+2024-08-02 Friday 16:08:29 root:INFO:True
+2024-08-02 Friday 16:08:31 root:INFO:--------------
+2024-08-02 Friday 16:08:31 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-02 Friday 16:08:31 root:INFO:Mã - Media22
+2024-08-02 Friday 16:08:31 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-02 Friday 16:08:31 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:31 root:INFO:Hồ Chí Minh Tây, X. Tân Hợp, H. Hướng Hóa, Quảng Trị
+2024-08-02 Friday 16:08:31 root:INFO:True
+2024-08-02 Friday 16:08:35 root:INFO:--------------
+2024-08-02 Friday 16:08:35 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:35 root:INFO:Mã - Media23
+2024-08-02 Friday 16:08:35 root:INFO:Tên sự kiện - Icon tạm dừng
+2024-08-02 Friday 16:08:35 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:35 root:INFO:False
+2024-08-02 Friday 16:08:39 root:INFO:--------------
+2024-08-02 Friday 16:08:39 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:39 root:INFO:Mã - Media24
+2024-08-02 Friday 16:08:39 root:INFO:Tên sự kiện - Icon Tắt/Bật tiếng
+2024-08-02 Friday 16:08:39 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:39 root:INFO:False
+2024-08-02 Friday 16:08:43 root:INFO:--------------
+2024-08-02 Friday 16:08:43 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:43 root:INFO:Mã - Media25
+2024-08-02 Friday 16:08:43 root:INFO:Tên sự kiện - Icon chụp ảnh
+2024-08-02 Friday 16:08:43 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:43 root:INFO:True
+2024-08-02 Friday 16:08:45 root:INFO:--------------
+2024-08-02 Friday 16:08:45 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:45 root:INFO:Mã - Media26
+2024-08-02 Friday 16:08:45 root:INFO:Tên sự kiện - Icon xem toàn màn hình
+2024-08-02 Friday 16:08:45 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:45 root:INFO:True
+2024-08-02 Friday 16:08:48 root:INFO:--------------
+2024-08-02 Friday 16:08:48 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:48 root:INFO:Mã - Media27
+2024-08-02 Friday 16:08:48 root:INFO:Tên sự kiện - Icon xoay màn hình
+2024-08-02 Friday 16:08:48 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:48 root:INFO:True
+2024-08-02 Friday 16:08:53 root:INFO:--------------
+2024-08-02 Friday 16:08:53 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-02 Friday 16:08:53 root:INFO:Mã - Media28
+2024-08-02 Friday 16:08:53 root:INFO:Tên sự kiện - Icon thoát camera
+2024-08-02 Friday 16:08:53 root:INFO:Kết quả - None
+2024-08-02 Friday 16:08:53 root:INFO:Bạn thực sự muốn xóa kênh camera đang xem này không?
+2024-08-02 Friday 16:08:53 root:INFO:True
+2024-08-02 Friday 16:09:04 root:INFO:--------------
+2024-08-02 Friday 16:09:04 root:INFO:Trang chủ - Giám sát camera
+2024-08-02 Friday 16:09:04 root:INFO:Mã - Media29
+2024-08-02 Friday 16:09:04 root:INFO:Tên sự kiện - icon thêm camera
+2024-08-02 Friday 16:09:04 root:INFO:Kết quả - Chuyển tới trang "Thêm camera"
+2024-08-02 Friday 16:09:04 root:INFO:THÊM CAMERA
+2024-08-02 Friday 16:09:04 root:INFO:True
+2024-08-02 Friday 16:09:15 root:INFO:--------------
+2024-08-02 Friday 16:09:15 root:INFO:Trang chủ - Hình ảnh, video - Giám sát camera - Thêm camera
+2024-08-02 Friday 16:09:15 root:INFO:Mã - Media30
+2024-08-02 Friday 16:09:15 root:INFO:Tên sự kiện - Tìm kiếm và chọn kênh 1,2
+2024-08-02 Friday 16:09:15 root:INFO:Kết quả - Hiển thị Phương tiện đã nhập, Chuyển tới kênh đã chọn 
+2024-08-02 Friday 16:09:16 root:INFO:43C01340_C
+2024-08-02 Friday 16:09:16 root:INFO:True
+2024-08-02 Friday 16:09:29 root:INFO:--------------
+2024-08-02 Friday 16:09:29 root:INFO:Trang chủ - Giám sát camera - Thêm camera
+2024-08-02 Friday 16:09:29 root:INFO:Mã - Media31
+2024-08-02 Friday 16:09:29 root:INFO:Tên sự kiện - Chỉ hiện thị các phương tiện đang bật camera
+2024-08-02 Friday 16:09:29 root:INFO:Kết quả - None
+2024-08-02 Friday 16:09:29 root:INFO:ON
+2024-08-02 Friday 16:09:29 root:INFO:True
+2024-08-02 Friday 16:09:39 root:INFO:--------------
+2024-08-02 Friday 16:09:39 root:INFO:Trang chủ - Giám sát camera - Thêm camera
+2024-08-02 Friday 16:09:39 root:INFO:Mã - Media32
+2024-08-02 Friday 16:09:39 root:INFO:Tên sự kiện - Đặt lại
+2024-08-02 Friday 16:09:39 root:INFO:Kết quả - Xóa các kênh camera đã chọn trước đó
+2024-08-02 Friday 16:09:39 root:INFO:False

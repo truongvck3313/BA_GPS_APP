@@ -8,16 +8,36 @@
     "quenmatkhau_sdt": "0359667777",
     "khung_anhdaidien": "Yêu thương Việt Nam"
   },
-  "goivon": {
-    "khampha_chiase": "Trường test chia sẻ gọi vốn bằng app",
-    "dentu": "Lạng Sơn",
+  "minitor": {
+    "search": "43C06147_C",
+    "search_group": "43C18190",
+    "check_search_group": "43C18190_C",
+    "check_search_group1": "43C11241_C",
     "sodienthoai": "0835210360",
     "bietdanh2": "Ohhh Noo"
   },
-  "hoctap": {
-    "khampha_chiase": "Trường test chia sẻ học tập bằng app",
-    "dentu": "Lạng Sơn",
-    "sodienthoai": "0835210360",
+  "route": {
+    "search": "43C",
     "bietdanh2": "Ohhh Noo"
+  },
+  "vehicle": {
+    "search": "43C01340_C",
+    "search_custom": "Báo cáo động cơ",
+    "search_group": "KPI"
+  },
+  "home_page": {
+    "search_category": "Danh sách lái xe",
+    "search_custom": "Báo cáo động cơ",
+    "search_more": "Thêm lái xe",
+    "search_image_monitoring": "43C06120_C",
+    "search_group": "KPI"
+  },
+  "image_video": {
+    "search": "43C0",
+    "search_custom": "Báo cáo động cơ",
+    "search_more": "Thêm lái xe",
+    "search_image_monitoring": "43C06120_C",
+    "search_add_camera": "43C0",
+    "search_group": "KPI"
   }
 }

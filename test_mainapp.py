@@ -37,7 +37,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_login07(self="")
         # caseid_app.caseid_login08(self="")
         # caseid_app.caseid_login09(self="")
-        #
+        # #
         # caseid_app.caseid_login10(self="")
         # caseid_app.caseid_login11(self="")
         # caseid_app.caseid_login12(self="")
@@ -51,7 +51,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_login20(self="")
         #
         #
-        # #Giám sát
+        # # Giám sát
         # caseid_app.caseid_minitor01(self="")
         # caseid_app.caseid_minitor02(self="")
         # caseid_app.caseid_minitor03(self="")
@@ -178,7 +178,6 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_minitor121(self='')
         # caseid_app.caseid_minitor122(self='')
         # caseid_app.caseid_minitor123(self='')
-        #
         # caseid_app.caseid_minitor124(self='')
         # caseid_app.caseid_minitor125(self='')
         # caseid_app.caseid_minitor126(self='')
@@ -194,6 +193,8 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_minitor136(self='')
         # caseid_app.caseid_minitor137(self='')
         # caseid_app.caseid_minitor138(self='')
+        #
+        #
         # caseid_app.caseid_minitor139(self='')
         # caseid_app.caseid_minitor140(self='')
         # caseid_app.caseid_minitor141(self='')
@@ -210,6 +211,22 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_minitor152(self='')
         # caseid_app.caseid_minitor153(self='')
         # caseid_app.caseid_minitor154(self='')
+        # caseid_app.caseid_minitor155(self='')
+        # caseid_app.caseid_minitor156(self='')
+        # caseid_app.caseid_minitor157(self='')
+        # caseid_app.caseid_minitor158(self='')
+        # caseid_app.caseid_minitor159(self='')
+        # caseid_app.caseid_minitor160(self='')
+        # caseid_app.caseid_minitor161(self='')
+        # caseid_app.caseid_minitor162(self='')
+        # caseid_app.caseid_minitor163(self='')
+        # caseid_app.caseid_minitor164(self='')
+        # caseid_app.caseid_minitor165(self='')
+        # caseid_app.caseid_minitor166(self='')
+        # caseid_app.caseid_minitor167(self='')
+        # caseid_app.caseid_minitor168(self='')
+        # caseid_app.caseid_minitor169(self='')
+        # caseid_app.caseid_minitor170(self='')
         #
         #
         # caseid_app.caseid_route01(self="")
@@ -230,10 +247,11 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle02(self="")
         # caseid_app.caseid_vehicle03(self="")
         # caseid_app.caseid_vehicle04(self="")
+        #
         # caseid_app.caseid_vehicle05(self="")
         # caseid_app.caseid_vehicle06(self="")
-        #
         # caseid_app.caseid_vehicle07(self="")
+        #
         # caseid_app.caseid_vehicle08(self="")
         # caseid_app.caseid_vehicle09(self="")
         # caseid_app.caseid_vehicle10(self="")
@@ -243,8 +261,8 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle14(self="")
         # caseid_app.caseid_vehicle15(self="")
         # caseid_app.caseid_vehicle16(self="")
-        #
         # caseid_app.caseid_vehicle17(self="")
+        #
         # caseid_app.caseid_vehicle18(self="")
         # caseid_app.caseid_vehicle19(self="")
         # caseid_app.caseid_vehicle20(self="")
@@ -252,11 +270,13 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle22(self="")
         # caseid_app.caseid_vehicle23(self="")
         # caseid_app.caseid_vehicle24(self="")
-        #
         # caseid_app.caseid_vehicle25(self="")
         # caseid_app.caseid_vehicle26(self="")
+        #
         # caseid_app.caseid_vehicle27(self="")
         # caseid_app.caseid_vehicle28(self="")
+        # caseid_app.caseid_vehicle29(self="")
+        #
         #
         # caseid_app.caseid_toolbar01(self="")
         # caseid_app.caseid_toolbar02(self="")
@@ -268,7 +288,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_toolbar06(self="")
         # caseid_app.caseid_toolbar07(self="")
         # caseid_app.caseid_toolbar08(self="")
-        # #
+        #
         # caseid_app.caseid_toolbar09(self="")
         # caseid_app.caseid_toolbar10(self="")
         # caseid_app.caseid_toolbar11(self="")
@@ -288,6 +308,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_toolbar24(self="")
         # caseid_app.caseid_toolbar25(self="")
         # caseid_app.caseid_toolbar26(self="")
+        #
         # caseid_app.caseid_toolbar27(self="")
         # caseid_app.caseid_toolbar28(self="")
         #
@@ -296,7 +317,6 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_favorite03(self="")
         # caseid_app.caseid_favorite04(self="")
         # caseid_app.caseid_favorite05(self="")
-        # caseid_app.caseid_favorite06(self="")
         #
         # caseid_app.caseid_media01(self="")
         # caseid_app.caseid_media02(self="")
@@ -307,7 +327,6 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_media07(self="")
         # caseid_app.caseid_media08(self="")
         # caseid_app.caseid_media09(self="")
-        #
         # caseid_app.caseid_media10(self="")
         # caseid_app.caseid_media11(self="")
         # caseid_app.caseid_media12(self="")
@@ -315,27 +334,41 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_media14(self="")
         # caseid_app.caseid_media15(self="")
         # caseid_app.caseid_media16(self="")
-        # caseid_app.caseid_media17(self="")
-        # caseid_app.caseid_media18(self="")
-        # caseid_app.caseid_media19(self="")
-        # caseid_app.caseid_media20(self="")
-        # caseid_app.caseid_media21(self="")
-        # caseid_app.caseid_media22(self="")
-        # caseid_app.caseid_media23(self="")
-        # caseid_app.caseid_media24(self="")
-        # caseid_app.caseid_media25(self="")
-        #
-        # caseid_app.caseid_media26(self="")
-        # caseid_app.caseid_media27(self="")
-        # caseid_app.caseid_media28(self="")
-        # caseid_app.caseid_media29(self="")
-        # caseid_app.caseid_media30(self="")
-        # caseid_app.caseid_media31(self="")
-        # caseid_app.caseid_media32(self="")
+
+
+        caseid_app.caseid_media17(self="")
+        caseid_app.caseid_media18(self="")
+        caseid_app.caseid_media19(self="")
+        caseid_app.caseid_media20(self="")
+        caseid_app.caseid_media21(self="")
+        caseid_app.caseid_media22(self="")
+        caseid_app.caseid_media23(self="")
+        caseid_app.caseid_media24(self="")
+        caseid_app.caseid_media25(self="")
+        caseid_app.caseid_media26(self="")
+        caseid_app.caseid_media27(self="")
+        caseid_app.caseid_media28(self="")
+
+        caseid_app.caseid_media29(self="")
+        caseid_app.caseid_media30(self="")
+        caseid_app.caseid_media31(self="")
+        caseid_app.caseid_media32(self="")
+
+
+
         # caseid_app.caseid_media33(self="")
         # caseid_app.caseid_media34(self="")
         # caseid_app.caseid_media35(self="")
-        caseid_app.caseid_media36(self="")
+        # caseid_app.caseid_media36(self="")
+        # caseid_app.caseid_media37(self="")
+        # caseid_app.caseid_media38(self="")
+        # caseid_app.caseid_media39(self="")
+        # caseid_app.caseid_media40(self="")
+        # caseid_app.caseid_media41(self="")
+        # caseid_app.caseid_media42(self="")
+        # caseid_app.caseid_media43(self="")
+        # caseid_app.caseid_media44(self="")
+        # caseid_app.caseid_media45(self="")
 
 
 

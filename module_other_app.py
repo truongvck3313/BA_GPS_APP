@@ -281,8 +281,8 @@ def write_result_text_try_if_other(code, eventname, result, path_module, path_te
         var_app.driver.save_screenshot(var_app.imagepath + code + name_image)
         writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
         writeData(var_app.checklistpath, "Checklist", code, 9, code + name_image)
-    # write_result_text_try_if(code, eventname, result, "Quản trị - Danh sách xe",
-    #                                       var_app.check_open_car_quickly, "Mở xe thành công", "_QuanTri_DsXe_MoXeNhanh.png")
+    # write_result_text_try_if_other(code, eventname, result, "Quản trị - Danh sách xe",
+    #                                       var_app.check_open_car_quickly, "None", "_QuanTri_DsXe_MoXeNhanh.png")
 
 
 
