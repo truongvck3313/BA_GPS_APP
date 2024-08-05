@@ -50,7 +50,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
         var_app.driver.find_element(By.XPATH, var_app.image_monitoring_select_group).click()
         time.sleep(2)
@@ -102,7 +102,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
         try:
             var_app.driver.find_element(By.XPATH, var_app.image_monitoring_arrange_image1).click()
@@ -137,7 +137,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
 
         var_app.driver.find_element(By.XPATH, var_app.image_monitoring_refresh).click()
@@ -163,7 +163,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
         var_app.driver.tap([(291, 448)])
         time.sleep(1.5)
@@ -190,7 +190,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
         var_app.driver.tap([(861, 448)])
 
@@ -270,7 +270,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
 
         var_app.driver.find_element(By.XPATH, var_app.image_monitoring_search2).click()
@@ -296,7 +296,7 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.check_image_monitoring)
         except:
             image_video.image_monitoring_back(self)
-            homepage_app.move_module(self, "Media01", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
+            homepage_app.move_module(self, "", eventname, result, var_app.image_monitoring, 725, 765, 175, 765, 500, "", "", "", "")
 
         time.sleep(2)
         var_app.driver.tap([(200, 725)])
@@ -652,148 +652,182 @@ class image_video:
 
 
 
+    def see_again_video_back(self):
+        var_app.driver.implicitly_wait(0.2)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_back1).click()
+            time.sleep(1)
+        except:
+            pass
 
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_back2).click()
+            time.sleep(1)
+        except:
+            pass
 
-
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_back3).click()
+            time.sleep(1)
+        except:
+            pass
 
 
     def see_again_video_search(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.check_see_again_video)
         except:
-            homepage_app.move_module(self, "", "", "", var_app.see_again_video, 740, 650, 160, 650, 600, "", "", "", "")
+            image_video.see_again_video_back(self)
+            homepage_app.move_module(self, "", "", "", var_app.see_again_video, 725, 765, 175, 765, 500, "", "", "", "")
 
-
-        # name2 = var_app.driver.find_element(By.XPATH, var_app.see_again_video_search_name2).text
-        var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle).click()
+        var_app.driver.find_element(By.XPATH, var_app.see_again_video_search).click()
         time.sleep(2)
-        # var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle_input).send_keys(name2)
-        # time.sleep(2)
-        # var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle_radio1).click()
+        var_app.driver.find_element(By.XPATH, var_app.see_again_video_search_input).send_keys(var_app.data['image_video']['search'])
+        time.sleep(1)
         var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle_all).click()
+        time.sleep(1)
         var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle_select).click()
         time.sleep(1.5)
         var_app.driver.find_element(By.XPATH, var_app.check_see_again_search_vehicle_iconsearch).click()
         time.sleep(2)
-        # module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan",
-        #                                       var_app.see_again_video_search_name1, name2, "_TrangChu_XemLaiVideo_TimKiem.png")
+        var_app.logging.info("--------------")
+        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan")
+        var_app.logging.info("Mã - " + code)
+        var_app.logging.info("Tên sự kiện - " + eventname)
+        var_app.logging.info("Kết quả - " + result)
+        try:
+            check_text = var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_search1).text
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_text)
+            var_app.logging.info(check_text)
+            print(check_text[0:4])
+            if check_text[0:4] == var_app.data['image_video']['search']:
+                var_app.logging.info("True")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+            else:
+                var_app.logging.info("False")
+                var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemLaiVideo_TimKiem.png")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemLaiVideo_TimKiem.png")
+        except:
+            var_app.logging.info("False")
+            var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemLaiVideo_TimKiem.png")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemLaiVideo_TimKiem.png")
 
-
-        module_other_app.write_result_displayed_try(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan",
-                                                var_app.check_see_again_video_search, "_TrangChu_XemLaiVideo_TimKiem.png")
 
     def see_again_video_search_see_video(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
 
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.check_see_again_video)
         except:
-            homepage_app.move_module(self, "", "", "", var_app.see_again_video, 740, 650, 160, 650, 600, "", "", "", "")
-        var_app.driver.find_element(By.XPATH, var_app.see_again_video_search_name1).click()
+            image_video.see_again_video_search(self, "", "", "")
+
+        var_app.driver.tap([(150, 500)])
         time.sleep(2)
         module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan",
-                                              var_app.check_see_again_video_search_see_video, "Xem nhiều kênh của phương tiện", "_TrangChu_XemLaiVideo_Click_Video.png")
+                                              var_app.check_see_again_video_search_see_video, "XEM LẠI VIDEO", "_TrangChu_XemLaiVideo_ClickVaoVideo.png")
+
+
+
+
+
+
 
 
     def see_again_video_see_device_search(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_search_see_video)
         except:
-            homepage_app.move_module(self, "", "", "", var_app.see_again_video, 740, 650, 160, 650, 600, "", "", "", "")
+            image_video.see_again_video_back(self)
+            homepage_app.move_module(self, "", eventname, result, var_app.see_again_video, 725, 765, 175, 765, 500, "", "", "", "")
             var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device).click()
-        pass
+            # image_video.see_again_video_search_see_video(self, "", "", "")
 
-
-        var_app.driver.implicitly_wait(0.05)
-        n = 0
-        while (n < 15):
-            n += 1
-            n = str(n)
+        var_app.driver.implicitly_wait(2)
+        n = 210
+        while (n < 850):
+            n += 150
             try:
                 var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_search).click()
-                pathtenphuongtien = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[" + n + "]/android.view.ViewGroup/android.widget.TextView[1]"
-                var_app.driver.find_element(By.XPATH, pathtenphuongtien).click()
+                time.sleep(2)
+                var_app.driver.tap([(200, n)])
+
                 time.sleep(2)
                 var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_search_icon).click()
                 time.sleep(2)
-                check_video = var_app.driver.find_element(By.XPATH, var_app.check_see_again_video1).text
-                print(check_video)
-                if check_video != None:
+                var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel).click()
+                time.sleep(2)
+                var_app.logging.info("--------------")
+                var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị")
+                var_app.logging.info("Mã - " + code)
+                var_app.logging.info("Tên sự kiện - " + eventname)
+                try:
+                    check_video = var_app.driver.find_element(By.XPATH, var_app.check_see_again_video1).text
+                    print("check text:" + check_video)
+                    var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+                    time.sleep(1.5)
+                    module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "")
+                    module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, "")
+                    var_app.logging.info("True")
+                    module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
                     module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_video)
-                    break
-            except:
-                pass
-            n = int(n)
 
-        module_other_app.write_result_displayed_try(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                                var_app.check_see_again_video1, "_TrangChu_XemLaiVideo_XemThietBi.png")
+                    break
+                except:
+                    var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+                    time.sleep(1.5)
+                    var_app.logging.info("False")
+                    var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemLaiVideo_XemThietBi.png")
+                    module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+                    module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemLaiVideo_XemThietBi.png")
+            except:
+                print("n3")
+                pass
 
 
     def see_again_video_see_device_see_many_channel(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
 
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_search_see_video)
         except:
-            homepage_app.move_module(self, "", "", "", var_app.see_again_video, 740, 650, 160, 650, 600, "", "", "", "")
-            var_app.driver.find_element(By.XPATH, var_app.see_again_video_search_name1).click()
+            image_video.see_again_video_see_device_search(self, "", "", "")
 
         var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel).click()
         time.sleep(2)
         module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                              var_app.check_see_again_video_see_device_see_many_channel, "Xem lại nhiều video", "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien.png")
+                                              var_app.check_see_again_video_see_device_see_many_channel, "XEM LẠI VIDEO - TỔNG QUAN", "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien.png")
 
 
     def see_again_manny_video_iconselect_channel(self, code, eventname, result):
@@ -802,12 +836,15 @@ class image_video:
             var_app.driver.find_element(By.XPATH, var_app.see_again_manny_video_iconselect_channel).click()
         except:
             image_video.see_again_video_see_device_see_many_channel(self, "", "", "")
+            var_app.driver.find_element(By.XPATH, var_app.see_again_manny_video_iconselect_channel).click()
+        time.sleep(2)
+
 
         module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                              var_app.check_see_again_manny_video_iconselect_channel, "Chọn kênh", "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_IconChonKenh.png")
+                                              var_app.check_see_again_manny_video_iconselect_channel, "XEM LẠI VIDEO", "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_IconChonKenh.png")
 
         try:
-            var_app.driver.find_element(By.XPATH, var_app.see_again_manny_video_iconselect_channel_iconselect).click()
+            var_app.driver.find_element(By.XPATH, var_app.see_again_manny_video_iconselect_channel_iconx).click()
             time.sleep(2)
         except:
             pass
@@ -817,126 +854,174 @@ class image_video:
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
+        var_app.driver.implicitly_wait(3)
         try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(5)
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_see_device_see_many_channel)
+            var_app.driver.find_element(By.XPATH, var_app.check_see_again_video1)   #Biển số xe(XEM LẠI VIDEO - TỔNG QUAN)
         except:
             image_video.see_again_video_see_device_see_many_channel(self, "", "", "")
 
-
-        check_play_automatically = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
-        print("checkbox: ", check_play_automatically)
-        if check_play_automatically == "false":
-            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).click()
-        time.sleep(0.5)
         var_app.logging.info("--------------")
-        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị")
+        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện")
         var_app.logging.info("Mã - " + code)
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
-        check_play_automatically1 = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
-        if check_play_automatically1 == "true":
-            var_app.logging.info("True")
-            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
-        else:
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically2)        # bật  checkbox
+        except:
+            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically1).click()
+        time.sleep(1)
+
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically2).click()       #tắt checkbox
+            time.sleep(1.5)
+        except:
+            pass
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically2)            #
             var_app.logging.info("False")
             var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_PhatTuDong.png")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
             module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_PhatTuDong.png")
 
+        except:
+            var_app.logging.info("True")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, "Đã tắt checkbox")
 
-        check_play_automatically = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
-        print("checkbox: ", check_play_automatically)
-        if check_play_automatically == "true":
-            var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).click()
+
+
+
+        # check_play_automatically = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
+        # print("checkbox: ", check_play_automatically)
+        # if check_play_automatically == "false":
+        #     var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).click()
+        # time.sleep(0.5)
+        # var_app.logging.info("--------------")
+        # var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị")
+        # var_app.logging.info("Mã - " + code)
+        # var_app.logging.info("Tên sự kiện - " + eventname)
+        # var_app.logging.info("Kết quả - " + result)
+        # check_play_automatically1 = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
+        # if check_play_automatically1 == "true":
+        #     var_app.logging.info("True")
+        #     module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+        # else:
+        #     var_app.logging.info("False")
+        #     var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_PhatTuDong.png")
+        #     module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+        #     module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_PhatTuDong.png")
+        #
+        #
+        # check_play_automatically = var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).get_attribute("checked")
+        # print("checkbox: ", check_play_automatically)
+        # if check_play_automatically == "true":
+        #     var_app.driver.find_element(By.XPATH, var_app.check_play_automatically).click()
 
 
     def see_again_video_see_device_detail(self, code, eventname, result, path_check, desire, path_image):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_see_device_see_many_channel)
         except:
             image_video.see_again_video_see_device_see_many_channel(self, "", "", "")
-            print("a1")
 
-        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện",
                                               path_check, desire, path_image)
 
-        if path_image == "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_DiaChi.png" or "_TrangChu_XemLaiVideo_XemThietBi_Kenh.png":
-            var_app.driver.press_keycode(4)
-            time.sleep(1.5)
+
+        var_app.driver.implicitly_wait(1)
+
+        if path_image == "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_DiaChi.png":
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+            time.sleep(2)
+
+        if path_image == "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_Kenh.png":
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+            time.sleep(2)
+
+
+    def see_again_video_see_device_detail1(self, code, eventname, result, path_check, desire, path_image):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_see_device_see_many_channel)
+        except:
+            image_video.see_again_video_see_device_seevideo(self, "", "", "")
+
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vo video",
+                                              path_check, desire, path_image)
+
+
+        var_app.driver.implicitly_wait(1)
+
+        if path_image == "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_DiaChi.png":
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+            time.sleep(2)
+
+        if path_image == "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_Kenh.png":
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_see_many_channel_iconx).click()
+            time.sleep(2)
 
 
     def see_again_video_see_device_seevideo(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
+        var_app.driver.implicitly_wait(3)
         try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(5)
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_seevideo).click()
+            var_app.driver.tap([(385, 675)])
+            time.sleep(2)
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_seevideo_vehicle)
         except:
             image_video.see_again_video_see_device_search(self, "", "", "")
-            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_seevideo).click()
+            var_app.driver.tap([(385, 675)])
         time.sleep(2)
-        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                              var_app.check_see_again_video_see_device_seevideo, None, "_TrangChu_XemLaiVideo_XemThietBi_XemVideo.png")
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
+                                              var_app.check_see_again_video_see_device_seevideo, "XEM LẠI VIDEO - TỔNG QUAN", "_TrangChu_XemLaiVideo_XemThietBi_XemVideo.png")
 
 
     def see_again_video_see_again_video_iconn(self, code, eventname, result, path_icon, desire, path_image):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        var_app.driver.implicitly_wait(2)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, path_icon).click()
         except:
-            pass
+            if path_image == "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconToanManHinh.png":
+                pass
+            else:
+                image_video.see_again_video_see_device_seevideo(self, "", "", "")
         time.sleep(1)
         var_app.logging.info("--------------")
-        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị")
+        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video")
         var_app.logging.info("Mã - " + code)
         var_app.logging.info("Tên sự kiện - " + eventname)
         var_app.logging.info("Kết quả - " + result)
@@ -959,24 +1044,21 @@ class image_video:
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
 
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
 
-        var_app.driver.implicitly_wait(2)
+        var_app.driver.implicitly_wait(3)
         try:
             var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_again_video_iconcloud).click()
-            time.sleep(2)
         except:
-            pass
-        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                              var_app.check_see_again_video_see_again_video_iconcloud, None,
+            image_video.see_again_video_see_device_seevideo(self, "", "", "")
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_again_video_iconcloud).click()
+        time.sleep(2)
+
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video",
+                                              var_app.check_see_again_video_see_again_video_iconcloud, "TẢI VỀ SERVER",
                                                   "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconCloud.png")
 
         try:
@@ -986,69 +1068,91 @@ class image_video:
             pass
 
 
-    # def see_again_video_see_device_info(self, code, eventname, result, path_check, desire, path_image):
-    #     var_app.driver.implicitly_wait(1)
-    #     try:
-    #         var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-    #         time.sleep(7)
-    #     except:
-    #         pass
-    #
-    #     try:
-    #         var_app.driver.find_element(By.XPATH, var_app.login_user)
-    #         login_app.login.login_v3(self, "43E02740", "12341234")
-    #     except:
-    #         pass
-    #
-    #     var_app.driver.implicitly_wait(5)
-    #     try:
-    #         var_app.driver.find_element(By.XPATH, var_app.see_again_video_icon_camera).click()
-    #     except:
-    #         image_video.see_again_video_see_device_search(self, "", "", "")
-    #         var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_seevideo).click()
-    #     time.sleep(2)
-    #     module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-    #                                           path_check, desire, path_image)
-
-
-
-
-
-
-
-
-
     def see_again_video_see_device_icon_icloud(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
+        except:
+            pass
+
+
+        var_app.driver.implicitly_wait(3)
+        var_app.driver.tap([(845, 934)])
+        time.sleep(2)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_again_video_see_again_video_iconcloud)
+        except:
+            image_video.see_again_video_see_device_search(self, "", "", "")
+            var_app.driver.tap([(845, 934)])
+            time.sleep(2)
+
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
+                                              var_app.check_see_again_video_see_again_video_iconcloud, "TẢI VỀ SERVER", "_TrangChu_XemLaiVideo_XemThietBi_IconCloud.png")
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.download_cloud).click()
+            time.sleep(1.5)
+
         except:
             pass
 
         try:
-            var_app.driver.find_element(By.XPATH, var_app.login_user)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-        except:
-            pass
-
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_detail_iconx).click()
+            var_app.driver.find_element(By.XPATH, var_app.IGREE).click()
             time.sleep(1.5)
         except:
             pass
 
-        var_app.driver.implicitly_wait(5)
-        var_app.driver.find_element(By.XPATH, var_app.see_again_video_see_device_icon_icloud).click()
-        time.sleep(2)
-        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem lại video - Tổng quan - Xem thiết bị",
-                                              var_app.check_see_again_video_see_device_icon_icloud, None, "_TrangChu_XemLaiVideo_XemThietBi_IconCloud.png")
-
         try:
-            var_app.driver.find_element(By.XPATH, var_app.download_cloud).click()
-            time.sleep(2)
             var_app.driver.find_element(By.XPATH, var_app.download_cloud_close).click()
-            time.sleep(1)
+            time.sleep(2)
         except:
             pass
+
+
+
+
+
+
+
+
+    def see_again_video_dowload_and_cloud_search(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_dowload_and_cloud).click()
+        except:
+            image_video.see_again_video_back(self)
+            homepage_app.move_module(self, "", eventname, result, var_app.see_again_video, 725, 765, 175, 765, 500, "", "", "", "")
+            var_app.driver.find_element(By.XPATH, var_app.see_again_video_dowload_and_cloud).click()
+        time.sleep(2)
+        var_app.driver.find_element(By.XPATH, var_app.see_again_video_dowload_and_cloud_select_vehicle).click()
+        time.sleep(2)
+        var_app.driver.tap([(200, 350)])
+        time.sleep(2)
+        var_app.driver.find_element(By.XPATH, var_app.see_again_video_dowload_and_cloud_search).click()
+        time.sleep(1.5)
+        var_app.logging.info("--------------")
+        var_app.logging.info("Trang chủ - Xem lại video - Tổng quan - Xem thiết bị")
+        var_app.logging.info("Mã - " + code)
+        var_app.logging.info("Tên sự kiện - " + eventname)
+        var_app.logging.info("True")
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+        image_video.see_again_video_back(self)
+
+
+
+
+
+
+
+
+
+
 

@@ -8,7 +8,8 @@ import route
 
 
 
-
+# adb kill-server
+# adb reconnect
 
 #adb devices
 #adb shell dumpsys window | find "mCurrentFocus"
@@ -21,9 +22,9 @@ import route
 
 class Test(unittest.TestCase):
     def test_run(self):
-        module_other_app.clearData(var_app.checklistpath, "Checklist", "", "", "")
-        module_other_app.clear_log()
-        module_other_app.delete_image()
+        # module_other_app.clearData(var_app.checklistpath, "Checklist", "", "", "")
+        # module_other_app.clear_log()
+        # module_other_app.delete_image()
         # module_gps_appv3.ModuleTest()
         # module_other_app.notification_telegram()
 
@@ -229,20 +230,20 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_minitor170(self='')
         #
         #
-        # caseid_app.caseid_route01(self="")
-        # caseid_app.caseid_route02(self="")
-        # caseid_app.caseid_route03(self="")
-        # caseid_app.caseid_route04(self="")
-        # caseid_app.caseid_route05(self="")
-        # caseid_app.caseid_route06(self="")
-        #
-        # caseid_app.caseid_route07(self="")
-        # caseid_app.caseid_route08(self="")
-        # caseid_app.caseid_route09(self="")
-        # caseid_app.caseid_route10(self="")
-        # caseid_app.caseid_route11(self="")
-        #
-        #
+        caseid_app.caseid_route01(self="")
+        caseid_app.caseid_route02(self="")
+        caseid_app.caseid_route03(self="")
+        caseid_app.caseid_route04(self="")
+        caseid_app.caseid_route05(self="")
+        caseid_app.caseid_route06(self="")
+
+        caseid_app.caseid_route07(self="")
+        caseid_app.caseid_route08(self="")
+        caseid_app.caseid_route09(self="")
+        caseid_app.caseid_route10(self="")
+        caseid_app.caseid_route11(self="")
+
+
         # caseid_app.caseid_vehicle01(self="")
         # caseid_app.caseid_vehicle02(self="")
         # caseid_app.caseid_vehicle03(self="")
@@ -278,62 +279,62 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle29(self="")
         #
         #
-        # caseid_app.caseid_toolbar01(self="")
-        # caseid_app.caseid_toolbar02(self="")
-        #
-        # caseid_app.caseid_toolbar03(self="")
-        # caseid_app.caseid_toolbar04(self="")
-        # caseid_app.caseid_toolbar05(self="")
-        #
-        # caseid_app.caseid_toolbar06(self="")
-        # caseid_app.caseid_toolbar07(self="")
-        # caseid_app.caseid_toolbar08(self="")
-        #
-        # caseid_app.caseid_toolbar09(self="")
-        # caseid_app.caseid_toolbar10(self="")
-        # caseid_app.caseid_toolbar11(self="")
-        # caseid_app.caseid_toolbar12(self="")
-        # caseid_app.caseid_toolbar13(self="")
-        # caseid_app.caseid_toolbar14(self="")
-        # caseid_app.caseid_toolbar15(self="")
-        # caseid_app.caseid_toolbar16(self="")
-        # caseid_app.caseid_toolbar17(self="")
-        # caseid_app.caseid_toolbar18(self="")
-        # caseid_app.caseid_toolbar19(self="")
-        # caseid_app.caseid_toolbar20(self="")
-        # caseid_app.caseid_toolbar21(self="")
-        #
-        # caseid_app.caseid_toolbar22(self="")
-        # caseid_app.caseid_toolbar23(self="")
-        # caseid_app.caseid_toolbar24(self="")
-        # caseid_app.caseid_toolbar25(self="")
-        # caseid_app.caseid_toolbar26(self="")
-        #
-        # caseid_app.caseid_toolbar27(self="")
-        # caseid_app.caseid_toolbar28(self="")
-        #
-        # caseid_app.caseid_favorite01(self="")
-        # caseid_app.caseid_favorite02(self="")
-        # caseid_app.caseid_favorite03(self="")
-        # caseid_app.caseid_favorite04(self="")
-        # caseid_app.caseid_favorite05(self="")
-        #
-        # caseid_app.caseid_media01(self="")
-        # caseid_app.caseid_media02(self="")
-        # caseid_app.caseid_media03(self="")
-        # caseid_app.caseid_media04(self="")
-        # caseid_app.caseid_media05(self="")
-        # caseid_app.caseid_media06(self="")
-        # caseid_app.caseid_media07(self="")
-        # caseid_app.caseid_media08(self="")
-        # caseid_app.caseid_media09(self="")
-        # caseid_app.caseid_media10(self="")
-        # caseid_app.caseid_media11(self="")
-        # caseid_app.caseid_media12(self="")
-        # caseid_app.caseid_media13(self="")
-        # caseid_app.caseid_media14(self="")
-        # caseid_app.caseid_media15(self="")
-        # caseid_app.caseid_media16(self="")
+        caseid_app.caseid_toolbar01(self="")
+        caseid_app.caseid_toolbar02(self="")
+
+        caseid_app.caseid_toolbar03(self="")
+        caseid_app.caseid_toolbar04(self="")
+        caseid_app.caseid_toolbar05(self="")
+
+        caseid_app.caseid_toolbar06(self="")
+        caseid_app.caseid_toolbar07(self="")
+        caseid_app.caseid_toolbar08(self="")
+
+        caseid_app.caseid_toolbar09(self="")
+        caseid_app.caseid_toolbar10(self="")
+        caseid_app.caseid_toolbar11(self="")
+        caseid_app.caseid_toolbar12(self="")
+        caseid_app.caseid_toolbar13(self="")
+        caseid_app.caseid_toolbar14(self="")
+        caseid_app.caseid_toolbar15(self="")
+        caseid_app.caseid_toolbar16(self="")
+        caseid_app.caseid_toolbar17(self="")
+        caseid_app.caseid_toolbar18(self="")
+        caseid_app.caseid_toolbar19(self="")
+        caseid_app.caseid_toolbar20(self="")
+        caseid_app.caseid_toolbar21(self="")
+
+        caseid_app.caseid_toolbar22(self="")
+        caseid_app.caseid_toolbar23(self="")
+        caseid_app.caseid_toolbar24(self="")
+        caseid_app.caseid_toolbar25(self="")
+        caseid_app.caseid_toolbar26(self="")
+
+        caseid_app.caseid_toolbar27(self="")
+        caseid_app.caseid_toolbar28(self="")
+
+        caseid_app.caseid_favorite01(self="")
+        caseid_app.caseid_favorite02(self="")
+        caseid_app.caseid_favorite03(self="")
+        caseid_app.caseid_favorite04(self="")
+        caseid_app.caseid_favorite05(self="")
+
+        caseid_app.caseid_media01(self="")
+        caseid_app.caseid_media02(self="")
+        caseid_app.caseid_media03(self="")
+        caseid_app.caseid_media04(self="")
+        caseid_app.caseid_media05(self="")
+        caseid_app.caseid_media06(self="")
+        caseid_app.caseid_media07(self="")
+        caseid_app.caseid_media08(self="")
+        caseid_app.caseid_media09(self="")
+        caseid_app.caseid_media10(self="")
+        caseid_app.caseid_media11(self="")
+        caseid_app.caseid_media12(self="")
+        caseid_app.caseid_media13(self="")
+        caseid_app.caseid_media14(self="")
+        caseid_app.caseid_media15(self="")
+        caseid_app.caseid_media16(self="")
 
 
         caseid_app.caseid_media17(self="")
@@ -356,19 +357,31 @@ class Test(unittest.TestCase):
 
 
 
-        # caseid_app.caseid_media33(self="")
-        # caseid_app.caseid_media34(self="")
-        # caseid_app.caseid_media35(self="")
-        # caseid_app.caseid_media36(self="")
-        # caseid_app.caseid_media37(self="")
-        # caseid_app.caseid_media38(self="")
-        # caseid_app.caseid_media39(self="")
-        # caseid_app.caseid_media40(self="")
-        # caseid_app.caseid_media41(self="")
-        # caseid_app.caseid_media42(self="")
-        # caseid_app.caseid_media43(self="")
-        # caseid_app.caseid_media44(self="")
-        # caseid_app.caseid_media45(self="")
+        caseid_app.caseid_media33(self="")
+        caseid_app.caseid_media34(self="")
+        caseid_app.caseid_media35(self="")
+        caseid_app.caseid_media36(self="")
+
+        caseid_app.caseid_media37(self="")
+        caseid_app.caseid_media38(self="")
+        caseid_app.caseid_media39(self="")
+        caseid_app.caseid_media40(self="")
+        caseid_app.caseid_media41(self="")
+        caseid_app.caseid_media42(self="")
+
+        caseid_app.caseid_media43(self="")
+        caseid_app.caseid_media44(self="")
+        caseid_app.caseid_media45(self="")
+        caseid_app.caseid_media46(self="")
+        caseid_app.caseid_media47(self="")
+        caseid_app.caseid_media48(self="")
+        caseid_app.caseid_media49(self="")
+        caseid_app.caseid_media50(self="")
+        caseid_app.caseid_media51(self="")
+        caseid_app.caseid_media52(self="")
+        caseid_app.caseid_media53(self="")
+
+        caseid_app.caseid_media54(self="")
 
 
 

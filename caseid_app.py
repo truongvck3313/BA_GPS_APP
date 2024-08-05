@@ -2226,160 +2226,170 @@ def caseid_media32(self):
 
 
 
+def caseid_media33(self):
+    module_other_app.get_datachecklist("Media33")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Media33", eventname, result, var_app.see_again_video, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Xem lại video - Tổng quan", var_app.check_see_again_video,
+                                                         "XEM LẠI VIDEO - TỔNG QUAN", "_TrangChu_XemLaiVideoTongQuan.png")
+    except:
+        image_video_app.image_video.see_again_video_back(self)
+        homepage_app.move_module(self, "Media33", eventname, result, var_app.see_again_video, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Xem lại video - Tổng quan", var_app.check_see_again_video,
+                                                         "XEM LẠI VIDEO - TỔNG QUAN", "_TrangChu_XemLaiVideoTongQuan.png")
 
 
 
+def caseid_media34(self):
+    module_other_app.get_datachecklist("Media34")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_search(self, "Media34", eventname, result)
+
+def caseid_media35(self):
+    module_other_app.get_datachecklist("Media35")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_search_see_video(self, "Media35", eventname, result)
 
 
+def caseid_media36(self):
+    module_other_app.get_datachecklist("Media36")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_search(self, "Media36", eventname, result)
+
+def caseid_media37(self):
+    module_other_app.get_datachecklist("Media37")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_see_many_channel(self, "Media37", eventname, result)
+
+def caseid_media38(self):
+    module_other_app.get_datachecklist("Media38")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_manny_video_iconselect_channel(self, "Media38", eventname, result)
+
+def caseid_media39(self):
+    module_other_app.get_datachecklist("Media39")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_play_automatically(self, "Media39", eventname, result)
+
+def caseid_media40(self):
+    module_other_app.get_datachecklist("Media40")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail(self, "Media40", eventname, result,
+                                                                  var_app.check_see_again_many_video_vehicle, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_BienSo.png")
+
+def caseid_media41(self):
+    module_other_app.get_datachecklist("Media41")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail(self, "Media41", eventname, result,
+                                                                  var_app.check_see_again_many_video_time_update, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_ThoiGianCapNhat.png")
+
+def caseid_media42(self):
+    module_other_app.get_datachecklist("Media42")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail(self, "Media42", eventname, result,
+                                                                  var_app.check_see_again_many_video_address, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_DiaChi.png")
+
+def caseid_media43(self):
+    module_other_app.get_datachecklist("Media43")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_seevideo(self, "Media43", eventname, result)
+
+def caseid_media44(self):
+    module_other_app.get_datachecklist("Media44")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media44", eventname, result,
+                                                                      var_app.see_again_video_icon_pause, "False",
+                                                                      "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconTamDung.png")
+
+def caseid_media45(self):
+    module_other_app.get_datachecklist("Media45")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media45", eventname, result,
+                                                                      var_app.see_again_video_icon_volume, "False",
+                                                                      "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconAmThanh.png")
+
+def caseid_media46(self):
+    module_other_app.get_datachecklist("Media46")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media46", eventname, result,
+                                                                      var_app.see_again_video_icon_camera, "True",
+                                                                      "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconCamera.png")
+
+def caseid_media47(self):
+    module_other_app.get_datachecklist("Media47")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media47", eventname, result,
+                                                                      var_app.see_again_video_icon_fullscreen, "True",
+                                                                      "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconToanManHinh.png")
+
+def caseid_media48(self):
+    module_other_app.get_datachecklist("Media48")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_again_video_iconcloud(self, "Media48", eventname, result)
+
+def caseid_media49(self):
+    module_other_app.get_datachecklist("Media49")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail1(self, "Media49", eventname, result,
+                                                                  var_app.check_see_again_seedevice_vehicle1, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_BienSo.png")
+def caseid_media50(self):
+    module_other_app.get_datachecklist("Media50")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail1(self, "Media50", eventname, result,
+                                                                  var_app.check_see_again_seedevice_timeupdate1, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_ThoiGianCapNhat.png")
+
+def caseid_media51(self):
+    module_other_app.get_datachecklist("Media51")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail1(self, "Media51", eventname, result,
+                                                                  var_app.check_see_again_seedevice_address1, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_DiaChi.png")
+
+def caseid_media52(self):
+    module_other_app.get_datachecklist("Media52")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_detail1(self, "Media52", eventname, result,
+                                                                  var_app.check_see_again_seedevice_channel1, "",
+                                                                  "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_Kenh.png")
 
 
-# def caseid_media26(self):
-#     module_other_app.get_datachecklist("Media26")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     homepage_app.move_module(self, "Media26", eventname, result, var_app.see_again_video, 740, 650, 160, 650, 600,
-#                                                     "Trang chủ - Xem lại video - Tổng quan", var_app.check_see_again_video,
-#                                                      "Xem lại video", "_TrangChu_XemLaiVideo.png")
-#
-# def caseid_media27(self):
-#     module_other_app.get_datachecklist("Media27")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_search(self, "Media27", eventname, result)
-#
-# def caseid_media28(self):
-#     module_other_app.get_datachecklist("Media28")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_search_see_video(self, "Media28", eventname, result)
-#
-#
-# def caseid_media29(self):
-#     module_other_app.get_datachecklist("Media29")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_search(self, "Media29", eventname, result)
-#
-# def caseid_media30(self):
-#     module_other_app.get_datachecklist("Media30")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_see_many_channel(self, "Media30", eventname, result)
-#
-# def caseid_media31(self):
-#     module_other_app.get_datachecklist("Media31")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_manny_video_iconselect_channel(self, "Media31", eventname, result)
-#
-# def caseid_media32(self):
-#     module_other_app.get_datachecklist("Media32")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_play_automatically(self, "Media32", eventname, result)
-#
-# def caseid_media33(self):
-#     module_other_app.get_datachecklist("Media33")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media33", eventname, result,
-#                                                                   var_app.check_see_again_many_video_vehicle, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_BienSo.png")
-#
-# def caseid_media34(self):
-#     module_other_app.get_datachecklist("Media34")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media34", eventname, result,
-#                                                                   var_app.check_see_again_many_video_time_update, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_ThoiGianCapNhat.png")
-#
-# def caseid_media35(self):
-#     module_other_app.get_datachecklist("Media35")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media35", eventname, result,
-#                                                                   var_app.check_see_again_many_video_address, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_XemNhieuKenhCuaPhuongTien_DiaChi.png")
-#
-# def caseid_media36(self):
-#     module_other_app.get_datachecklist("Media36")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_seevideo(self, "Media36", eventname, result)
-#
-# def caseid_media37(self):
-#     module_other_app.get_datachecklist("Media37")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media37", eventname, result,
-#                                                                       var_app.see_again_video_icon_pause, "False",
-#                                                                       "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconTamDung.png")
-#
-# def caseid_media38(self):
-#     module_other_app.get_datachecklist("Media38")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media38", eventname, result,
-#                                                                       var_app.see_again_video_icon_volume, "False",
-#                                                                       "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconAmThanh.png")
-#
-# def caseid_media39(self):
-#     module_other_app.get_datachecklist("Media39")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media39", eventname, result,
-#                                                                       var_app.see_again_video_icon_camera, "True",
-#                                                                       "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconCamera.png")
-#
-# def caseid_media40(self):
-#     module_other_app.get_datachecklist("Media40")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media40", eventname, result,
-#                                                                       var_app.see_again_video_icon_fullscreen, "True",
-#                                                                       "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconToanManHinh.png")
-#
-# def caseid_media41(self):
-#     module_other_app.get_datachecklist("Media41")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_again_video_iconcloud(self, "Media41", eventname, result)
-#
-# def caseid_media42(self):
-#     module_other_app.get_datachecklist("Media42")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media42", eventname, result,
-#                                                                   var_app.check_see_again_seedevice_vehicle, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_BienSo.png")
-# def caseid_media43(self):
-#     module_other_app.get_datachecklist("Media43")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media43", eventname, result,
-#                                                                   var_app.check_see_again_seedevice_timeupdate, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_ThoiGianCapNhat.png")
-#
-# def caseid_media44(self):
-#     module_other_app.get_datachecklist("Media44")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media44", eventname, result,
-#                                                                   var_app.check_see_again_seedevice_address, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_DiaChi.png")
-#
-# def caseid_media45(self):
-#     module_other_app.get_datachecklist("Media45")
-#     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
-#     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
-#     image_video_app.image_video.see_again_video_see_device_detail(self, "Media45", eventname, result,
-#                                                                   var_app.check_see_again_seedevice_channel, None,
-#                                                                   "_TrangChu_XemLaiVideo_XemThietBi_Kenh.png")
+def caseid_media53(self):
+    module_other_app.get_datachecklist("Media53")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_see_device_icon_icloud(self, "Media53", eventname, result)
 
-
-
-
+def caseid_media54(self):
+    module_other_app.get_datachecklist("Media54")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_again_video_dowload_and_cloud_search(self, "Media54", eventname, result)
 
 
 

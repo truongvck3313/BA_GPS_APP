@@ -1,106 +1,842 @@
-2024-08-02 Friday 16:08:12 root:INFO:--------------
-2024-08-02 Friday 16:08:12 root:INFO:Trang chủ - Hình ảnh video - Giám sát hình ảnh
-2024-08-02 Friday 16:08:12 root:INFO:Mã - Media17
-2024-08-02 Friday 16:08:12 root:INFO:Tên sự kiện - Chọn chức năng "Giám sát camera"
-2024-08-02 Friday 16:08:12 root:INFO:Kết quả - Mở popup "Giám sát nhiều camera"
-2024-08-02 Friday 16:08:12 root:INFO:GIÁM SÁT NHIỀU CAMERA
-2024-08-02 Friday 16:08:12 root:INFO:True
-2024-08-02 Friday 16:08:22 root:INFO:--------------
-2024-08-02 Friday 16:08:22 root:INFO:Trang chủ - Giám sát camera
-2024-08-02 Friday 16:08:22 root:INFO:Mã - Media18
-2024-08-02 Friday 16:08:22 root:INFO:Tên sự kiện - Tìm kiếm
-2024-08-02 Friday 16:08:22 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:23 root:INFO:43C01339_C
-2024-08-02 Friday 16:08:23 root:INFO:True
-2024-08-02 Friday 16:08:24 root:INFO:--------------
-2024-08-02 Friday 16:08:24 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
-2024-08-02 Friday 16:08:24 root:INFO:Mã - Media19
-2024-08-02 Friday 16:08:24 root:INFO:Tên sự kiện - Biển số xe
-2024-08-02 Friday 16:08:24 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:25 root:INFO:43C01339_C
-2024-08-02 Friday 16:08:25 root:INFO:True
-2024-08-02 Friday 16:08:27 root:INFO:--------------
-2024-08-02 Friday 16:08:27 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
-2024-08-02 Friday 16:08:27 root:INFO:Mã - Media20
-2024-08-02 Friday 16:08:27 root:INFO:Tên sự kiện - Kênh
-2024-08-02 Friday 16:08:27 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:27 root:INFO:Kênh 1
-2024-08-02 Friday 16:08:27 root:INFO:True
-2024-08-02 Friday 16:08:29 root:INFO:--------------
-2024-08-02 Friday 16:08:29 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
-2024-08-02 Friday 16:08:29 root:INFO:Mã - Media21
-2024-08-02 Friday 16:08:29 root:INFO:Tên sự kiện - Thời gian
-2024-08-02 Friday 16:08:29 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:29 root:INFO:02/08/2024 16:08:24
-2024-08-02 Friday 16:08:29 root:INFO:True
-2024-08-02 Friday 16:08:31 root:INFO:--------------
-2024-08-02 Friday 16:08:31 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
-2024-08-02 Friday 16:08:31 root:INFO:Mã - Media22
-2024-08-02 Friday 16:08:31 root:INFO:Tên sự kiện - Địa chỉ
-2024-08-02 Friday 16:08:31 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:31 root:INFO:Hồ Chí Minh Tây, X. Tân Hợp, H. Hướng Hóa, Quảng Trị
-2024-08-02 Friday 16:08:31 root:INFO:True
-2024-08-02 Friday 16:08:35 root:INFO:--------------
-2024-08-02 Friday 16:08:35 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:35 root:INFO:Mã - Media23
-2024-08-02 Friday 16:08:35 root:INFO:Tên sự kiện - Icon tạm dừng
-2024-08-02 Friday 16:08:35 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:35 root:INFO:False
-2024-08-02 Friday 16:08:39 root:INFO:--------------
-2024-08-02 Friday 16:08:39 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:39 root:INFO:Mã - Media24
-2024-08-02 Friday 16:08:39 root:INFO:Tên sự kiện - Icon Tắt/Bật tiếng
-2024-08-02 Friday 16:08:39 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:39 root:INFO:False
-2024-08-02 Friday 16:08:43 root:INFO:--------------
-2024-08-02 Friday 16:08:43 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:43 root:INFO:Mã - Media25
-2024-08-02 Friday 16:08:43 root:INFO:Tên sự kiện - Icon chụp ảnh
-2024-08-02 Friday 16:08:43 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:43 root:INFO:True
-2024-08-02 Friday 16:08:45 root:INFO:--------------
-2024-08-02 Friday 16:08:45 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:45 root:INFO:Mã - Media26
-2024-08-02 Friday 16:08:45 root:INFO:Tên sự kiện - Icon xem toàn màn hình
-2024-08-02 Friday 16:08:45 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:45 root:INFO:True
-2024-08-02 Friday 16:08:48 root:INFO:--------------
-2024-08-02 Friday 16:08:48 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:48 root:INFO:Mã - Media27
-2024-08-02 Friday 16:08:48 root:INFO:Tên sự kiện - Icon xoay màn hình
-2024-08-02 Friday 16:08:48 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:48 root:INFO:True
-2024-08-02 Friday 16:08:53 root:INFO:--------------
-2024-08-02 Friday 16:08:53 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
-2024-08-02 Friday 16:08:53 root:INFO:Mã - Media28
-2024-08-02 Friday 16:08:53 root:INFO:Tên sự kiện - Icon thoát camera
-2024-08-02 Friday 16:08:53 root:INFO:Kết quả - None
-2024-08-02 Friday 16:08:53 root:INFO:Bạn thực sự muốn xóa kênh camera đang xem này không?
-2024-08-02 Friday 16:08:53 root:INFO:True
-2024-08-02 Friday 16:09:04 root:INFO:--------------
-2024-08-02 Friday 16:09:04 root:INFO:Trang chủ - Giám sát camera
-2024-08-02 Friday 16:09:04 root:INFO:Mã - Media29
-2024-08-02 Friday 16:09:04 root:INFO:Tên sự kiện - icon thêm camera
-2024-08-02 Friday 16:09:04 root:INFO:Kết quả - Chuyển tới trang "Thêm camera"
-2024-08-02 Friday 16:09:04 root:INFO:THÊM CAMERA
-2024-08-02 Friday 16:09:04 root:INFO:True
-2024-08-02 Friday 16:09:15 root:INFO:--------------
-2024-08-02 Friday 16:09:15 root:INFO:Trang chủ - Hình ảnh, video - Giám sát camera - Thêm camera
-2024-08-02 Friday 16:09:15 root:INFO:Mã - Media30
-2024-08-02 Friday 16:09:15 root:INFO:Tên sự kiện - Tìm kiếm và chọn kênh 1,2
-2024-08-02 Friday 16:09:15 root:INFO:Kết quả - Hiển thị Phương tiện đã nhập, Chuyển tới kênh đã chọn 
-2024-08-02 Friday 16:09:16 root:INFO:43C01340_C
-2024-08-02 Friday 16:09:16 root:INFO:True
-2024-08-02 Friday 16:09:29 root:INFO:--------------
-2024-08-02 Friday 16:09:29 root:INFO:Trang chủ - Giám sát camera - Thêm camera
-2024-08-02 Friday 16:09:29 root:INFO:Mã - Media31
-2024-08-02 Friday 16:09:29 root:INFO:Tên sự kiện - Chỉ hiện thị các phương tiện đang bật camera
-2024-08-02 Friday 16:09:29 root:INFO:Kết quả - None
-2024-08-02 Friday 16:09:29 root:INFO:ON
-2024-08-02 Friday 16:09:29 root:INFO:True
-2024-08-02 Friday 16:09:39 root:INFO:--------------
-2024-08-02 Friday 16:09:39 root:INFO:Trang chủ - Giám sát camera - Thêm camera
-2024-08-02 Friday 16:09:39 root:INFO:Mã - Media32
-2024-08-02 Friday 16:09:39 root:INFO:Tên sự kiện - Đặt lại
-2024-08-02 Friday 16:09:39 root:INFO:Kết quả - Xóa các kênh camera đã chọn trước đó
-2024-08-02 Friday 16:09:39 root:INFO:False
+2024-08-05 Monday 16:43:42 root:INFO:--------------
+2024-08-05 Monday 16:43:42 root:INFO:Phương tiện - Tìm kiếm
+2024-08-05 Monday 16:43:42 root:INFO:Mã - Vehicle01
+2024-08-05 Monday 16:43:42 root:INFO:Tên sự kiện - Tìm kiếm phương tiện
+2024-08-05 Monday 16:43:42 root:INFO:Kết quả - Hiển thị theo biển số phương tiện
+2024-08-05 Monday 16:43:42 root:INFO:43C01340_C
+2024-08-05 Monday 16:43:42 root:INFO:True
+2024-08-05 Monday 16:43:49 root:INFO:--------------
+2024-08-05 Monday 16:43:49 root:INFO:Phương tiện - Chú thích
+2024-08-05 Monday 16:43:49 root:INFO:Mã - Vehicle02
+2024-08-05 Monday 16:43:49 root:INFO:Tên sự kiện - Icon Chú thích
+2024-08-05 Monday 16:43:49 root:INFO:Kết quả - Hiển thị bảng chú thích
+2024-08-05 Monday 16:43:49 root:INFO:Chú thích
+2024-08-05 Monday 16:43:49 root:INFO:True
+2024-08-05 Monday 16:43:57 root:INFO:--------------
+2024-08-05 Monday 16:43:57 root:INFO:Phương tiện - Chọn nhóm
+2024-08-05 Monday 16:43:57 root:INFO:Mã - Vehicle03
+2024-08-05 Monday 16:43:57 root:INFO:Tên sự kiện - Chọn nhóm phương tiện -Tìm kiếm
+2024-08-05 Monday 16:43:57 root:INFO:Kết quả - Tìm kiếm theo nhóm đã nhập
+2024-08-05 Monday 16:43:57 root:INFO:False
+2024-08-05 Monday 16:44:05 root:INFO:--------------
+2024-08-05 Monday 16:44:05 root:INFO:Phương tiện - Chọn nhóm
+2024-08-05 Monday 16:44:05 root:INFO:Mã - Vehicle04
+2024-08-05 Monday 16:44:05 root:INFO:Tên sự kiện - Chọn nhóm phương tiện -Chọn nhóm
+2024-08-05 Monday 16:44:05 root:INFO:Kết quả - Hiển thị toàn bộ phương tiện của nhóm
+2024-08-05 Monday 16:44:05 root:INFO:True
+2024-08-05 Monday 16:44:24 root:INFO:--------------
+2024-08-05 Monday 16:44:24 root:INFO:Phương tiện - Icon sắp xếp
+2024-08-05 Monday 16:44:24 root:INFO:Mã - Vehicle05
+2024-08-05 Monday 16:44:24 root:INFO:Tên sự kiện - Biển kiểm soát
+2024-08-05 Monday 16:44:24 root:INFO:Kết quả - Tăng dần theo biển kiểm soát
+2024-08-05 Monday 16:44:24 root:INFO:True
+2024-08-05 Monday 16:44:30 root:INFO:--------------
+2024-08-05 Monday 16:44:30 root:INFO:Phương tiện - Icon sắp xếp
+2024-08-05 Monday 16:44:30 root:INFO:Mã - Vehicle06
+2024-08-05 Monday 16:44:30 root:INFO:Tên sự kiện - Thời gian
+2024-08-05 Monday 16:44:30 root:INFO:Kết quả - Thời gian cập nhật
+2024-08-05 Monday 16:44:30 root:INFO:True
+2024-08-05 Monday 16:44:35 root:INFO:--------------
+2024-08-05 Monday 16:44:35 root:INFO:Phương tiện - Icon sắp xếp
+2024-08-05 Monday 16:44:35 root:INFO:Mã - Vehicle07
+2024-08-05 Monday 16:44:35 root:INFO:Tên sự kiện - Mặc định
+2024-08-05 Monday 16:44:35 root:INFO:Kết quả - Thông số trở về mặc định
+2024-08-05 Monday 16:44:35 root:INFO:True
+2024-08-05 Monday 16:44:43 root:INFO:--------------
+2024-08-05 Monday 16:44:43 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:44:43 root:INFO:Mã - Vehicle08
+2024-08-05 Monday 16:44:43 root:INFO:Tên sự kiện - Nợ phí
+2024-08-05 Monday 16:44:43 root:INFO:Kết quả - Hiển thị đủ số xe 'Nợ phí"
+2024-08-05 Monday 16:44:43 root:INFO:True
+2024-08-05 Monday 16:44:48 root:INFO:--------------
+2024-08-05 Monday 16:44:48 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:44:48 root:INFO:Mã - Vehicle09
+2024-08-05 Monday 16:44:48 root:INFO:Tên sự kiện - Di chuyển
+2024-08-05 Monday 16:44:48 root:INFO:Kết quả - Hiển thị đủ số xe 'Di chuyển"
+2024-08-05 Monday 16:44:48 root:INFO:True
+2024-08-05 Monday 16:44:55 root:INFO:--------------
+2024-08-05 Monday 16:44:55 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:44:55 root:INFO:Mã - Vehicle10
+2024-08-05 Monday 16:44:55 root:INFO:Tên sự kiện - Dừng - Tắt
+2024-08-05 Monday 16:44:55 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng - Tắt"
+2024-08-05 Monday 16:44:55 root:INFO:True
+2024-08-05 Monday 16:45:02 root:INFO:--------------
+2024-08-05 Monday 16:45:02 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:02 root:INFO:Mã - Vehicle11
+2024-08-05 Monday 16:45:02 root:INFO:Tên sự kiện - Dừng - Bật
+2024-08-05 Monday 16:45:02 root:INFO:Kết quả - Hiển thị đủ số xe 'Dừng - Bật"
+2024-08-05 Monday 16:45:02 root:INFO:True
+2024-08-05 Monday 16:45:07 root:INFO:--------------
+2024-08-05 Monday 16:45:07 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:07 root:INFO:Mã - Vehicle12
+2024-08-05 Monday 16:45:07 root:INFO:Tên sự kiện - Bật máy
+2024-08-05 Monday 16:45:07 root:INFO:Kết quả - Hiển thị đủ số xe 'Bật máy"
+2024-08-05 Monday 16:45:07 root:INFO:True
+2024-08-05 Monday 16:45:14 root:INFO:--------------
+2024-08-05 Monday 16:45:14 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:14 root:INFO:Mã - Vehicle13
+2024-08-05 Monday 16:45:14 root:INFO:Tên sự kiện - Tắt máy
+2024-08-05 Monday 16:45:14 root:INFO:Kết quả - Hiển thị đủ số xe 'Tắt máy"
+2024-08-05 Monday 16:45:14 root:INFO:True
+2024-08-05 Monday 16:45:22 root:INFO:--------------
+2024-08-05 Monday 16:45:22 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:22 root:INFO:Mã - Vehicle14
+2024-08-05 Monday 16:45:22 root:INFO:Tên sự kiện - Quá tốc độ
+2024-08-05 Monday 16:45:22 root:INFO:Kết quả - Hiển thị đủ số xe 'Quá tốc độ"
+2024-08-05 Monday 16:45:22 root:INFO:True
+2024-08-05 Monday 16:45:28 root:INFO:--------------
+2024-08-05 Monday 16:45:28 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:28 root:INFO:Mã - Vehicle15
+2024-08-05 Monday 16:45:28 root:INFO:Tên sự kiện - Mất GPS
+2024-08-05 Monday 16:45:28 root:INFO:Kết quả - Hiển thị đủ số xe 'Mất GPS"
+2024-08-05 Monday 16:45:28 root:INFO:True
+2024-08-05 Monday 16:45:35 root:INFO:--------------
+2024-08-05 Monday 16:45:35 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:45:35 root:INFO:Mã - Vehicle16
+2024-08-05 Monday 16:45:35 root:INFO:Tên sự kiện - Mất GMS
+2024-08-05 Monday 16:45:35 root:INFO:Kết quả - Hiển thị đủ số xe 'Mất GMS"
+2024-08-05 Monday 16:45:35 root:INFO:True
+2024-08-05 Monday 16:45:42 root:INFO:--------------
+2024-08-05 Monday 16:45:42 root:INFO:Giám sát - Trạng thái xe
+2024-08-05 Monday 16:45:42 root:INFO:Mã - Vehicle17
+2024-08-05 Monday 16:45:42 root:INFO:Tên sự kiện - Tất cả
+2024-08-05 Monday 16:45:42 root:INFO:Kết quả - Hiển thị tất cả xe
+2024-08-05 Monday 16:45:42 root:INFO:True
+2024-08-05 Monday 16:45:56 root:INFO:--------------
+2024-08-05 Monday 16:45:56 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:56 root:INFO:Mã - Vehicle18
+2024-08-05 Monday 16:45:56 root:INFO:Tên sự kiện - Lấy thông tin xe
+2024-08-05 Monday 16:45:56 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:56 root:INFO:True
+2024-08-05 Monday 16:45:56 root:INFO:--------------
+2024-08-05 Monday 16:45:56 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:56 root:INFO:Mã - Vehicle19
+2024-08-05 Monday 16:45:56 root:INFO:Tên sự kiện - Biển số xe
+2024-08-05 Monday 16:45:56 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:56 root:INFO:43C01338_C
+2024-08-05 Monday 16:45:56 root:INFO:True
+2024-08-05 Monday 16:45:57 root:INFO:--------------
+2024-08-05 Monday 16:45:57 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:57 root:INFO:Mã - Vehicle20
+2024-08-05 Monday 16:45:57 root:INFO:Tên sự kiện - Thời gian cập nhật
+2024-08-05 Monday 16:45:57 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:57 root:INFO:16:45:40 05/08/2024
+2024-08-05 Monday 16:45:57 root:INFO:True
+2024-08-05 Monday 16:45:57 root:INFO:--------------
+2024-08-05 Monday 16:45:57 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:57 root:INFO:Mã - Vehicle21
+2024-08-05 Monday 16:45:57 root:INFO:Tên sự kiện - Động cơ
+2024-08-05 Monday 16:45:57 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:57 root:INFO:Bật
+2024-08-05 Monday 16:45:57 root:INFO:True
+2024-08-05 Monday 16:45:57 root:INFO:--------------
+2024-08-05 Monday 16:45:57 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:57 root:INFO:Mã - Vehicle22
+2024-08-05 Monday 16:45:57 root:INFO:Tên sự kiện - Km trong ngày
+2024-08-05 Monday 16:45:57 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:58 root:INFO:89,93 Km
+2024-08-05 Monday 16:45:58 root:INFO:True
+2024-08-05 Monday 16:45:58 root:INFO:--------------
+2024-08-05 Monday 16:45:58 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:58 root:INFO:Mã - Vehicle23
+2024-08-05 Monday 16:45:58 root:INFO:Tên sự kiện - Vận tốc
+2024-08-05 Monday 16:45:58 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:58 root:INFO:57 Km/h
+2024-08-05 Monday 16:45:58 root:INFO:True
+2024-08-05 Monday 16:45:58 root:INFO:--------------
+2024-08-05 Monday 16:45:58 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:58 root:INFO:Mã - Vehicle24
+2024-08-05 Monday 16:45:58 root:INFO:Tên sự kiện - Thời gian dừng đỗ
+2024-08-05 Monday 16:45:58 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:59 root:INFO:30 lần
+2024-08-05 Monday 16:45:59 root:INFO:True
+2024-08-05 Monday 16:45:59 root:INFO:--------------
+2024-08-05 Monday 16:45:59 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:59 root:INFO:Mã - Vehicle25
+2024-08-05 Monday 16:45:59 root:INFO:Tên sự kiện - Nhiệt độ
+2024-08-05 Monday 16:45:59 root:INFO:Kết quả - None
+2024-08-05 Monday 16:45:59 root:INFO:Mất kết nối cảm biến
+2024-08-05 Monday 16:45:59 root:INFO:True
+2024-08-05 Monday 16:45:59 root:INFO:--------------
+2024-08-05 Monday 16:45:59 root:INFO:Phương Tiện - Thông tin chi tiết xe
+2024-08-05 Monday 16:45:59 root:INFO:Mã - Vehicle26
+2024-08-05 Monday 16:45:59 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-05 Monday 16:45:59 root:INFO:Kết quả - None
+2024-08-05 Monday 16:46:00 root:INFO:Quốc Lộ 1A, X. Bình An, H. Thăng Bình, Quảng Nam
+2024-08-05 Monday 16:46:00 root:INFO:True
+2024-08-05 Monday 16:46:06 root:INFO:--------------
+2024-08-05 Monday 16:46:06 root:INFO:Phương tiện - Trạng thái xe
+2024-08-05 Monday 16:46:06 root:INFO:Mã - Vehicle27
+2024-08-05 Monday 16:46:06 root:INFO:Tên sự kiện - Tùy chỉnh
+2024-08-05 Monday 16:46:06 root:INFO:Kết quả - Mở popup "Thiết lập mục ưa thích"
+2024-08-05 Monday 16:46:07 root:INFO:THIẾT LẬP MỤC ƯA THÍCH
+2024-08-05 Monday 16:46:07 root:INFO:True
+2024-08-05 Monday 16:46:13 root:INFO:--------------
+2024-08-05 Monday 16:46:13 root:INFO:Phương tiện - Thiết lập mục ưu thích
+2024-08-05 Monday 16:46:13 root:INFO:Mã - Vehicle28
+2024-08-05 Monday 16:46:13 root:INFO:Tên sự kiện - Chọn mục yêu thích và Lưu
+2024-08-05 Monday 16:46:13 root:INFO:Kết quả - Hiển message"Lưu mục ưa thích thành công"
+2024-08-05 Monday 16:46:13 root:INFO:Lưu mục ưa thích thành công
+2024-08-05 Monday 16:46:13 root:INFO:True
+2024-08-05 Monday 16:46:17 root:INFO:--------------
+2024-08-05 Monday 16:46:17 root:INFO:Phương tiện - Tùy chọn
+2024-08-05 Monday 16:46:17 root:INFO:Mã - Vehicle29
+2024-08-05 Monday 16:46:17 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 16:46:17 root:INFO:Kết quả - Hiển thị tính năng đã nhập
+2024-08-05 Monday 16:46:17 root:INFO:Báo cáo động cơ
+2024-08-05 Monday 16:46:17 root:INFO:True
+2024-08-05 Monday 16:52:08 root:INFO:--------------
+2024-08-05 Monday 16:52:08 root:INFO:Lộ trình - Tìm kiếm
+2024-08-05 Monday 16:52:08 root:INFO:Mã - Route01
+2024-08-05 Monday 16:52:08 root:INFO:Tên sự kiện - Tìm kiếm và lựa chọn phương tiện
+2024-08-05 Monday 16:52:08 root:INFO:Kết quả - Hiển thị lộ trình xe được chọn
+2024-08-05 Monday 16:52:08 root:INFO:True
+2024-08-05 Monday 16:52:42 root:INFO:--------------
+2024-08-05 Monday 16:52:42 root:INFO:Lộ trình - Chọn mốc thời gian
+2024-08-05 Monday 16:52:42 root:INFO:Mã - Route02
+2024-08-05 Monday 16:52:42 root:INFO:Tên sự kiện - 1h
+2024-08-05 Monday 16:52:42 root:INFO:Kết quả - Hiển thị lộ trình xe trong 1h
+2024-08-05 Monday 16:52:42 root:INFO:0
+2024-08-05 Monday 16:52:42 root:INFO:True
+2024-08-05 Monday 16:53:28 root:INFO:--------------
+2024-08-05 Monday 16:53:28 root:INFO:Lộ trình - Chọn mốc thời gian
+2024-08-05 Monday 16:53:28 root:INFO:Mã - Route03
+2024-08-05 Monday 16:53:28 root:INFO:Tên sự kiện - 4h
+2024-08-05 Monday 16:53:28 root:INFO:Kết quả - Hiển thị lộ trình xe trong 4h
+2024-08-05 Monday 16:53:28 root:INFO:True
+2024-08-05 Monday 16:53:34 root:INFO:--------------
+2024-08-05 Monday 16:53:34 root:INFO:Lộ trình - Chọn mốc thời gian
+2024-08-05 Monday 16:53:34 root:INFO:Mã - Route04
+2024-08-05 Monday 16:53:34 root:INFO:Tên sự kiện - 8h
+2024-08-05 Monday 16:53:34 root:INFO:Kết quả - Hiển thị lộ trình xe trong 8h
+2024-08-05 Monday 16:53:34 root:INFO:True
+2024-08-05 Monday 16:53:39 root:INFO:--------------
+2024-08-05 Monday 16:53:39 root:INFO:Lộ trình - Chọn mốc thời gian
+2024-08-05 Monday 16:53:39 root:INFO:Mã - Route05
+2024-08-05 Monday 16:53:39 root:INFO:Tên sự kiện - 24h
+2024-08-05 Monday 16:53:39 root:INFO:Kết quả - Hiển thị lộ trình xe trong 24h
+2024-08-05 Monday 16:53:39 root:INFO:True
+2024-08-05 Monday 16:53:43 root:INFO:--------------
+2024-08-05 Monday 16:53:43 root:INFO:Lộ trình - Chọn mốc thời gian
+2024-08-05 Monday 16:53:43 root:INFO:Mã - Route06
+2024-08-05 Monday 16:53:43 root:INFO:Tên sự kiện - Tùy chọn
+2024-08-05 Monday 16:53:43 root:INFO:Kết quả - Hiển thị lộ trình xe tùy chọn theo lịch
+2024-08-05 Monday 16:53:43 root:INFO:True
+2024-08-05 Monday 16:53:49 root:INFO:--------------
+2024-08-05 Monday 16:53:49 root:INFO:Lộ trình - Icon)
+2024-08-05 Monday 16:53:49 root:INFO:Mã - Route07
+2024-08-05 Monday 16:53:49 root:INFO:Tên sự kiện - Mở lộ trình(icon 3 dấu gạch)
+2024-08-05 Monday 16:53:49 root:INFO:Kết quả - None
+2024-08-05 Monday 16:53:49 root:INFO:DANH SÁCH LỘ TRÌNH
+2024-08-05 Monday 16:53:49 root:INFO:True
+2024-08-05 Monday 16:53:54 root:INFO:--------------
+2024-08-05 Monday 16:53:54 root:INFO:Lộ trình - Icon
+2024-08-05 Monday 16:53:54 root:INFO:Mã - Route08
+2024-08-05 Monday 16:53:54 root:INFO:Tên sự kiện - Ẩn lộ trình(icon dấu thăng)
+2024-08-05 Monday 16:53:54 root:INFO:Kết quả - None
+2024-08-05 Monday 16:53:56 root:INFO:True
+2024-08-05 Monday 16:54:02 root:INFO:--------------
+2024-08-05 Monday 16:54:02 root:INFO:Lộ trình - Chọn icon
+2024-08-05 Monday 16:54:02 root:INFO:Mã - Route09
+2024-08-05 Monday 16:54:02 root:INFO:Tên sự kiện - Icon vị trí(icon mũi tên)
+2024-08-05 Monday 16:54:02 root:INFO:Kết quả - None
+2024-08-05 Monday 16:54:02 root:INFO:True
+2024-08-05 Monday 16:54:07 root:INFO:--------------
+2024-08-05 Monday 16:54:07 root:INFO:Lộ trình - Chọn icon
+2024-08-05 Monday 16:54:07 root:INFO:Mã - Route10
+2024-08-05 Monday 16:54:07 root:INFO:Tên sự kiện - Icon lộ trình
+2024-08-05 Monday 16:54:07 root:INFO:Kết quả - None
+2024-08-05 Monday 16:54:07 root:INFO:True
+2024-08-05 Monday 16:54:11 root:INFO:--------------
+2024-08-05 Monday 16:54:11 root:INFO:Lộ trình - Chọn icon
+2024-08-05 Monday 16:54:11 root:INFO:Mã - Route11
+2024-08-05 Monday 16:54:11 root:INFO:Tên sự kiện - Icon đổi bản đồ 
+2024-08-05 Monday 16:54:11 root:INFO:Kết quả - None
+2024-08-05 Monday 16:54:11 root:INFO:True
+2024-08-05 Monday 16:54:16 root:INFO:--------------
+2024-08-05 Monday 16:54:16 root:INFO:Trang Chủ - Thanh công cụ - Tìm kiếm danh mục
+2024-08-05 Monday 16:54:16 root:INFO:Mã - Toolbar01
+2024-08-05 Monday 16:54:16 root:INFO:Tên sự kiện - Chọn chức năng "Tìm kiếm danh mục"
+2024-08-05 Monday 16:54:16 root:INFO:Kết quả - Chuyển tới trang "Tìm kiếm danh mục"
+2024-08-05 Monday 16:54:16 root:INFO:TÌM KIẾM DANH MỤC
+2024-08-05 Monday 16:54:16 root:INFO:True
+2024-08-05 Monday 16:54:23 root:INFO:--------------
+2024-08-05 Monday 16:54:23 root:INFO:Trang Chủ - Thanh công cụ - Tìm kiếm danh mục
+2024-08-05 Monday 16:54:23 root:INFO:Mã - Toolbar02
+2024-08-05 Monday 16:54:23 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 16:54:23 root:INFO:Kết quả - Hiển thị tính năng đã nhập
+2024-08-05 Monday 16:54:23 root:INFO:DANH SÁCH LÁI XE
+2024-08-05 Monday 16:54:23 root:INFO:True
+2024-08-05 Monday 16:54:29 root:INFO:--------------
+2024-08-05 Monday 16:54:29 root:INFO:Trang Chủ - Thanh công cụ - Thông báo
+2024-08-05 Monday 16:54:29 root:INFO:Mã - Toolbar03
+2024-08-05 Monday 16:54:29 root:INFO:Tên sự kiện - Chọn chức năng "Thông báo"
+2024-08-05 Monday 16:54:29 root:INFO:Kết quả - Chuyển tới trang "Thông báo"
+2024-08-05 Monday 16:54:29 root:INFO:THÔNG BÁO
+2024-08-05 Monday 16:54:29 root:INFO:True
+2024-08-05 Monday 16:54:34 root:INFO:--------------
+2024-08-05 Monday 16:54:34 root:INFO:Trang Chủ - Thanh công cụ - Thông báo
+2024-08-05 Monday 16:54:34 root:INFO:Mã - Toolbar04
+2024-08-05 Monday 16:54:34 root:INFO:Tên sự kiện - Xem thông báo
+2024-08-05 Monday 16:54:34 root:INFO:Kết quả - None
+2024-08-05 Monday 16:54:35 root:INFO:CHI TIẾT THÔNG BÁO
+2024-08-05 Monday 16:54:35 root:INFO:True
+2024-08-05 Monday 16:54:41 root:INFO:--------------
+2024-08-05 Monday 16:54:41 root:INFO:Trang Chủ - Thanh công cụ - Thông báo
+2024-08-05 Monday 16:54:41 root:INFO:Mã - Toolbar05
+2024-08-05 Monday 16:54:41 root:INFO:Tên sự kiện - Xóa thông báo
+2024-08-05 Monday 16:54:41 root:INFO:Kết quả - None
+2024-08-05 Monday 16:54:42 root:INFO:Bạn chắc chắn xóa tất cả thông báo?
+2024-08-05 Monday 16:54:42 root:INFO:True
+2024-08-05 Monday 16:55:18 root:INFO:--------------
+2024-08-05 Monday 16:55:18 root:INFO:Trang Chủ - Thanh công cụ - Danh sách cảnh báo
+2024-08-05 Monday 16:55:18 root:INFO:Mã - Toolbar06
+2024-08-05 Monday 16:55:18 root:INFO:Tên sự kiện - Chọn chức năng "Danh sách cảnh báo"
+2024-08-05 Monday 16:55:18 root:INFO:Kết quả - Chuyển tới trang "Danh sách cảnh báo"
+2024-08-05 Monday 16:55:19 root:INFO:DANH SÁCH CẢNH BÁO
+2024-08-05 Monday 16:55:19 root:INFO:True
+2024-08-05 Monday 16:55:30 root:INFO:--------------
+2024-08-05 Monday 16:55:30 root:INFO:Trang Chủ - Thanh công cụ - Danh sách cảnh báo
+2024-08-05 Monday 16:55:30 root:INFO:Mã - Toolbar07
+2024-08-05 Monday 16:55:30 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 16:55:30 root:INFO:Kết quả - Hiển thị dữ liệu trong khoảng thời gian tìm kiếm
+2024-08-05 Monday 16:55:30 root:INFO:True
+2024-08-05 Monday 16:55:35 root:INFO:--------------
+2024-08-05 Monday 16:55:35 root:INFO:Trang Chủ - Thanh công cụ - Danh sách cảnh báo
+2024-08-05 Monday 16:55:35 root:INFO:Mã - Toolbar08
+2024-08-05 Monday 16:55:35 root:INFO:Tên sự kiện - Chuyển cảnh báo thành đã đọc
+2024-08-05 Monday 16:55:35 root:INFO:Kết quả - Đã đọc tất cả cảnh báo thành công
+2024-08-05 Monday 16:55:35 root:INFO:Bạn chắc chắn muốn chuyển tất cả cảnh báo thành đã đọc?
+2024-08-05 Monday 16:55:35 root:INFO:True
+2024-08-05 Monday 16:56:02 root:INFO:--------------
+2024-08-05 Monday 16:56:02 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:02 root:INFO:Mã - Toolbar09
+2024-08-05 Monday 16:56:02 root:INFO:Tên sự kiện - Chọn chức năng "Hỗ trợ khách hàng"
+2024-08-05 Monday 16:56:02 root:INFO:Kết quả - Chuyển tới trang "Hỗ trợ khách hàng"
+2024-08-05 Monday 16:56:02 root:INFO:HỖ TRỢ KHÁCH HÀNG
+2024-08-05 Monday 16:56:02 root:INFO:True
+2024-08-05 Monday 16:56:05 root:INFO:--------------
+2024-08-05 Monday 16:56:05 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:05 root:INFO:Mã - Toolbar10
+2024-08-05 Monday 16:56:05 root:INFO:Tên sự kiện - Tìm kiếm hỗ trợ
+2024-08-05 Monday 16:56:05 root:INFO:Kết quả - Hiển thị tính năng đã nhập
+2024-08-05 Monday 16:56:05 root:INFO:Đổi biển
+2024-08-05 Monday 16:56:05 root:INFO:True
+2024-08-05 Monday 16:56:11 root:INFO:--------------
+2024-08-05 Monday 16:56:11 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:11 root:INFO:Mã - Toolbar11
+2024-08-05 Monday 16:56:11 root:INFO:Tên sự kiện - Mất tín hiệu
+2024-08-05 Monday 16:56:11 root:INFO:Kết quả - Chuyển tới trang "Hướng dẫn xử lý(Mất tín hiệu)"
+2024-08-05 Monday 16:56:11 root:INFO:Mất tín hiệu 
+2024-08-05 Monday 16:56:11 root:INFO:True
+2024-08-05 Monday 16:56:18 root:INFO:--------------
+2024-08-05 Monday 16:56:18 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:18 root:INFO:Mã - Toolbar12
+2024-08-05 Monday 16:56:18 root:INFO:Tên sự kiện - Đổi biển
+2024-08-05 Monday 16:56:18 root:INFO:Kết quả - Chuyển tới trang "Đổi biển"
+2024-08-05 Monday 16:56:18 root:INFO:ĐỔI BIỂN
+2024-08-05 Monday 16:56:18 root:INFO:True
+2024-08-05 Monday 16:56:25 root:INFO:--------------
+2024-08-05 Monday 16:56:25 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:25 root:INFO:Mã - Toolbar13
+2024-08-05 Monday 16:56:25 root:INFO:Tên sự kiện - Lỗi camera
+2024-08-05 Monday 16:56:25 root:INFO:Kết quả - Chuyển tới trang "Hướng dẫn xử lý(Lỗi camera)"
+2024-08-05 Monday 16:56:25 root:INFO:Lỗi camera
+2024-08-05 Monday 16:56:25 root:INFO:True
+2024-08-05 Monday 16:56:32 root:INFO:--------------
+2024-08-05 Monday 16:56:32 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:32 root:INFO:Mã - Toolbar14
+2024-08-05 Monday 16:56:32 root:INFO:Tên sự kiện - Khóa xe
+2024-08-05 Monday 16:56:32 root:INFO:Kết quả - Chuyển tới trang "Lý do khóa xe"
+2024-08-05 Monday 16:56:32 root:INFO:LÝ DO KHÓA XE
+2024-08-05 Monday 16:56:32 root:INFO:True
+2024-08-05 Monday 16:56:39 root:INFO:--------------
+2024-08-05 Monday 16:56:39 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:39 root:INFO:Mã - Toolbar15
+2024-08-05 Monday 16:56:39 root:INFO:Tên sự kiện - Mở khóa xe
+2024-08-05 Monday 16:56:39 root:INFO:Kết quả - Chuyển tới trang "Gửi yêu cầu hỗ trợ(Mở khóa xe)"
+2024-08-05 Monday 16:56:40 root:INFO:Mở khóa xe
+2024-08-05 Monday 16:56:40 root:INFO:True
+2024-08-05 Monday 16:56:46 root:INFO:--------------
+2024-08-05 Monday 16:56:46 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:46 root:INFO:Mã - Toolbar16
+2024-08-05 Monday 16:56:46 root:INFO:Tên sự kiện - Hỗ trợ khác
+2024-08-05 Monday 16:56:46 root:INFO:Kết quả - Chuyển tới trang "Gửi yêu cầu hỗ trợ(Hỗ trợ khác)"
+2024-08-05 Monday 16:56:47 root:INFO:Hỗ trợ khác
+2024-08-05 Monday 16:56:47 root:INFO:True
+2024-08-05 Monday 16:56:54 root:INFO:--------------
+2024-08-05 Monday 16:56:54 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:56:54 root:INFO:Mã - Toolbar17
+2024-08-05 Monday 16:56:54 root:INFO:Tên sự kiện - Đóng phí DVMC
+2024-08-05 Monday 16:56:54 root:INFO:Kết quả - Chuyển tới trang "Đóng phí DVMC/SC"
+2024-08-05 Monday 16:56:54 root:INFO:Đóng phí DVMC/SC
+2024-08-05 Monday 16:56:54 root:INFO:True
+2024-08-05 Monday 16:57:01 root:INFO:--------------
+2024-08-05 Monday 16:57:01 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:57:01 root:INFO:Mã - Toolbar18
+2024-08-05 Monday 16:57:01 root:INFO:Tên sự kiện - Nâng cấp
+2024-08-05 Monday 16:57:01 root:INFO:Kết quả - Chuyển tới trang "Nâng cấp Module 4G"
+2024-08-05 Monday 16:57:01 root:INFO:Nâng cấp Module 4G
+2024-08-05 Monday 16:57:01 root:INFO:True
+2024-08-05 Monday 16:57:08 root:INFO:--------------
+2024-08-05 Monday 16:57:08 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:57:08 root:INFO:Mã - Toolbar19
+2024-08-05 Monday 16:57:08 root:INFO:Tên sự kiện - Gán xe
+2024-08-05 Monday 16:57:08 root:INFO:Kết quả - Chuyển tới trang "Chọn phương tiện gán nhóm"
+2024-08-05 Monday 16:57:08 root:INFO:CHỌN PHƯƠNG TIỆN
+2024-08-05 Monday 16:57:08 root:INFO:True
+2024-08-05 Monday 16:57:14 root:INFO:--------------
+2024-08-05 Monday 16:57:14 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:57:14 root:INFO:Mã - Toolbar20
+2024-08-05 Monday 16:57:14 root:INFO:Tên sự kiện - Đổi kênh camera
+2024-08-05 Monday 16:57:14 root:INFO:Kết quả - Chuyển tới trang "Đổi kênh camera"
+2024-08-05 Monday 16:57:14 root:INFO:ĐỔI TÊN KÊNH CAMERA
+2024-08-05 Monday 16:57:14 root:INFO:True
+2024-08-05 Monday 16:57:20 root:INFO:--------------
+2024-08-05 Monday 16:57:20 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:57:20 root:INFO:Mã - Toolbar21
+2024-08-05 Monday 16:57:20 root:INFO:Tên sự kiện - Tải video
+2024-08-05 Monday 16:57:20 root:INFO:Kết quả - Chuyển tới trang "Xem lại video"
+2024-08-05 Monday 16:57:21 root:INFO:XEM LẠI VIDEO - TỔNG QUAN
+2024-08-05 Monday 16:57:21 root:INFO:True
+2024-08-05 Monday 16:57:27 root:INFO:--------------
+2024-08-05 Monday 16:57:27 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng - Theo dõi phản hồi
+2024-08-05 Monday 16:57:27 root:INFO:Mã - Toolbar22
+2024-08-05 Monday 16:57:27 root:INFO:Tên sự kiện - Theo dõi phản hồi - Chờ xử lý
+2024-08-05 Monday 16:57:27 root:INFO:Kết quả - Các phản hồi có trạng thái "Chờ xử lý"
+2024-08-05 Monday 16:57:27 root:INFO:True
+2024-08-05 Monday 16:57:31 root:INFO:--------------
+2024-08-05 Monday 16:57:31 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng - Theo dõi phản hồi
+2024-08-05 Monday 16:57:31 root:INFO:Mã - Toolbar23
+2024-08-05 Monday 16:57:31 root:INFO:Tên sự kiện - Theo dõi phản hồi - Đang xử lý
+2024-08-05 Monday 16:57:31 root:INFO:Kết quả - Các phản hồi có trạng thái "Đang xử lý"
+2024-08-05 Monday 16:57:31 root:INFO:True
+2024-08-05 Monday 16:57:35 root:INFO:--------------
+2024-08-05 Monday 16:57:35 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng - Theo dõi phản hồi
+2024-08-05 Monday 16:57:35 root:INFO:Mã - Toolbar24
+2024-08-05 Monday 16:57:35 root:INFO:Tên sự kiện - Theo dõi phản hồi - Hoàn thành
+2024-08-05 Monday 16:57:35 root:INFO:Kết quả - Các phản hồi có trạng thái "Hoàn thành"
+2024-08-05 Monday 16:57:35 root:INFO:True
+2024-08-05 Monday 16:57:38 root:INFO:--------------
+2024-08-05 Monday 16:57:38 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng - Theo dõi phản hồi
+2024-08-05 Monday 16:57:38 root:INFO:Mã - Toolbar25
+2024-08-05 Monday 16:57:38 root:INFO:Tên sự kiện - Theo dõi phản hồi - Tìm kiếm phương tiện
+2024-08-05 Monday 16:57:38 root:INFO:Kết quả - Tìm kiêm phương tiện
+2024-08-05 Monday 16:57:38 root:INFO:True
+2024-08-05 Monday 16:57:42 root:INFO:--------------
+2024-08-05 Monday 16:57:42 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng
+2024-08-05 Monday 16:57:42 root:INFO:Mã - Toolbar26
+2024-08-05 Monday 16:57:42 root:INFO:Tên sự kiện - Theo dõi phản hồi - Bộ lọc
+2024-08-05 Monday 16:57:42 root:INFO:Kết quả - Mở popup "Bộ lọc tìm kiếm"
+2024-08-05 Monday 16:57:42 root:INFO:--------------
+2024-08-05 Monday 16:57:42 root:INFO:Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng - Theo dõi phản hồi
+2024-08-05 Monday 16:57:42 root:INFO:Mã - Toolbar26
+2024-08-05 Monday 16:57:42 root:INFO:Tên sự kiện - Theo dõi phản hồi - Bộ lọc
+2024-08-05 Monday 16:57:42 root:INFO:Kết quả - Mở popup "Bộ lọc tìm kiếm"
+2024-08-05 Monday 16:57:42 root:INFO:BỘ LỌC TÌM KIẾM
+2024-08-05 Monday 16:57:42 root:INFO:True
+2024-08-05 Monday 16:57:51 root:INFO:--------------
+2024-08-05 Monday 16:57:51 root:INFO:Trang Chủ - Thanh công cụ - icon SOS
+2024-08-05 Monday 16:57:51 root:INFO:Mã - Toolbar27
+2024-08-05 Monday 16:57:51 root:INFO:Tên sự kiện - Chọn icon "SOS"
+2024-08-05 Monday 16:57:51 root:INFO:Kết quả - Chuyển tới trang "Chọn phương tiện"
+2024-08-05 Monday 16:57:51 root:INFO:CHỌN PHƯƠNG TIỆN
+2024-08-05 Monday 16:57:51 root:INFO:True
+2024-08-05 Monday 16:57:55 root:INFO:--------------
+2024-08-05 Monday 16:57:55 root:INFO:Trang Chủ - Thanh công cụ - icon SOS
+2024-08-05 Monday 16:57:55 root:INFO:Mã - Toolbar28
+2024-08-05 Monday 16:57:55 root:INFO:Tên sự kiện - Gửi SOS
+2024-08-05 Monday 16:57:55 root:INFO:Kết quả - Mở Popup "Bạn có muốn gửi cảnh báo SOS không"
+2024-08-05 Monday 16:57:55 root:INFO:Bạn có muốn gửi cảnh báo SOS không ?
+2024-08-05 Monday 16:57:55 root:INFO:True
+2024-08-05 Monday 16:58:02 root:INFO:--------------
+2024-08-05 Monday 16:58:02 root:INFO:Trang Chủ - Yêu thích - Thêm
+2024-08-05 Monday 16:58:02 root:INFO:Mã - Favorite01
+2024-08-05 Monday 16:58:02 root:INFO:Tên sự kiện - Chọn chức năng "Thêm"
+2024-08-05 Monday 16:58:02 root:INFO:Kết quả - Mở popup "Thiết lập mục ưa thích"
+2024-08-05 Monday 16:58:02 root:INFO:THIẾT LẬP MỤC ƯA THÍCH
+2024-08-05 Monday 16:58:02 root:INFO:True
+2024-08-05 Monday 16:58:09 root:INFO:--------------
+2024-08-05 Monday 16:58:09 root:INFO:Phương tiện - Thiết lập mục ưu thích
+2024-08-05 Monday 16:58:09 root:INFO:Mã - Favorite02
+2024-08-05 Monday 16:58:09 root:INFO:Tên sự kiện - Chọn mục yêu thích và Lưu
+2024-08-05 Monday 16:58:09 root:INFO:Kết quả - Hiển message"Lưu mục ưa thích thành công"
+2024-08-05 Monday 16:58:09 root:INFO:Lưu mục ưa thích thành công
+2024-08-05 Monday 16:58:09 root:INFO:True
+2024-08-05 Monday 16:58:13 root:INFO:--------------
+2024-08-05 Monday 16:58:13 root:INFO:Trang Chủ - Yêu thích - Thêm
+2024-08-05 Monday 16:58:13 root:INFO:Mã - Favorite03
+2024-08-05 Monday 16:58:13 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 16:58:13 root:INFO:Kết quả - Hiển thị tính năng đã nhập
+2024-08-05 Monday 16:58:13 root:INFO:Thêm lái xe
+2024-08-05 Monday 16:58:13 root:INFO:True
+2024-08-05 Monday 16:58:24 root:INFO:--------------
+2024-08-05 Monday 16:58:24 root:INFO:Trang chủ - Yêu thích
+2024-08-05 Monday 16:58:24 root:INFO:Mã - Favorite04
+2024-08-05 Monday 16:58:24 root:INFO:Tên sự kiện - Chọn chức năng "Giám sát"
+2024-08-05 Monday 16:58:24 root:INFO:Kết quả - Chuyển tới trang "Giám sát"
+2024-08-05 Monday 16:58:25 root:INFO:Phương tiện
+2024-08-05 Monday 16:58:25 root:INFO:True
+2024-08-05 Monday 16:58:31 root:INFO:--------------
+2024-08-05 Monday 16:58:31 root:INFO:Trang chủ - Yêu thích
+2024-08-05 Monday 16:58:31 root:INFO:Mã - Favorite05
+2024-08-05 Monday 16:58:31 root:INFO:Tên sự kiện - Chọn chức năng "Lộ trình"
+2024-08-05 Monday 16:58:31 root:INFO:Kết quả - Chuyển tới trang "Lộ trình"
+2024-08-05 Monday 16:58:31 root:INFO:Lộ trình
+2024-08-05 Monday 16:58:31 root:INFO:True
+2024-08-05 Monday 16:58:40 root:INFO:--------------
+2024-08-05 Monday 16:58:40 root:INFO:Trang chủ - Hình ảnh camera - Giám sát hình ảnh
+2024-08-05 Monday 16:58:40 root:INFO:Mã - Media01
+2024-08-05 Monday 16:58:40 root:INFO:Tên sự kiện - Chọn chức năng "Giám sát hình ảnh"
+2024-08-05 Monday 16:58:40 root:INFO:Kết quả - Mở popup "Giám sát hình ảnh"
+2024-08-05 Monday 16:58:40 root:INFO:GIÁM SÁT HÌNH ẢNH
+2024-08-05 Monday 16:58:40 root:INFO:True
+2024-08-05 Monday 16:58:47 root:INFO:--------------
+2024-08-05 Monday 16:58:47 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:58:47 root:INFO:Mã - Media02
+2024-08-05 Monday 16:58:47 root:INFO:Tên sự kiện - Tìm kiếm Nhóm
+2024-08-05 Monday 16:58:47 root:INFO:Kết quả - Hiển thị nhóm đã nhập
+2024-08-05 Monday 16:58:47 root:INFO:False
+2024-08-05 Monday 16:58:52 root:INFO:--------------
+2024-08-05 Monday 16:58:52 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:58:52 root:INFO:Mã - Media03
+2024-08-05 Monday 16:58:52 root:INFO:Tên sự kiện - Chọn  nhóm
+2024-08-05 Monday 16:58:52 root:INFO:Kết quả - Hiển thị tất cả phương tiện nhóm đã chọn
+2024-08-05 Monday 16:58:52 root:INFO:True
+2024-08-05 Monday 16:58:59 root:INFO:--------------
+2024-08-05 Monday 16:58:59 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:58:59 root:INFO:Mã - Media04
+2024-08-05 Monday 16:58:59 root:INFO:Tên sự kiện - Sắp xếp ảnh
+2024-08-05 Monday 16:58:59 root:INFO:Kết quả - Hiển thị 1 ảnh và nhiều ảnh
+2024-08-05 Monday 16:58:59 root:INFO:True
+2024-08-05 Monday 16:59:09 root:INFO:--------------
+2024-08-05 Monday 16:59:09 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:09 root:INFO:Mã - Media05
+2024-08-05 Monday 16:59:09 root:INFO:Tên sự kiện - Làm mới
+2024-08-05 Monday 16:59:09 root:INFO:Kết quả - Làm mới ảnh
+2024-08-05 Monday 16:59:09 root:INFO:True
+2024-08-05 Monday 16:59:12 root:INFO:--------------
+2024-08-05 Monday 16:59:12 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:12 root:INFO:Mã - Media06
+2024-08-05 Monday 16:59:12 root:INFO:Tên sự kiện - Icon yêu thích
+2024-08-05 Monday 16:59:12 root:INFO:Kết quả - Phương tiện sẽ hiển thị đầu danh sách
+2024-08-05 Monday 16:59:12 root:INFO:True
+2024-08-05 Monday 16:59:18 root:INFO:--------------
+2024-08-05 Monday 16:59:18 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh_Camera
+2024-08-05 Monday 16:59:18 root:INFO:Mã - Media07
+2024-08-05 Monday 16:59:18 root:INFO:Tên sự kiện - Icon xem tất cả ảnh
+2024-08-05 Monday 16:59:18 root:INFO:Kết quả - Chuyển tới trang "Camera"
+2024-08-05 Monday 16:59:18 root:INFO:CAMERA
+2024-08-05 Monday 16:59:18 root:INFO:True
+2024-08-05 Monday 16:59:26 root:INFO:--------------
+2024-08-05 Monday 16:59:26 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh - Camera - Camera
+2024-08-05 Monday 16:59:26 root:INFO:Mã - Media08
+2024-08-05 Monday 16:59:26 root:INFO:Tên sự kiện - Icon xem tất cả ảnh - Tìm kiếm
+2024-08-05 Monday 16:59:26 root:INFO:Kết quả - Tìm kiếm phương tiện theo droplisst
+2024-08-05 Monday 16:59:27 root:INFO:True
+2024-08-05 Monday 16:59:30 root:INFO:--------------
+2024-08-05 Monday 16:59:30 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh - Camera - Camera
+2024-08-05 Monday 16:59:30 root:INFO:Mã - Media09
+2024-08-05 Monday 16:59:30 root:INFO:Tên sự kiện - Icon xem tất cả ảnh - icon thông báo        
+2024-08-05 Monday 16:59:30 root:INFO:Kết quả - Hiện thông báo"Các xe sử dụng gói cước không tích hợp tính năng xem video sẽ không được hiển thị trên tính năng này"
+2024-08-05 Monday 16:59:31 root:INFO:Các xe sử dụng gói cước không tích hợp tính năng xem video sẽ không được hiển thị trên tính năng này
+2024-08-05 Monday 16:59:31 root:INFO:True
+2024-08-05 Monday 16:59:41 root:INFO:--------------
+2024-08-05 Monday 16:59:41 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:41 root:INFO:Mã - Media10
+2024-08-05 Monday 16:59:41 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 16:59:41 root:INFO:Kết quả - Hiển thị ảnh camera xe đã chọn
+2024-08-05 Monday 16:59:41 root:INFO:True
+2024-08-05 Monday 16:59:47 root:INFO:--------------
+2024-08-05 Monday 16:59:47 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:47 root:INFO:Mã - Media11
+2024-08-05 Monday 16:59:47 root:INFO:Tên sự kiện - Click vào ảnh
+2024-08-05 Monday 16:59:47 root:INFO:Kết quả - Chuyển tới trang "Chi tiết ảnh"
+2024-08-05 Monday 16:59:47 root:INFO:CHI TIẾT ẢNH
+2024-08-05 Monday 16:59:47 root:INFO:True
+2024-08-05 Monday 16:59:49 root:INFO:--------------
+2024-08-05 Monday 16:59:49 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:49 root:INFO:Mã - Media12
+2024-08-05 Monday 16:59:49 root:INFO:Tên sự kiện - Thời gian
+2024-08-05 Monday 16:59:49 root:INFO:Kết quả - None
+2024-08-05 Monday 16:59:49 root:INFO:14:31:17 05/08/2024
+2024-08-05 Monday 16:59:49 root:INFO:True
+2024-08-05 Monday 16:59:50 root:INFO:--------------
+2024-08-05 Monday 16:59:50 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:50 root:INFO:Mã - Media13
+2024-08-05 Monday 16:59:50 root:INFO:Tên sự kiện - Vận tốc
+2024-08-05 Monday 16:59:50 root:INFO:Kết quả - None
+2024-08-05 Monday 16:59:50 root:INFO:0 Km/h
+2024-08-05 Monday 16:59:50 root:INFO:True
+2024-08-05 Monday 16:59:52 root:INFO:--------------
+2024-08-05 Monday 16:59:52 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:52 root:INFO:Mã - Media14
+2024-08-05 Monday 16:59:52 root:INFO:Tên sự kiện - Kênh
+2024-08-05 Monday 16:59:52 root:INFO:Kết quả - None
+2024-08-05 Monday 16:59:52 root:INFO:kênh 2
+2024-08-05 Monday 16:59:52 root:INFO:True
+2024-08-05 Monday 16:59:53 root:INFO:--------------
+2024-08-05 Monday 16:59:53 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:53 root:INFO:Mã - Media15
+2024-08-05 Monday 16:59:53 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-05 Monday 16:59:53 root:INFO:Kết quả - None
+2024-08-05 Monday 16:59:54 root:INFO:Số 2, P. Hòa Thọ Tây, Q. Cẩm Lệ, TP. Đà Nẵng
+2024-08-05 Monday 16:59:54 root:INFO:True
+2024-08-05 Monday 16:59:54 root:INFO:--------------
+2024-08-05 Monday 16:59:54 root:INFO:Trang chủ - Hình ảnh, video - Giám sát hình ảnh
+2024-08-05 Monday 16:59:54 root:INFO:Mã - Media16
+2024-08-05 Monday 16:59:54 root:INFO:Tên sự kiện - Biển số
+2024-08-05 Monday 16:59:54 root:INFO:Kết quả - None
+2024-08-05 Monday 16:59:54 root:INFO:43C06120_C
+2024-08-05 Monday 16:59:54 root:INFO:True
+2024-08-05 Monday 17:00:05 root:INFO:--------------
+2024-08-05 Monday 17:00:05 root:INFO:Trang chủ - Hình ảnh video - Giám sát hình ảnh
+2024-08-05 Monday 17:00:05 root:INFO:Mã - Media17
+2024-08-05 Monday 17:00:05 root:INFO:Tên sự kiện - Chọn chức năng "Giám sát camera"
+2024-08-05 Monday 17:00:05 root:INFO:Kết quả - Mở popup "Giám sát nhiều camera"
+2024-08-05 Monday 17:00:05 root:INFO:GIÁM SÁT NHIỀU CAMERA
+2024-08-05 Monday 17:00:05 root:INFO:True
+2024-08-05 Monday 17:00:15 root:INFO:--------------
+2024-08-05 Monday 17:00:15 root:INFO:Trang chủ - Giám sát camera
+2024-08-05 Monday 17:00:15 root:INFO:Mã - Media18
+2024-08-05 Monday 17:00:15 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 17:00:15 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:15 root:INFO:43C01338_C
+2024-08-05 Monday 17:00:15 root:INFO:True
+2024-08-05 Monday 17:00:16 root:INFO:--------------
+2024-08-05 Monday 17:00:16 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-05 Monday 17:00:16 root:INFO:Mã - Media19
+2024-08-05 Monday 17:00:16 root:INFO:Tên sự kiện - Biển số xe
+2024-08-05 Monday 17:00:16 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:17 root:INFO:43C01338_C
+2024-08-05 Monday 17:00:17 root:INFO:True
+2024-08-05 Monday 17:00:18 root:INFO:--------------
+2024-08-05 Monday 17:00:18 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-05 Monday 17:00:18 root:INFO:Mã - Media20
+2024-08-05 Monday 17:00:18 root:INFO:Tên sự kiện - Kênh
+2024-08-05 Monday 17:00:18 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:18 root:INFO:Kênh 1
+2024-08-05 Monday 17:00:18 root:INFO:True
+2024-08-05 Monday 17:00:20 root:INFO:--------------
+2024-08-05 Monday 17:00:20 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-05 Monday 17:00:20 root:INFO:Mã - Media21
+2024-08-05 Monday 17:00:20 root:INFO:Tên sự kiện - Thời gian
+2024-08-05 Monday 17:00:20 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:20 root:INFO:05/08/2024 17:00:14
+2024-08-05 Monday 17:00:20 root:INFO:True
+2024-08-05 Monday 17:00:21 root:INFO:--------------
+2024-08-05 Monday 17:00:21 root:INFO:Trang chủ - Giám sát nhiều camera - Check thông tin xe
+2024-08-05 Monday 17:00:21 root:INFO:Mã - Media22
+2024-08-05 Monday 17:00:21 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-05 Monday 17:00:21 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:22 root:INFO:Nguyễn Hoàng, P. An Sơn, TP. Tam Kỳ, Quảng Nam
+2024-08-05 Monday 17:00:22 root:INFO:True
+2024-08-05 Monday 17:00:25 root:INFO:--------------
+2024-08-05 Monday 17:00:25 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:25 root:INFO:Mã - Media23
+2024-08-05 Monday 17:00:25 root:INFO:Tên sự kiện - Icon tạm dừng
+2024-08-05 Monday 17:00:25 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:25 root:INFO:False
+2024-08-05 Monday 17:00:28 root:INFO:--------------
+2024-08-05 Monday 17:00:28 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:28 root:INFO:Mã - Media24
+2024-08-05 Monday 17:00:28 root:INFO:Tên sự kiện - Icon Tắt/Bật tiếng
+2024-08-05 Monday 17:00:28 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:28 root:INFO:False
+2024-08-05 Monday 17:00:31 root:INFO:--------------
+2024-08-05 Monday 17:00:31 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:31 root:INFO:Mã - Media25
+2024-08-05 Monday 17:00:31 root:INFO:Tên sự kiện - Icon chụp ảnh
+2024-08-05 Monday 17:00:31 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:31 root:INFO:True
+2024-08-05 Monday 17:00:34 root:INFO:--------------
+2024-08-05 Monday 17:00:34 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:34 root:INFO:Mã - Media26
+2024-08-05 Monday 17:00:34 root:INFO:Tên sự kiện - Icon xem toàn màn hình
+2024-08-05 Monday 17:00:34 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:34 root:INFO:True
+2024-08-05 Monday 17:00:36 root:INFO:--------------
+2024-08-05 Monday 17:00:36 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:36 root:INFO:Mã - Media27
+2024-08-05 Monday 17:00:36 root:INFO:Tên sự kiện - Icon xoay màn hình
+2024-08-05 Monday 17:00:36 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:36 root:INFO:True
+2024-08-05 Monday 17:00:40 root:INFO:--------------
+2024-08-05 Monday 17:00:40 root:INFO:Trang chủ - Giám sát camera - Check icon chức năng camera
+2024-08-05 Monday 17:00:40 root:INFO:Mã - Media28
+2024-08-05 Monday 17:00:40 root:INFO:Tên sự kiện - Icon thoát camera
+2024-08-05 Monday 17:00:40 root:INFO:Kết quả - None
+2024-08-05 Monday 17:00:40 root:INFO:Bạn thực sự muốn xóa kênh camera đang xem này không?
+2024-08-05 Monday 17:00:40 root:INFO:True
+2024-08-05 Monday 17:00:50 root:INFO:--------------
+2024-08-05 Monday 17:00:50 root:INFO:Trang chủ - Giám sát camera
+2024-08-05 Monday 17:00:50 root:INFO:Mã - Media29
+2024-08-05 Monday 17:00:50 root:INFO:Tên sự kiện - icon thêm camera
+2024-08-05 Monday 17:00:50 root:INFO:Kết quả - Chuyển tới trang "Thêm camera"
+2024-08-05 Monday 17:00:50 root:INFO:THÊM CAMERA
+2024-08-05 Monday 17:00:50 root:INFO:True
+2024-08-05 Monday 17:01:02 root:INFO:--------------
+2024-08-05 Monday 17:01:02 root:INFO:Trang chủ - Hình ảnh, video - Giám sát camera - Thêm camera
+2024-08-05 Monday 17:01:02 root:INFO:Mã - Media30
+2024-08-05 Monday 17:01:02 root:INFO:Tên sự kiện - Tìm kiếm và chọn kênh 1,2
+2024-08-05 Monday 17:01:02 root:INFO:Kết quả - Hiển thị Phương tiện đã nhập, Chuyển tới kênh đã chọn 
+2024-08-05 Monday 17:01:02 root:INFO:43C01338_C
+2024-08-05 Monday 17:01:02 root:INFO:True
+2024-08-05 Monday 17:01:10 root:INFO:--------------
+2024-08-05 Monday 17:01:10 root:INFO:Trang chủ - Giám sát camera - Thêm camera
+2024-08-05 Monday 17:01:10 root:INFO:Mã - Media31
+2024-08-05 Monday 17:01:10 root:INFO:Tên sự kiện - Chỉ hiện thị các phương tiện đang bật camera
+2024-08-05 Monday 17:01:10 root:INFO:Kết quả - None
+2024-08-05 Monday 17:01:10 root:INFO:ON
+2024-08-05 Monday 17:01:10 root:INFO:True
+2024-08-05 Monday 17:01:18 root:INFO:--------------
+2024-08-05 Monday 17:01:18 root:INFO:Trang chủ - Giám sát camera - Thêm camera
+2024-08-05 Monday 17:01:18 root:INFO:Mã - Media32
+2024-08-05 Monday 17:01:18 root:INFO:Tên sự kiện - Đặt lại
+2024-08-05 Monday 17:01:18 root:INFO:Kết quả - Xóa các kênh camera đã chọn trước đó
+2024-08-05 Monday 17:01:18 root:INFO:False
+2024-08-05 Monday 17:01:34 root:INFO:--------------
+2024-08-05 Monday 17:01:34 root:INFO:Trang chủ - Xem lại video - Tổng quan
+2024-08-05 Monday 17:01:34 root:INFO:Mã - Media33
+2024-08-05 Monday 17:01:34 root:INFO:Tên sự kiện - Chọn chức năng "Xem lại video - Tổng quan"
+2024-08-05 Monday 17:01:34 root:INFO:Kết quả - Chuyển tới trang "XEM LẠI VIDEO - TỔNG QUAN"
+2024-08-05 Monday 17:01:34 root:INFO:XEM LẠI VIDEO - TỔNG QUAN
+2024-08-05 Monday 17:01:34 root:INFO:True
+2024-08-05 Monday 17:01:44 root:INFO:--------------
+2024-08-05 Monday 17:01:44 root:INFO:Trang chủ - Xem lại video - Tổng quan
+2024-08-05 Monday 17:01:44 root:INFO:Mã - Media34
+2024-08-05 Monday 17:01:44 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 17:01:44 root:INFO:Kết quả - Hiển thị Phương tiện đã nhập
+2024-08-05 Monday 17:01:45 root:INFO:43C01338_C, 43C01339_C, 43C01340_C, 43C03401_C, 43C03402_C, 43C03880_C, 43C05815_C, 43C06120_C, 43C06147_C, 43C07724_C, 43C07914_C, 43C06100_C
+2024-08-05 Monday 17:01:45 root:INFO:True
+2024-08-05 Monday 17:01:49 root:INFO:--------------
+2024-08-05 Monday 17:01:49 root:INFO:Trang chủ - Xem lại video - Tổng quan
+2024-08-05 Monday 17:01:49 root:INFO:Mã - Media35
+2024-08-05 Monday 17:01:49 root:INFO:Tên sự kiện - Chọn "thời gian có video"
+2024-08-05 Monday 17:01:49 root:INFO:Kết quả - Chuyển tới trang "Xem lại video"
+2024-08-05 Monday 17:01:49 root:INFO:XEM LẠI VIDEO
+2024-08-05 Monday 17:01:49 root:INFO:True
+2024-08-05 Monday 17:02:00 root:INFO:--------------
+2024-08-05 Monday 17:02:00 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:02:00 root:INFO:Mã - Media36
+2024-08-05 Monday 17:02:00 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 17:02:02 root:INFO:True
+2024-08-05 Monday 17:02:06 root:INFO:--------------
+2024-08-05 Monday 17:02:06 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:02:06 root:INFO:Mã - Media37
+2024-08-05 Monday 17:02:06 root:INFO:Tên sự kiện - Xem nhiều kênh của phương tiện
+2024-08-05 Monday 17:02:06 root:INFO:Kết quả - Chuyển tới trang "Xem lại nhiều video"
+2024-08-05 Monday 17:02:06 root:INFO:XEM LẠI VIDEO - TỔNG QUAN
+2024-08-05 Monday 17:02:06 root:INFO:True
+2024-08-05 Monday 17:02:09 root:INFO:--------------
+2024-08-05 Monday 17:02:09 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:02:09 root:INFO:Mã - Media38
+2024-08-05 Monday 17:02:09 root:INFO:Tên sự kiện - Icon "Chọn kênh"
+2024-08-05 Monday 17:02:09 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:10 root:INFO:XEM LẠI VIDEO
+2024-08-05 Monday 17:02:10 root:INFO:True
+2024-08-05 Monday 17:02:13 root:INFO:--------------
+2024-08-05 Monday 17:02:13 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện
+2024-08-05 Monday 17:02:13 root:INFO:Mã - Media39
+2024-08-05 Monday 17:02:13 root:INFO:Tên sự kiện - Checkbox Phát tự động theo kênh
+2024-08-05 Monday 17:02:13 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:19 root:INFO:True
+2024-08-05 Monday 17:02:21 root:INFO:--------------
+2024-08-05 Monday 17:02:21 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện
+2024-08-05 Monday 17:02:21 root:INFO:Mã - Media40
+2024-08-05 Monday 17:02:21 root:INFO:Tên sự kiện - Biển số xe
+2024-08-05 Monday 17:02:21 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:21 root:INFO:43C01338_C
+2024-08-05 Monday 17:02:21 root:INFO:True
+2024-08-05 Monday 17:02:23 root:INFO:--------------
+2024-08-05 Monday 17:02:23 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện
+2024-08-05 Monday 17:02:23 root:INFO:Mã - Media41
+2024-08-05 Monday 17:02:23 root:INFO:Tên sự kiện - Thời gian cập nhật
+2024-08-05 Monday 17:02:23 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:23 root:INFO:10:24 - 10:27 05/08/2024
+2024-08-05 Monday 17:02:23 root:INFO:True
+2024-08-05 Monday 17:02:24 root:INFO:--------------
+2024-08-05 Monday 17:02:24 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Xem nhiều kênh của phương tiện
+2024-08-05 Monday 17:02:24 root:INFO:Mã - Media42
+2024-08-05 Monday 17:02:24 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-05 Monday 17:02:24 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:25 root:INFO:Cầu Tam Kỳ, X. Tam Xuân 1, H. Núi Thành, Quảng Nam
+2024-08-05 Monday 17:02:25 root:INFO:True
+2024-08-05 Monday 17:02:32 root:INFO:--------------
+2024-08-05 Monday 17:02:32 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:02:32 root:INFO:Mã - Media43
+2024-08-05 Monday 17:02:32 root:INFO:Tên sự kiện - Click vào video
+2024-08-05 Monday 17:02:32 root:INFO:Kết quả - Từ trang "XEM LẠI VIDEO(xem thiết bị)" click vào video => Chuyển tới trang "XEM LẠI VIDEO- TỔNG QUAN"
+2024-08-05 Monday 17:02:33 root:INFO:XEM LẠI VIDEO - TỔNG QUAN
+2024-08-05 Monday 17:02:33 root:INFO:True
+2024-08-05 Monday 17:02:36 root:INFO:--------------
+2024-08-05 Monday 17:02:36 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video
+2024-08-05 Monday 17:02:36 root:INFO:Mã - Media44
+2024-08-05 Monday 17:02:36 root:INFO:Tên sự kiện - Icon tạm dừng
+2024-08-05 Monday 17:02:36 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:36 root:INFO:False
+2024-08-05 Monday 17:02:39 root:INFO:--------------
+2024-08-05 Monday 17:02:39 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video
+2024-08-05 Monday 17:02:40 root:INFO:Mã - Media45
+2024-08-05 Monday 17:02:40 root:INFO:Tên sự kiện - Icon Tắt/Bật tiếng
+2024-08-05 Monday 17:02:40 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:40 root:INFO:False
+2024-08-05 Monday 17:02:43 root:INFO:--------------
+2024-08-05 Monday 17:02:43 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video
+2024-08-05 Monday 17:02:43 root:INFO:Mã - Media46
+2024-08-05 Monday 17:02:43 root:INFO:Tên sự kiện - Icon chụp ảnh
+2024-08-05 Monday 17:02:43 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:43 root:INFO:True
+2024-08-05 Monday 17:02:47 root:INFO:--------------
+2024-08-05 Monday 17:02:47 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video
+2024-08-05 Monday 17:02:47 root:INFO:Mã - Media47
+2024-08-05 Monday 17:02:47 root:INFO:Tên sự kiện - Icon xem toàn màn hình
+2024-08-05 Monday 17:02:47 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:47 root:INFO:True
+2024-08-05 Monday 17:02:51 root:INFO:--------------
+2024-08-05 Monday 17:02:51 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vào video
+2024-08-05 Monday 17:02:51 root:INFO:Mã - Media48
+2024-08-05 Monday 17:02:51 root:INFO:Tên sự kiện - Icon tải về cloud
+2024-08-05 Monday 17:02:51 root:INFO:Kết quả - Chuyển tới trang "TẢI VỀ SERVER"
+2024-08-05 Monday 17:02:51 root:INFO:TẢI VỀ SERVER
+2024-08-05 Monday 17:02:51 root:INFO:True
+2024-08-05 Monday 17:02:54 root:INFO:--------------
+2024-08-05 Monday 17:02:54 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vo video
+2024-08-05 Monday 17:02:54 root:INFO:Mã - Media49
+2024-08-05 Monday 17:02:54 root:INFO:Tên sự kiện - Biển số xe
+2024-08-05 Monday 17:02:54 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:55 root:INFO:43C01338_C
+2024-08-05 Monday 17:02:55 root:INFO:True
+2024-08-05 Monday 17:02:56 root:INFO:--------------
+2024-08-05 Monday 17:02:56 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vo video
+2024-08-05 Monday 17:02:56 root:INFO:Mã - Media50
+2024-08-05 Monday 17:02:56 root:INFO:Tên sự kiện - Thời gian cập nhật
+2024-08-05 Monday 17:02:56 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:56 root:INFO:10:24 - 10:27 05/08/2024
+2024-08-05 Monday 17:02:56 root:INFO:True
+2024-08-05 Monday 17:02:58 root:INFO:--------------
+2024-08-05 Monday 17:02:58 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vo video
+2024-08-05 Monday 17:02:58 root:INFO:Mã - Media51
+2024-08-05 Monday 17:02:58 root:INFO:Tên sự kiện - Địa chỉ
+2024-08-05 Monday 17:02:58 root:INFO:Kết quả - None
+2024-08-05 Monday 17:02:58 root:INFO:Quốc Lộ 1A, X. Tam Xuân 1, H. Núi Thành, Quảng Nam
+2024-08-05 Monday 17:02:58 root:INFO:True
+2024-08-05 Monday 17:02:59 root:INFO:--------------
+2024-08-05 Monday 17:02:59 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị - Click vo video
+2024-08-05 Monday 17:02:59 root:INFO:Mã - Media52
+2024-08-05 Monday 17:02:59 root:INFO:Tên sự kiện - Kênh
+2024-08-05 Monday 17:02:59 root:INFO:Kết quả - None
+2024-08-05 Monday 17:03:00 root:INFO:Kênh 1
+2024-08-05 Monday 17:03:00 root:INFO:True
+2024-08-05 Monday 17:03:06 root:INFO:--------------
+2024-08-05 Monday 17:03:06 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:03:06 root:INFO:Mã - Media53
+2024-08-05 Monday 17:03:06 root:INFO:Tên sự kiện - Icon tải về cloud
+2024-08-05 Monday 17:03:06 root:INFO:Kết quả - None
+2024-08-05 Monday 17:03:06 root:INFO:TẢI VỀ SERVER
+2024-08-05 Monday 17:03:06 root:INFO:True
+2024-08-05 Monday 17:03:23 root:INFO:--------------
+2024-08-05 Monday 17:03:23 root:INFO:Trang chủ - Xem lại video - Tổng quan - Xem thiết bị
+2024-08-05 Monday 17:03:23 root:INFO:Mã - Media54
+2024-08-05 Monday 17:03:23 root:INFO:Tên sự kiện - Tìm kiếm
+2024-08-05 Monday 17:03:23 root:INFO:True

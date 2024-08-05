@@ -286,7 +286,7 @@ class login:
         var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.bagps).click()
-            time.sleep(7)
+            time.sleep(4)
         except:
             pass
         var_app.driver.implicitly_wait(5)
@@ -337,11 +337,7 @@ class login:
         var_app.driver.find_element(by=AppiumBy.XPATH, value=var_app.login_buttonlogin).click()
         time.sleep(3)
         other_function.delete_nofitication(self)
-        # try:
-        #     var_app.driver.find_element(By.XPATH, var_app.info_fee_iconx).click()
-        #     time.sleep(1)
-        # except:
-        #     pass
+
 
 class other_function:
 

@@ -40,7 +40,11 @@ def move_module(self, code, eventname, result, link, startX, startY, endX, endY,
         var_app.driver.find_element(By.XPATH, var_app.homepage).click()
     except:
         login_app.login.check_logout1(self, "43E02740", "43E02740", "12341234")
-        var_app.driver.find_element(By.XPATH, var_app.homepage).click()
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.homepage).click()
+        except:
+            login_app.login.login_v3(self, "43E02740", "12341234")
+            var_app.driver.find_element(By.XPATH, var_app.homepage).click()
     time.sleep(1)
     minitor_app.scroll_and_click(startX, startY, endX, endY, duration, link)
     time.sleep(2)

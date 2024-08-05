@@ -1668,6 +1668,7 @@ class affiliate_link:
 
 
 
+
     @retry(tries=2, delay=2, backoff=1, jitter=5, )
     def affiliate_link_detail(self, code, eventname, result, startX, startY, endX, endY, duration,
                               link, link_iconx, path_check, desire, path_image):
@@ -1703,9 +1704,13 @@ class affiliate_link:
 
 
         var_app.driver.implicitly_wait(1)
-        scroll_and_click(startX, startY, endX, endY, duration, link)
-        # module_other_app.write_result_text_try_if(code, eventname, result,
-        #                                           "Giám sát - đi tới link liên kết click vào xe", path_check, desire, path_image)
+        try:
+            scroll_and_click(startX, startY, endX, endY, duration, link)
+        except:
+            var_app.driver.find_element(By.XPATH, var_app.icon_up).click()
+            var_app.driver.find_element(By.XPATH, link_iconx).click()
+            time.sleep(1.5)
+
 
         if code == "Minitor170":
             module_other_app.write_result_displayed_try(code, eventname, result, "Giám sát - đi tới link liên kết click vào xe",
