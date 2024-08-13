@@ -7,8 +7,7 @@ import var_app
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import logging
-
-
+from retry import retry
 
 
 
@@ -23,17 +22,67 @@ def clear_log():
 
 
 
+
+
+@retry(tries=3, delay=2, backoff=1, jitter=5, )
+def close_app():
+    var_app.driver.implicitly_wait(1)
+    #pip3 install pynput
+    from pynput.keyboard import Key, Controller
+    keyboard = Controller()
+    time.sleep(1)
+    try:
+        var_app.driver.find_element(By.XPATH, var_app.close_app).click()
+        time.sleep(1)
+    except:
+        pass
+
+    # var_app.driver.find_element(By.XPATH, var_app.check_home)
+    keyboard.press(Key.f2)
+    time.sleep(1.2)
+    try:
+        var_app.driver.swipe(420, 200, 420, 1350, 300)
+    except:
+        keyboard.press(Key.f2)
+        time.sleep(1.2)
+        try:
+            var_app.driver.swipe(420, 200, 420, 1350, 300)
+        except:
+            pass
+
+    time.sleep(0.5)
+    try:
+        var_app.driver.find_element(By.XPATH, var_app.CLEAR_ALL).click()
+    except:
+        var_app.driver.press_keycode(4)
+    time.sleep(1.5)
+    print("Đã đóng app")
+
+
+
+
+def fake_ip():
+    from faker import Faker
+    from faker.providers import internet
+    fake = Faker()
+    fake.add_provider(internet)
+    print(fake.ipv4_private())
+
+
+
+
+
 def timerun():
     while True:
         time.sleep(3)
         timerun = time.strftime("%H:%M:%S", time.localtime())
         print("Thời gian hiện tại:", timerun)
         print("Thời gian chạy tool:", var_app.timerun)
-        writeData(var_app.path_luutamthoi, "Sheet1", 47, 2, timerun)
+        writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, timerun)
         if var_app.timerun == "":
-            writeData(var_app.path_luutamthoi, "Sheet1", 47, 2, timerun)
+            writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, timerun)
         else:
-            writeData(var_app.path_luutamthoi, "Sheet1", 47, 2, var_app.timerun)
+            writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, var_app.timerun)
 
 
         if var_app.timerun == time.strftime("%H:%M", time.localtime()):
@@ -110,9 +159,12 @@ def writeData1(file,sheetName,rowum,columnno,data):
 
 
 
+
 def notification_telegram():
-    from DrissionPage import ChromiumPage
-    driver2 = ChromiumPage()
+    from DrissionPage import ChromiumPage, ChromiumOptions
+    do1 = ChromiumOptions().set_paths(local_port=9201, user_data_path=r""+var_app.uploadpath+"Profile 30""")
+    driver2 = ChromiumPage(addr_or_opts=do1)
+
     wordbook = openpyxl.load_workbook(var_app.checklistpath)
     sheet = wordbook.get_sheet_by_name("Checklist")
     case_pass = 0
@@ -198,25 +250,26 @@ def get_datachecklist(ma):
 
 def write_caseif():
     n = 0
-    while (n < 84):
+    while (n < 36):
         var_app.driver.implicitly_wait(1)
         n += 1
         n = str(n)
-        print("try:\n   if case == 'Minitor"+n+"':\n       caseid_app.caseid_minitor"+n+"(self)\nexcept:\n    pass")
+        print("try:\n   if case == 'Utilities"+n+"':\n       caseid_app.caseid_utilities"+n+"(self)\nexcept:\n    module_other_app.close_app()")
         n = int(n)
 
 
 
 
 def write_caseif1():
-    n = 0
-    while (n < 84):
+    n = 1
+    while (n < 36):
         var_app.driver.implicitly_wait(1)
         n += 1
         n = str(n)
-        print("try:\n   caseid_app.caseid_minitor"+n+"(self)\nexcept:\n     pass")
+        print("try:\n   caseid_app.caseid_utilities"+n+"(self)\nexcept:\n     module_other_app.close_app()")
         n = int(n)
         
+
 
 
 def write_caseif2():

@@ -1,16 +1,13 @@
 import login_app
 import module_other_app
 import route
-import vehicle
 import var_app
 import minitor_app
-import time
-from appium.webdriver.common.appiumby import AppiumBy
 import homepage_app
 import image_video_app
 from retry import retry
-
-
+import report_app
+import utilities
 
 import vehicle
 
@@ -2169,7 +2166,7 @@ def caseid_media24(self):
     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
     image_video_app.image_video.camera_monitoring_check_icon(self, "Media24", eventname, result,
-                                                          var_app.camera_icon_volumn, "False", "_TrangChu_GiamSatCamera_IconAmThanh.png")
+                                                          var_app.camera_icon_volumn, "True", "_TrangChu_GiamSatCamera_IconAmThanh.png")
 
 def caseid_media25(self):
     module_other_app.get_datachecklist("Media25")
@@ -2322,7 +2319,7 @@ def caseid_media45(self):
     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
     image_video_app.image_video.see_again_video_see_again_video_iconn(self, "Media45", eventname, result,
-                                                                      var_app.see_again_video_icon_volume, "False",
+                                                                      var_app.see_again_video_icon_volume, "True",
                                                                       "_TrangChu_XemLaiVideo_XemThietBi_ClickVideo_IconAmThanh.png")
 
 def caseid_media46(self):
@@ -2390,6 +2387,1717 @@ def caseid_media54(self):
     eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
     result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
     image_video_app.image_video.see_again_video_dowload_and_cloud_search(self, "Media54", eventname, result)
+
+
+
+def caseid_media55(self):
+    module_other_app.get_datachecklist("Media55")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Media55", eventname, result, var_app.see_nd10, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Xem ảnh Camera - NĐ10", var_app.check_see_nd10,
+                                                         "CAMERA", "_TrangChu_XemAnhCamera.png")
+    except:
+        image_video_app.image_video.see_again_video_back(self)
+        image_video_app.image_video.see_image_camera_back(self)
+        homepage_app.move_module(self, "Media55", eventname, result, var_app.see_nd10, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Xem ảnh Camera - NĐ10", var_app.check_see_nd10,
+                                                         "CAMERA", "_TrangChu_XemAnhCamera.png")
+
+
+
+def caseid_media56(self):
+    module_other_app.get_datachecklist("Media56")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_search(self, "Media56", eventname, result)
+
+
+def caseid_media57(self):
+    module_other_app.get_datachecklist("Media57")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_icon_notification(self, "Media57", eventname, result)
+
+def caseid_media58(self):
+    module_other_app.get_datachecklist("Media58")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image(self, "Media58", eventname, result)
+
+def caseid_media59(self):
+    module_other_app.get_datachecklist("Media59")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_detail_vehicle(self, "Media59", eventname, result)
+
+def caseid_media60(self):
+    module_other_app.get_datachecklist("Media60")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_detail(self, "Media60", eventname, result,
+                                                                  var_app.check_see_image_camera_time_update, "",
+                                                                  "_TrangChu_XemAnhCamera_ClickVaoAnh_ThoiGianCapNhat.png")
+def caseid_media61(self):
+    module_other_app.get_datachecklist("Media61")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_detail(self, "Media61", eventname, result,
+                                                                  var_app.check_see_image_camera_speed, "",
+                                                                  "_TrangChu_XemAnhCamera_ClickVaoAnh_VanToc.png")
+def caseid_media62(self):
+    module_other_app.get_datachecklist("Media62")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_detail(self, "Media62", eventname, result,
+                                                                  var_app.check_see_image_camera_channel, "",
+                                                                  "_TrangChu_XemAnhCamera_ClickVaoAnh_Kenh.png")
+def caseid_media63(self):
+    module_other_app.get_datachecklist("Media63")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_detail(self, "Media63", eventname, result,
+                                                                  var_app.check_see_image_camera_address, "",
+                                                                  "_TrangChu_XemAnhCamera_ClickVaoAnh_DiaChi.png")
+def caseid_media64(self):
+    module_other_app.get_datachecklist("Media64")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.see_image_camera_select_image_icon_download(self, "Media64", eventname, result)
+
+def caseid_media65(self):
+    module_other_app.get_datachecklist("Media65")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Media65", eventname, result, var_app.export_video, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Trích xuất video", var_app.check_export_video,
+                                                         "TRÍCH XUẤT DỮ LIỆU", "_TrangChu_TrichXuatVideo.png")
+    except:
+        image_video_app.image_video.export_video_back(self)
+        homepage_app.move_module(self, "Media65", eventname, result, var_app.export_video, 725, 765, 175, 765, 500,
+                                                        "Trang chủ - Trích xuất video", var_app.check_export_video,
+                                                         "TRÍCH XUẤT DỮ LIỆU", "_TrangChu_TrichXuatVideo.png")
+
+def caseid_media66(self):
+    module_other_app.get_datachecklist("Media66")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.export_video_search(self, "Media66", eventname, result)
+
+def caseid_media67(self):
+    module_other_app.get_datachecklist("Media67")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.export_video_Turn_on_wifi(self, "Media67", eventname, result)
+
+def caseid_media68(self):
+    module_other_app.get_datachecklist("Media68")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    image_video_app.image_video.export_video_help(self, "Media68", eventname, result)
+
+
+
+def caseid_report01(self):
+    module_other_app.get_datachecklist("Report01")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report01", eventname, result, var_app.report_stop, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo dừng đỗ", var_app.check_report_stop,
+                                                         "BÁO CÁO DỪNG ĐỖ", "_TrangChu_BaoCaoDungDo.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report01", eventname, result, var_app.report_stop, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo dừng đỗ", var_app.check_report_stop,
+                                                         "BÁO CÁO DỪNG ĐỖ", "_TrangChu_BaoCaoDungDo.png")
+
+
+def caseid_report02(self):
+    module_other_app.get_datachecklist("Report02")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search(self, "Report02", eventname, result)
+
+
+def caseid_report03(self):
+    module_other_app.get_datachecklist("Report03")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report03", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - báo cáo dừng đỗ", "_BaoCao_BaoCaoDungDo_HomNay.png")
+
+def caseid_report04(self):
+    module_other_app.get_datachecklist("Report04")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report04", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - báo cáo dừng đỗ", "_BaoCao_BaoCaoDungDo_7Ngay.png")
+
+def caseid_report05(self):
+    module_other_app.get_datachecklist("Report05")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report05", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - báo cáo dừng đỗ", "_BaoCao_BaoCaoDungDo_15Ngay.png")
+
+def caseid_report06(self):
+    module_other_app.get_datachecklist("Report06")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report06", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - báo cáo dừng đỗ", "_BaoCao_BaoCaoDungDo_Khac.png")
+
+def caseid_report07(self):
+    module_other_app.get_datachecklist("Report07")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_setting(self, "Report07", eventname, result)
+
+def caseid_report08(self):
+    module_other_app.get_datachecklist("Report08")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_filter(self, "Report08", eventname, result)
+
+def caseid_report09(self):
+    module_other_app.get_datachecklist("Report09")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_export_excel(self, "Report09", eventname, result)
+
+def caseid_report10(self):
+    module_other_app.get_datachecklist("Report10")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_detail(self, "Report10", eventname, result, var_app.report_stop_time_stop1,
+                                         "Tổng thời gian dừng đỗ (phút):", "_BaoCao_BaoCaoDungDo_TongThoiGianDungDo1.png")
+
+def caseid_report11(self):
+    module_other_app.get_datachecklist("Report11")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_detail(self, "Report11", eventname, result, var_app.report_stop_time_stop2,
+                                         "Tổng thời gian dừng đỗ:", "_BaoCao_BaoCaoDungDo_TongThoiGianDungDo2.png")
+
+def caseid_report12(self):
+    module_other_app.get_datachecklist("Report12")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_detail(self, "Report12", eventname, result, var_app.report_stop_time3,
+                                         "Tổng thời gian nổ máy khi dừng (phút):", "_BaoCao_BaoCaoDungDo_TongThoiGianNoMayKhiDung.png")
+
+def caseid_report13(self):
+    module_other_app.get_datachecklist("Report13")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_detail(self, "Report13", eventname, result, var_app.report_stop_time4,
+                                         "Tổng thời gian bật điều hòa khi dừng (phút):", "_BaoCao_BaoCaoDungDo_TongThoiGianBatDieuHoa.png")
+
+def caseid_report14(self):
+    module_other_app.get_datachecklist("Report14")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_check_column(self, "Report14", eventname, result)
+
+
+
+def caseid_report15(self):
+    module_other_app.get_datachecklist("Report15")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report15", eventname, result, var_app.detailed_activity_reports, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo chi tiết hoạt động", var_app.check_detailed_activity_reports,
+                                                         "BÁO CÁO CHI TIẾT HOẠT ĐỘNG", "_TrangChu_BaoCaoChiTietHoatDong.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report15", eventname, result, var_app.detailed_activity_reports, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo chi tiết hoạt động", var_app.check_detailed_activity_reports,
+                                                         "BÁO CÁO CHI TIẾT HOẠT ĐỘNG", "_TrangChu_BaoCaoChiTietHoatDong.png")
+
+def caseid_report16(self):
+    module_other_app.get_datachecklist("Report16")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_search(self, "Report16", eventname, result)
+
+def caseid_report17(self):
+    module_other_app.get_datachecklist("Report17")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report17", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chi tiết hoạt động", "_TrangChu_BaoCaoChiTietHoatDong_HomNay.png")
+
+def caseid_report18(self):
+    module_other_app.get_datachecklist("Report18")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report18", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chi tiết hoạt động", "_TrangChu_BaoCaoChiTietHoatDong_7Ngay.png")
+
+def caseid_report19(self):
+    module_other_app.get_datachecklist("Report19")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report19", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chi tiết hoạt động", "_TrangChu_BaoCaoChiTietHoatDong_15Ngay.png")
+
+def caseid_report20(self):
+    module_other_app.get_datachecklist("Report20")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_stop_search_type(self, "Report20", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo chi tiết hoạt động", "_TrangChu_BaoCaoChiTietHoatDong_Khac.png")
+
+def caseid_report21(self):
+    module_other_app.get_datachecklist("Report21")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_setting(self, "Report21", eventname, result)
+
+
+def caseid_report22(self):
+    module_other_app.get_datachecklist("Report22")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_excel(self, "Report22", eventname, result)
+
+
+def caseid_report23(self):
+    module_other_app.get_datachecklist("Report23")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_detail(self, "Report23", eventname, result, var_app.report_detail1,
+                                         "Tổng số lít nhiên liệu tiêu thụ:", "_TrangChu_BaoCaoChiTietHoatDong_TongSoLitNhienLieu.png")
+
+def caseid_report24(self):
+    module_other_app.get_datachecklist("Report24")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_detail(self, "Report24", eventname, result, var_app.report_detail2,
+                                         "Tổng Thời gian hoạt động:", "_TrangChu_BaoCaoChiTietHoatDong_TongThoiGianHoatDong.png")
+
+def caseid_report25(self):
+    module_other_app.get_datachecklist("Report25")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_detail(self, "Report25", eventname, result, var_app.report_detail3,
+                                         "Tổng số Km GPS:", "_TrangChu_BaoCaoChiTietHoatDong_TongSoKmGps.png")
+def caseid_report26(self):
+    module_other_app.get_datachecklist("Report26")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_detail(self, "Report26", eventname, result, var_app.report_detail4,
+                                         "Tổng số Km Cơ:", "_TrangChu_BaoCaoChiTietHoatDong_TongSoKmCo.png")
+
+def caseid_report27(self):
+    module_other_app.get_datachecklist("Report27")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_detail(self, "Report27", eventname, result, var_app.report_detail5,
+                                         "Tổng số định mức nhiên liệu:", "_TrangChu_BaoCaoChiTietHoatDong_TongSoDinhMucNhienLieu.png")
+
+def caseid_report28(self):
+    module_other_app.get_datachecklist("Report28")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detailed_activity_reports_column(self, "Report28", eventname, result)
+
+
+
+
+
+def caseid_report29(self):
+    module_other_app.get_datachecklist("Report29")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report29", eventname, result, var_app.summary_report_of_activities, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tổng hợp hoạt động", var_app.check_summary_report_of_activities,
+                                                         "BÁO CÁO TỔNG HỢP HOẠT ĐỘNG", "_TrangChu_BaoCaoTongHopHoatDong.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report29", eventname, result, var_app.summary_report_of_activities, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tổng hợp hoạt động", var_app.check_summary_report_of_activities,
+                                                         "BÁO CÁO TỔNG HỢP HOẠT ĐỘNG", "_TrangChu_BaoCaoTongHopHoatDong.png")
+
+def caseid_report30(self):
+    module_other_app.get_datachecklist("Report30")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_search(self, "Report30", eventname, result)
+
+
+def caseid_report31(self):
+    module_other_app.get_datachecklist("Report31")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_type(self, "Report31", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp hoạt động", "_TrangChu_BaoCaoTongHopHoatDong_HomNay.png")
+
+def caseid_report32(self):
+    module_other_app.get_datachecklist("Report32")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_type(self, "Report32", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp hoạt động", "_TrangChu_BaoCaoTongHopHoatDong_7Ngay.png")
+
+def caseid_report33(self):
+    module_other_app.get_datachecklist("Report33")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_type(self, "Report33", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp hoạt động", "_TrangChu_BaoCaoTongHopHoatDong_15Ngay.png")
+
+def caseid_report34(self):
+    module_other_app.get_datachecklist("Report34")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_type(self, "Report34", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo tổng hợp hoạt động", "_TrangChu_BaoCaoTongHopHoatDong_Khac.png")
+
+
+def caseid_report35(self):
+    module_other_app.get_datachecklist("Report35")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_setting(self, "Report35", eventname, result)
+
+def caseid_report36(self):
+    module_other_app.get_datachecklist("Report36")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_filter(self, "Report36", eventname, result)
+
+def caseid_report37(self):
+    module_other_app.get_datachecklist("Report37")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_excel(self, "Report37", eventname, result)
+
+def caseid_report38(self):
+    module_other_app.get_datachecklist("Report38")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report38", eventname, result, var_app.report_detail1,
+                                         "Tổng thời gian lăn bánh:", "_TrangChu_BaoCaoTongHopHoatDong_TongThoiGianLanBanh.png")
+
+def caseid_report39(self):
+    module_other_app.get_datachecklist("Report39")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report39", eventname, result, var_app.report_detail2,
+                                         "Tổng Km GPS:", "_TrangChu_BaoCaoTongHopHoatDong_TongKmGps.png")
+
+def caseid_report40(self):
+    module_other_app.get_datachecklist("Report40")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report40", eventname, result, var_app.report_detail3,
+                                         "Tổng Km cơ:", "_TrangChu_BaoCaoTongHopHoatDong_TongKmCo.png")
+
+def caseid_report41(self):
+    module_other_app.get_datachecklist("Report41")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report41", eventname, result, var_app.report_detail4,
+                                         "Tổng số lần dừng đỗ:", "_TrangChu_BaoCaoTongHopHoatDong_TongSoLanDungDo.png")
+
+def caseid_report42(self):
+    module_other_app.get_datachecklist("Report42")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report42", eventname, result, var_app.report_detail5,
+                                         "Tổng số lần dừng đỗ bật điều hòa:", "_TrangChu_BaoCaoTongHopHoatDong_TongSoLanDungDoBatDieuHoa.png")
+
+def caseid_report43(self):
+    module_other_app.get_datachecklist("Report43")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report43", eventname, result, var_app.report_detail6,
+                                         "Trung bình vận tốc cao nhất:", "_TrangChu_BaoCaoTongHopHoatDong_TrungBinhVanTocCaoNhat.png")
+
+def caseid_report44(self):
+    module_other_app.get_datachecklist("Report44")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_detail(self, "Report44", eventname, result, var_app.report_detail7,
+                                         "Trung bình Vận tốc trung bình:", "_TrangChu_BaoCaoTongHopHoatDong_TrungBinhVanTocTrungBinh.png")
+
+
+def caseid_report45(self):
+    module_other_app.get_datachecklist("Report45")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.summary_report_of_activities_column(self, "Report45", eventname, result)
+
+
+
+
+def caseid_report46(self):
+    module_other_app.get_datachecklist("Report46")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report46", eventname, result, var_app.report_entering_and_exiting_the_station, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo ra vào trạm", var_app.check_report_entering_and_exiting_the_station,
+                                                         "BÁO CÁO RA VÀO TRẠM", "_TrangChu_BaoCaoRaVaotram.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report46", eventname, result, var_app.report_entering_and_exiting_the_station, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo ra vào trạm", var_app.check_report_entering_and_exiting_the_station,
+                                                         "BÁO CÁO RA VÀO TRẠM", "_TrangChu_BaoCaoRaVaotram.png")
+
+
+def caseid_report47(self):
+    module_other_app.get_datachecklist("Report47")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_search(self, "Report47", eventname, result)
+
+def caseid_report48(self):
+    module_other_app.get_datachecklist("Report48")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_type(self, "Report48", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo ra vào trạm", "_TrangChu_BaoCaoRaVaotram_HomNay.png")
+
+def caseid_report49(self):
+    module_other_app.get_datachecklist("Report49")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_type(self, "Report49", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo ra vào trạm", "_TrangChu_BaoCaoRaVaotram_7Ngay.png")
+
+def caseid_report50(self):
+    module_other_app.get_datachecklist("Report50")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_type(self, "Report50", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo ra vào trạm", "_TrangChu_BaoCaoRaVaotram_15Ngay.png")
+
+def caseid_report51(self):
+    module_other_app.get_datachecklist("Report51")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_type(self, "Report51", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo ra vào trạm", "_TrangChu_BaoCaoRaVaotram_Khac.png")
+
+def caseid_report52(self):
+    module_other_app.get_datachecklist("Report52")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_setting(self, "Report52", eventname, result)
+
+def caseid_report53(self):
+    module_other_app.get_datachecklist("Report53")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_filter(self, "Report53", eventname, result)
+
+def caseid_report54(self):
+    module_other_app.get_datachecklist("Report54")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_excel(self, "Report54", eventname, result)
+
+
+def caseid_report55(self):
+    module_other_app.get_datachecklist("Report55")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_entering_and_exiting_the_station_column(self, "Report55", eventname, result)
+
+
+
+def caseid_report56(self):
+    module_other_app.get_datachecklist("Report56")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report56", eventname, result, var_app.report_speeding, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo quá tốc độ", var_app.check_report_speeding,
+                                                         "BÁO CÁO QUÁ TỐC ĐỘ", "_TrangChu_BaoCaoQuaTocDo.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report56", eventname, result, var_app.report_speeding, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo quá tốc độ", var_app.check_report_speeding,
+                                                         "BÁO CÁO QUÁ TỐC ĐỘ", "_TrangChu_BaoCaoQuaTocDo.png")
+
+def caseid_report57(self):
+    module_other_app.get_datachecklist("Report57")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_search(self, "Report57", eventname, result)
+
+
+def caseid_report58(self):
+    module_other_app.get_datachecklist("Report58")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_type(self, "Report58", eventname, result, var_app.report_today)
+
+def caseid_report59(self):
+    module_other_app.get_datachecklist("Report59")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_type(self, "Report59", eventname, result, var_app.report_7day)
+
+def caseid_report60(self):
+    module_other_app.get_datachecklist("Report60")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_type(self, "Report60", eventname, result, var_app.report_15day)
+
+def caseid_report61(self):
+    module_other_app.get_datachecklist("Report61")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_type(self, "Report61", eventname, result, var_app.report_other)
+
+def caseid_report62(self):
+    module_other_app.get_datachecklist("Report62")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_setting(self, "Report62", eventname, result,)
+
+def caseid_report63(self):
+    module_other_app.get_datachecklist("Report63")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_filter(self, "Report63", eventname, result,)
+
+def caseid_report64(self):
+    module_other_app.get_datachecklist("Report64")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_speeding_excel(self, "Report64", eventname, result,)
+
+def caseid_report65(self):
+    module_other_app.get_datachecklist("Report65")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report65", eventname, result, var_app.business_trip_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo chuyến kinh doanh", var_app.check_business_trip_report,
+                                                         "BÁO CÁO CHUYẾN KINH DOANH", "_TrangChu_BaoCaoChuyenKinhDoanh.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report65", eventname, result, var_app.business_trip_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo chuyến kinh doanh", var_app.check_business_trip_report,
+                                                         "BÁO CÁO CHUYẾN KINH DOANH", "_TrangChu_BaoCaoChuyenKinhDoanh.png")
+
+
+def caseid_report66(self):
+    module_other_app.get_datachecklist("Report66")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_search(self, "Report66", eventname, result,)
+
+def caseid_report67(self):
+    module_other_app.get_datachecklist("Report67")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_type(self, "Report67", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chuyến kinh doanh", "_TrangChu_BaoCaoChuyenKinhDoanh_HomNay.png")
+
+def caseid_report68(self):
+    module_other_app.get_datachecklist("Report68")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_type(self, "Report68", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chuyến kinh doanh", "_TrangChu_BaoCaoChuyenKinhDoanh_7Ngay.png")
+
+def caseid_report69(self):
+    module_other_app.get_datachecklist("Report69")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_type(self, "Report69", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo chuyến kinh doanh", "_TrangChu_BaoCaoChuyenKinhDoanh_15Ngay.png")
+
+def caseid_report70(self):
+    module_other_app.get_datachecklist("Report70")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_type(self, "Report70", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo chuyến kinh doanh", "_TrangChu_BaoCaoChuyenKinhDoanh_Khac.png")
+
+def caseid_report71(self):
+    module_other_app.get_datachecklist("Report71")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_setting(self, "Report71", eventname, result,)
+
+def caseid_report72(self):
+    module_other_app.get_datachecklist("Report72")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_filter(self, "Report72", eventname, result,)
+
+def caseid_report73(self):
+    module_other_app.get_datachecklist("Report73")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_excel(self, "Report73", eventname, result,)
+
+def caseid_report74(self):
+    module_other_app.get_datachecklist("Report74")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_detail(self, "Report74", eventname, result, var_app.report_detail1,
+                                         "Tổng số phút hoạt động:", "TrangChu_BaoCaoChuyenKinhDoanh_TongSoPhutHoatDong.png")
+
+def caseid_report75(self):
+    module_other_app.get_datachecklist("Report75")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_detail(self, "Report75", eventname, result, var_app.report_detail2,
+                                         "Tổng km GPS:", "TrangChu_BaoCaoChuyenKinhDoanh_TongKmGps.png")
+
+def caseid_report76(self):
+    module_other_app.get_datachecklist("Report76")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_detail(self, "Report76", eventname, result, var_app.report_detail3,
+                                         "Tổng km cơ:", "TrangChu_BaoCaoChuyenKinhDoanh_TongKmCo.png")
+
+def caseid_report77(self):
+    module_other_app.get_datachecklist("Report77")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_detail(self, "Report77", eventname, result, var_app.report_detail4,
+                                         "Tổng NL tiêu thụ:", "TrangChu_BaoCaoChuyenKinhDoanh_TongNhienLieuTieuThu.png")
+
+def caseid_report78(self):
+    module_other_app.get_datachecklist("Report78")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_detail(self, "Report78", eventname, result, var_app.report_detail5,
+                                         "Tổng NL tiêu thụ định mức:", "TrangChu_BaoCaoChuyenKinhDoanh_TongNhienLieuTieuThuDinhMuc.png")
+
+def caseid_report79(self):
+    module_other_app.get_datachecklist("Report79")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.business_trip_report_column(self, "Report79", eventname, result,)
+
+def caseid_report80(self):
+    module_other_app.get_datachecklist("Report80")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report80", eventname, result, var_app.report_loss_of_signal, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo mất tín hiệu", var_app.check_report_loss_of_signal,
+                                                         "BÁO CÁO MẤT TÍN HIỆU", "_TrangChu_BaoCaoMatTinHieu.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report80", eventname, result, var_app.report_loss_of_signal, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo mất tín hiệu", var_app.check_report_loss_of_signal,
+                                                         "BÁO CÁO MẤT TÍN HIỆU", "_TrangChu_BaoCaoMatTinHieu.png")
+
+def caseid_report81(self):
+    module_other_app.get_datachecklist("Report81")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_search(self, "Report81", eventname, result, )
+
+
+
+def caseid_report82(self):
+    module_other_app.get_datachecklist("Report82")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_type(self, "Report82", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo mất tín hiệu", "_TrangChu_BaoCaoMatTinHieu_HomNay.png")
+
+def caseid_report83(self):
+    module_other_app.get_datachecklist("Report83")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_type(self, "Report83", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo mất tín hiệu", "_TrangChu_BaoCaoMatTinHieu_7Ngay.png")
+
+def caseid_report84(self):
+    module_other_app.get_datachecklist("Report84")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_type(self, "Report84", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo mất tín hiệu", "_TrangChu_BaoCaoMatTinHieu_15Ngay.png")
+
+def caseid_report85(self):
+    module_other_app.get_datachecklist("Report85")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_type(self, "Report85", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo mất tín hiệu", "_TrangChu_BaoCaoMatTinHieu_Khac.png")
+
+def caseid_report86(self):
+    module_other_app.get_datachecklist("Report86")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_setting(self, "Report86", eventname, result, )
+
+def caseid_report87(self):
+    module_other_app.get_datachecklist("Report87")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_filter(self, "Report87", eventname, result, )
+
+
+
+def caseid_report88(self):
+    module_other_app.get_datachecklist("Report88")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_excel(self, "Report88", eventname, result)
+
+
+
+def caseid_report89(self):
+    module_other_app.get_datachecklist("Report89")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_detail(self, "Report89", eventname, result, var_app.report_detail1,
+                                         "Tổng thời gian mất tín hiệu:", "_TrangChu_BaoCaoMatTinHieu_TongThoiGianMatTinHieu.png")
+
+def caseid_report90(self):
+    module_other_app.get_datachecklist("Report90")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.report_loss_of_signal_column(self, "Report90", eventname, result)
+
+
+def caseid_report91(self):
+    module_other_app.get_datachecklist("Report91")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report91", eventname, result, var_app.fuel_dump_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo đổ hút nhiên liệu", var_app.check_fuel_dump_report,
+                                                         "BÁO CÁO ĐỔ HÚT NHIÊN LIỆU", "_TrangChu_BaoCaoDoHutNhienLieu.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report91", eventname, result, var_app.fuel_dump_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo đổ hút nhiên liệu", var_app.check_fuel_dump_report,
+                                                         "BÁO CÁO ĐỔ HÚT NHIÊN LIỆU", "_TrangChu_BaoCaoDoHutNhienLieu.png")
+
+
+def caseid_report92(self):
+    module_other_app.get_datachecklist("Report92")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_search(self, "Report92", eventname, result)
+
+
+def caseid_report93(self):
+    module_other_app.get_datachecklist("Report93")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_type(self, "Report93", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo đổ hút nhiên liệu", "_TrangChu_BaoCaoDoHutNhienLieu_HomNay.png")
+
+def caseid_report94(self):
+    module_other_app.get_datachecklist("Report94")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_type(self, "Report94", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo đổ hút nhiên liệu", "_TrangChu_BaoCaoDoHutNhienLieu_7Ngay.png")
+
+def caseid_report95(self):
+    module_other_app.get_datachecklist("Report95")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_type(self, "Report95", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo đổ hút nhiên liệu", "_TrangChu_BaoCaoDoHutNhienLieu_15Ngay.png")
+
+def caseid_report96(self):
+    module_other_app.get_datachecklist("Report96")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_type(self, "Report96", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo đổ hút nhiên liệu", "_TrangChu_BaoCaoDoHutNhienLieu_Khac.png")
+
+def caseid_report97(self):
+    module_other_app.get_datachecklist("Report97")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_setting(self, "Report97", eventname, result)
+
+def caseid_report98(self):
+    module_other_app.get_datachecklist("Report98")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_filter(self, "Report98", eventname, result)
+
+def caseid_report99(self):
+    module_other_app.get_datachecklist("Report99")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_excel(self, "Report99", eventname, result)
+
+
+def caseid_report100(self):
+    module_other_app.get_datachecklist("Report100")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_detail(self, "Report100", eventname, result, var_app.report_detail1,
+                                         "Tổng số lít thay đổi:", "_TrangChu_BaoCaoMatTinHieu_TongSoLitThayDoi.png")
+
+def caseid_report101(self):
+    module_other_app.get_datachecklist("Report101")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_dump_report_column(self, "Report101", eventname, result)
+
+
+def caseid_report102(self):
+    module_other_app.get_datachecklist("Report102")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report102", eventname, result, var_app.engine_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo động cơ", var_app.check_engine_report,
+                                                         "BÁO CÁO ĐỘNG CƠ", "_TrangChu_BaoCaoDongCo.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report102", eventname, result, var_app.engine_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo động cơ", var_app.check_engine_report,
+                                                         "BÁO CÁO ĐỘNG CƠ", "_TrangChu_BaoCaoDongCo.png")
+
+
+def caseid_report103(self):
+    module_other_app.get_datachecklist("Report103")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_search(self, "Report103", eventname, result)
+
+
+
+def caseid_report104(self):
+    module_other_app.get_datachecklist("Report104")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_type(self, "Report104", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo động cơ", "_TrangChu_BaoCaoDongCo_HomNay.png")
+
+def caseid_report105(self):
+    module_other_app.get_datachecklist("Report105")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_type(self, "Report105", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo động cơ", "_TrangChu_BaoCaoDongCo_7Ngay.png")
+
+def caseid_report106(self):
+    module_other_app.get_datachecklist("Report106")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_type(self, "Report106", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo động cơ", "_TrangChu_BaoCaoDongCo_15Ngay.png")
+
+def caseid_report107(self):
+    module_other_app.get_datachecklist("Report107")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_type(self, "Report107", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo động cơ", "_TrangChu_BaoCaoDongCo_Khac.png")
+
+def caseid_report108(self):
+    module_other_app.get_datachecklist("Report108")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_setting(self, "Report108", eventname, result)
+
+def caseid_report109(self):
+    module_other_app.get_datachecklist("Report109")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_filter(self, "Report109", eventname, result)
+
+
+def caseid_report110(self):
+    module_other_app.get_datachecklist("Report110")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_excel(self, "Report110", eventname, result)
+
+def caseid_report111(self):
+    module_other_app.get_datachecklist("Report111")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report111", eventname, result, var_app.report_detail1,
+                                         "Tổng số phút:", "_TrangChu_BaoCaoDongCo_TongSoPhut.png")
+
+def caseid_report112(self):
+    module_other_app.get_datachecklist("Report112")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_column(self, "Report112", eventname, result)
+
+
+
+def caseid_report113(self):
+    module_other_app.get_datachecklist("Report113")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report113", eventname, result, var_app.detail_vehicle_fuel_chart, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Biểu đồ nhiên liệu", var_app.check_detail_vehicle_fuel_chart,
+                                                         "BIỂU ĐỒ NHIÊN LIỆU", "_TrangChu_BieuDoNhienLieu.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report113", eventname, result, var_app.detail_vehicle_fuel_chart, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Biểu đồ nhiên liệu", var_app.check_detail_vehicle_fuel_chart,
+                                                         "BIỂU ĐỒ NHIÊN LIỆU", "_TrangChu_BieuDoNhienLieu.png")
+
+def caseid_report114(self):
+    module_other_app.get_datachecklist("Report114")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detail_vehicle_fuel_chart_search(self, "Report114", eventname, result)
+
+def caseid_report115(self):
+    module_other_app.get_datachecklist("Report115")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.detail_vehicle_fuel_chart_filter(self, "Report115", eventname, result)
+
+
+
+
+def caseid_report116(self):
+    module_other_app.get_datachecklist("Report116")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report116", eventname, result, var_app.fuel_consumption_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tiêu hao nhiên liệu", var_app.check_fuel_consumption_report,
+                                                         "B/C TIÊU HAO NHIÊN LIỆU", "_TrangChu_BaoCaoTieuHaoNhienLieu.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report116", eventname, result, var_app.fuel_consumption_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tiêu hao nhiên liệu", var_app.check_fuel_consumption_report,
+                                                         "B/C TIÊU HAO NHIÊN LIỆU", "_TrangChu_BaoCaoTieuHaoNhienLieu.png")
+
+
+def caseid_report117(self):
+    module_other_app.get_datachecklist("Report117")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_search(self, "Report117", eventname, result)
+
+
+
+def caseid_report118(self):
+    module_other_app.get_datachecklist("Report118")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_type(self, "Report118", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tiêu hao nhiên liệu", "_TrangChu_BaoCaoTieuHaoNhienLieu_HomNay.png")
+
+def caseid_report119(self):
+    module_other_app.get_datachecklist("Report119")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_type(self, "Report119", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tiêu hao nhiên liệu", "_TrangChu_BaoCaoTieuHaoNhienLieu_7Ngay.png")
+
+def caseid_report120(self):
+    module_other_app.get_datachecklist("Report120")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_type(self, "Report120", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tiêu hao nhiên liệu", "_TrangChu_BaoCaoTieuHaoNhienLieu_15Ngay.png")
+
+def caseid_report121(self):
+    module_other_app.get_datachecklist("Report121")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_type(self, "Report121", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo tiêu hao nhiên liệu", "_TrangChu_BaoCaoTieuHaoNhienLieu_Khac.png")
+
+
+def caseid_report122(self):
+    module_other_app.get_datachecklist("Report122")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_bapgs(self, "Report122", eventname, result)
+
+def caseid_report123(self):
+    module_other_app.get_datachecklist("Report123")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_setting(self, "Report123", eventname, result)
+
+def caseid_report124(self):
+    module_other_app.get_datachecklist("Report124")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_excel(self, "Report124", eventname, result)
+
+
+def caseid_report125(self):
+    module_other_app.get_datachecklist("Report125")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report125", eventname, result, var_app.report_detail1,
+                                         "Tổng số lần đổ:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLanDo.png")
+
+def caseid_report126(self):
+    module_other_app.get_datachecklist("Report126")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report126", eventname, result, var_app.report_detail2,
+                                         "Tổng số lần hút:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLanHut.png")
+
+def caseid_report127(self):
+    module_other_app.get_datachecklist("Report127")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report127", eventname, result, var_app.report_detail3,
+                                         "Tổng số lít đầu ngày:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLitDauNgay.png")
+
+def caseid_report128(self):
+    module_other_app.get_datachecklist("Report128")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report128", eventname, result, var_app.report_detail4,
+                                         "Tổng số lít đổ:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLitDo.png")
+
+def caseid_report129(self):
+    module_other_app.get_datachecklist("Report129")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report129", eventname, result, var_app.report_detail5,
+                                         "Tổng số lít hút:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLitHut.png")
+
+def caseid_report130(self):
+    module_other_app.get_datachecklist("Report130")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report130", eventname, result, var_app.report_detail6,
+                                         "Tổng số lít tồn:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLitTon.png")
+
+def caseid_report131(self):
+    module_other_app.get_datachecklist("Report131")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report131", eventname, result, var_app.report_detail7,
+                                         "Tổng số lít tiêu hao:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoLitTieuHao.png")
+
+
+
+def caseid_report132(self):
+    module_other_app.get_datachecklist("Report132")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report132", eventname, result, var_app.report_detail8,
+                                         "Tổng số Km GPS:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongSoKmGps.png")
+
+def caseid_report133(self):
+    module_other_app.get_datachecklist("Report133")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report133", eventname, result, var_app.report_detail9,
+                                         "Tổng thời gian nổ máy (phút):", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongThoiGianNoMay.png")
+
+def caseid_report134(self):
+    module_other_app.get_datachecklist("Report134")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report134", eventname, result, var_app.report_detail10,
+                                         "Tổng thời gian dừng đỗ nổ máy (phút):", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongThoiGianDungDoNoMay.png")
+
+def caseid_report135(self):
+    module_other_app.get_datachecklist("Report135")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report135", eventname, result, var_app.report_detail11,
+                                         "Tổng định mức quy định:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongMucQuyDinh.png")
+
+def caseid_report136(self):
+    module_other_app.get_datachecklist("Report136")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.engine_report_detail(self, "Report136", eventname, result, var_app.report_detail12,
+                                         "Tổng định mức thực tế:", "_TrangChu_BaoCaoTieuHaoNhienLieu_TongDinhMucThucTe.png")
+
+def caseid_report137(self):
+    module_other_app.get_datachecklist("Report137")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.fuel_consumption_report_column(self, "Report137", eventname, result,)
+
+
+
+
+def caseid_report138(self):
+    module_other_app.get_datachecklist("Report138")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report138", eventname, result, var_app.Comprehensive_fuel_consumption_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", var_app.check_Comprehensive_fuel_consumption_report,
+                                                         "B/C TỔNG HỢP TIÊU HAO NHIÊN LIỆU", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report138", eventname, result, var_app.Comprehensive_fuel_consumption_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", var_app.check_Comprehensive_fuel_consumption_report,
+                                                         "B/C TỔNG HỢP TIÊU HAO NHIÊN LIỆU", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu.png")
+
+def caseid_report139(self):
+    module_other_app.get_datachecklist("Report139")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_search(self, "Report139", eventname, result,)
+
+def caseid_report140(self):
+    module_other_app.get_datachecklist("Report140")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_type(self, "Report140", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_HomNay.png")
+
+def caseid_report141(self):
+    module_other_app.get_datachecklist("Report141")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_type(self, "Report141", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_7Ngay.png")
+
+def caseid_report142(self):
+    module_other_app.get_datachecklist("Report142")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_type(self, "Report142", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_15Ngay.png")
+
+def caseid_report143(self):
+    module_other_app.get_datachecklist("Report143")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_type(self, "Report143", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Báo cáo tổng hợp tiêu hao nhiên liệu", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_Khac.png")
+
+def caseid_report144(self):
+    module_other_app.get_datachecklist("Report144")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_bapgs(self, "Report144", eventname, result,)
+
+def caseid_report145(self):
+    module_other_app.get_datachecklist("Report145")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_setting(self, "Report145", eventname, result,)
+
+def caseid_report146(self):
+    module_other_app.get_datachecklist("Report146")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_excel(self, "Report146", eventname, result,)
+
+def caseid_report147(self):
+    module_other_app.get_datachecklist("Report147")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report147", eventname, result, var_app.report_detail1,
+                                         "Tổng số lần đổ:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLanDo.png")
+
+def caseid_report148(self):
+    module_other_app.get_datachecklist("Report148")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report148", eventname, result, var_app.report_detail2,
+                                         "Tổng số lần hút:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLanHut.png")
+
+def caseid_report149(self):
+    module_other_app.get_datachecklist("Report149")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report149", eventname, result, var_app.report_detail3,
+                                         "Tổng số lít đầu ngày:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLitDauNgay.png")
+
+def caseid_report150(self):
+    module_other_app.get_datachecklist("Report150")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report150", eventname, result, var_app.report_detail4,
+                                         "Tổng số lít đổ:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLitDo.png")
+
+def caseid_report151(self):
+    module_other_app.get_datachecklist("Report151")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report151", eventname, result, var_app.report_detail5,
+                                         "Tổng số lít hút:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLitHut.png")
+
+def caseid_report152(self):
+    module_other_app.get_datachecklist("Report152")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report152", eventname, result, var_app.report_detail6,
+                                         "Tổng số lít tồn:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLitTon.png")
+
+def caseid_report153(self):
+    module_other_app.get_datachecklist("Report153")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report153", eventname, result, var_app.report_detail7,
+                                         "Tổng số lít tiêu hao:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoLitTieuHao.png")
+
+
+
+def caseid_report154(self):
+    module_other_app.get_datachecklist("Report154")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report154", eventname, result, var_app.report_detail8,
+                                         "Tổng số Km GPS:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongSoKmGps.png")
+
+def caseid_report155(self):
+    module_other_app.get_datachecklist("Report155")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report155", eventname, result, var_app.report_detail9,
+                                         "Tổng thời gian nổ máy (phút):", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongThoiGianNoMay.png")
+
+def caseid_report156(self):
+    module_other_app.get_datachecklist("Report156")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report156", eventname, result, var_app.report_detail10,
+                                         "Tổng thời gian dừng đỗ nổ máy (phút):", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongThoiGianDungDoNoMay.png")
+
+def caseid_report157(self):
+    module_other_app.get_datachecklist("Report157")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report157", eventname, result, var_app.report_detail11,
+                                         "Tổng định mức quy định:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongMucQuyDinh.png")
+
+def caseid_report158(self):
+    module_other_app.get_datachecklist("Report158")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_detail(self, "Report158", eventname, result, var_app.report_detail12,
+                                         "Tổng định mức thực tế:", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_TongDinhMucThucTe.png")
+
+def caseid_report159(self):
+    module_other_app.get_datachecklist("Report159")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.Comprehensive_fuel_consumption_report_column(self, "Report159", eventname, result)
+
+
+def caseid_report160(self):
+    module_other_app.get_datachecklist("Report160")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report160", eventname, result, var_app.vehicle_speed, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Tốc độ của xe", var_app.check_vehicle_speed,
+                                                         "TỐC ĐỘ CỦA XE", "_TrangChu_TocDoCuaXe.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report160", eventname, result, var_app.vehicle_speed, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Tốc độ của xe", var_app.check_vehicle_speed,
+                                                         "TỐC ĐỘ CỦA XE", "_TrangChu_TocDoCuaXe.png")
+
+def caseid_report161(self):
+    module_other_app.get_datachecklist("Report161")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_search(self, "Report161", eventname, result)
+
+
+def caseid_report162(self):
+    module_other_app.get_datachecklist("Report162")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_type(self, "Report162", eventname, result, var_app.report_today,
+                                              var_app.check_report_search, "Trang chủ - Tốc độ của xe", "_TrangChu_TocDoCuaXe_HomNay.png")
+
+def caseid_report163(self):
+    module_other_app.get_datachecklist("Report163")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_type(self, "Report163", eventname, result, var_app.report_7day,
+                                              var_app.check_report_search, "Trang chủ - Tốc độ của xe", "_TrangChu_TocDoCuaXe_7Ngay.png")
+
+def caseid_report164(self):
+    module_other_app.get_datachecklist("Report164")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_type(self, "Report164", eventname, result, var_app.report_15day,
+                                              var_app.check_report_search, "Trang chủ - Tốc độ của xe", "_TrangChu_TocDoCuaXe_15Ngay.png")
+
+def caseid_report165(self):
+    module_other_app.get_datachecklist("Report165")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_type(self, "Report165", eventname, result, var_app.report_other,
+                                              var_app.check_report_stop_other, "Trang chủ - Tốc độ của xe", "_TrangChu_TocDoCuaXe_Khac.png")
+
+def caseid_report166(self):
+    module_other_app.get_datachecklist("Report166")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_setting(self, "Report166", eventname, result)
+
+
+def caseid_report167(self):
+    module_other_app.get_datachecklist("Report167")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_filter(self, "Report167", eventname, result)
+
+
+def caseid_report168(self):
+    module_other_app.get_datachecklist("Report168")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_excel(self, "Report168", eventname, result)
+
+
+def caseid_report169(self):
+    module_other_app.get_datachecklist("Report169")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    report_app.report.vehicle_speed_column(self, "Report169", eventname, result)
+
+
+def caseid_report170(self):
+    module_other_app.get_datachecklist("Report170")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        homepage_app.move_module(self, "Report170", eventname, result, var_app.report_vehicle_violations, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo vi phạm lái xe", var_app.check_report_vehicle_violations,
+                                                         "BÁO CÁO CHI TIẾT HÀNH VI", "_TrangChu_BaoCaoViPhamLaiXe.png")
+    except:
+        report_app.general.report_back(self)
+        homepage_app.move_module(self, "Report170", eventname, result, var_app.report_vehicle_violations, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Báo cáo vi phạm lái xe", var_app.check_report_vehicle_violations,
+                                                         "BÁO CÁO CHI TIẾT HÀNH VI", "_TrangChu_BaoCaoViPhamLaiXe.png")
+
+
+
+
+def caseid_utilities01(self):
+    module_other_app.get_datachecklist("Utilities01")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        login_app.login.login_v3(self, "ungroup", "12341234")
+        utilities.move_module1(self, "Utilities01", eventname, result, var_app.list_vehicle, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách phương tiện", var_app.check_list_vehicle,
+                                                         "Phương tiện", "_TrangChu_DanhSachPhuongTien.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities01", eventname, result, var_app.list_vehicle, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách phương tiện", var_app.check_list_vehicle,
+                                                         "Phương tiện", "_TrangChu_DanhSachPhuongTien.png")
+
+
+def caseid_utilities02(self):
+    module_other_app.get_datachecklist("Utilities02")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        login_app.login.check_logout1(self, "KHÔNG NHÓM ĐỘI", "ungroup", "12341234")
+        utilities.move_module1(self, "Utilities02", eventname, result, var_app.hide_and_show_the_car, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Ẩn hiện xe", var_app.check_hide_and_show_the_car,
+                                                         "DANH SÁCH XE ĐANG ẨN", "_TrangChu_AnHienXe.png")
+    except:
+        utilities.general.utilities_back(self)
+        login_app.login.check_logout1(self, "KHÔNG NHÓM ĐỘI", "ungroup", "12341234")
+        utilities.move_module1(self, "Utilities02", eventname, result, var_app.hide_and_show_the_car, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Ẩn hiện xe", var_app.check_hide_and_show_the_car,
+                                                         "DANH SÁCH XE ĐANG ẨN", "_TrangChu_AnHienXe.png")
+
+def caseid_utilities03(self):
+    module_other_app.get_datachecklist("Utilities03")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_filter(self, "Utilities03", eventname, result)
+
+def caseid_utilities04(self):
+    module_other_app.get_datachecklist("Utilities04")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_excel(self, "Utilities04", eventname, result)
+
+def caseid_utilities05(self):
+    module_other_app.get_datachecklist("Utilities05")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_search(self, "Utilities05", eventname, result)
+
+def caseid_utilities06(self):
+    module_other_app.get_datachecklist("Utilities06")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_checkbox(self, "Utilities06", eventname, result)
+
+def caseid_utilities07(self):
+    module_other_app.get_datachecklist("Utilities07")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_icon_hide(self, "Utilities07", eventname, result)
+
+
+def caseid_utilities08(self):
+    module_other_app.get_datachecklist("Utilities08")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_hide_vehicle(self, "Utilities08", eventname, result)
+
+def caseid_utilities09(self):
+    module_other_app.get_datachecklist("Utilities09")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.hide_and_show_the_car_un_hide_vehicle(self, "Utilities09", eventname, result)
+
+
+
+def caseid_utilities10(self):
+    module_other_app.get_datachecklist("Utilities10")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities10", eventname, result, var_app.add_driver, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Thêm lái xe", var_app.check_add_driver,
+                                                         "NHẬP THÔNG TIN LÁI XE", "_TrangChu_ThemLaiXe.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities10", eventname, result, var_app.add_driver, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Thêm lái xe", var_app.check_add_driver,
+                                                         "NHẬP THÔNG TIN LÁI XE", "_TrangChu_ThemLaiXe.png")
+
+
+def caseid_utilities11(self):
+    module_other_app.get_datachecklist("Utilities11")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.add_driver_fill_info(self, "Utilities11", eventname, result)
+
+
+
+def caseid_utilities12(self):
+    module_other_app.get_datachecklist("Utilities12")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities12", eventname, result, var_app.list_driver, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách phương tiện", var_app.check_list_driver,
+                                                         "DANH SÁCH LÁI XE", "_TrangChu_DanhSachPhuongTien.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities12", eventname, result, var_app.list_driver, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách phương tiện", var_app.check_list_driver,
+                                                         "DANH SÁCH LÁI XE", "_TrangChu_DanhSachPhuongTien.png")
+
+
+def caseid_utilities13(self):
+    module_other_app.get_datachecklist("Utilities13")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_search(self, "Utilities13", eventname, result)
+
+
+
+def caseid_utilities14(self):
+    module_other_app.get_datachecklist("Utilities14")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_select_vehicle(self, "Utilities14", eventname, result)
+
+
+
+def caseid_utilities15(self):
+    module_other_app.get_datachecklist("Utilities15")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_check_info(self, "Utilities15", eventname, result, var_app.list_driver_check_info_vehicle,
+                                               "_TrangChu_DanhSachPhuongTien_BienSoXe.png")
+
+def caseid_utilities16(self):
+    module_other_app.get_datachecklist("Utilities16")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_check_info(self, "Utilities16", eventname, result, var_app.list_driver_check_info_type_liscense,
+                                               "_TrangChu_DanhSachPhuongTien_LoaiBangLai.png")
+
+def caseid_utilities17(self):
+    module_other_app.get_datachecklist("Utilities17")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_check_info(self, "Utilities17", eventname, result, var_app.list_driver_check_info_phone_number,
+                                               "_TrangChu_DanhSachPhuongTien_SoDienThoai.png")
+
+def caseid_utilities18(self):
+    module_other_app.get_datachecklist("Utilities18")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_check_info(self, "Utilities18", eventname, result, var_app.list_driver_check_info_expiration_date,
+                                               "_TrangChu_DanhSachPhuongTien_NgayHetHan.png")
+
+def caseid_utilities19(self):
+    module_other_app.get_datachecklist("Utilities19")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.list_driver_icon_add(self, "Utilities19", eventname, result)
+
+
+
+def caseid_utilities20(self):
+    module_other_app.get_datachecklist("Utilities20")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities20", eventname, result, var_app.info_fee, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Thông tin phí", var_app.check_info_fee,
+                                                         "THÔNG TIN PHÍ", "_TrangChu_ThongTinPhi.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities20", eventname, result, var_app.info_fee, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Thông tin phí", var_app.check_info_fee,
+                                                         "THÔNG TIN PHÍ", "_TrangChu_ThongTinPhi.png")
+
+def caseid_utilities21(self):
+    module_other_app.get_datachecklist("Utilities21")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.info_fee_vehicle_owes_fees(self, "Utilities21", eventname, result)
+
+def caseid_utilities22(self):
+    module_other_app.get_datachecklist("Utilities22")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.info_fee_search_fee(self, "Utilities22", eventname, result)
+
+
+def caseid_utilities23(self):
+    module_other_app.get_datachecklist("Utilities23")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.info_fee_iconbagps(self, "Utilities23", eventname, result)
+
+
+
+def caseid_utilities24(self):
+    module_other_app.get_datachecklist("Utilities24")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities24", eventname, result, var_app.support_customer, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Hỗ trợ khách hàng", var_app.check_support_customer,
+                                                         "HỖ TRỢ KHÁCH HÀNG", "_TrangChu_HoTroKhachHang.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities24", eventname, result, var_app.support_customer, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Hỗ trợ khách hàng", var_app.check_support_customer,
+                                                         "HỖ TRỢ KHÁCH HÀNG", "_TrangChu_HoTroKhachHang.png")
+
+def caseid_utilities25(self):
+    module_other_app.get_datachecklist("Utilities25")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.support_customer_list_support(self, "Utilities25", eventname, result)
+
+def caseid_utilities26(self):
+    module_other_app.get_datachecklist("Utilities26")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.support_customer_track_feedback(self, "Utilities26", eventname, result)
+
+
+def caseid_utilities27(self):
+    module_other_app.get_datachecklist("Utilities27")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities27", eventname, result, var_app.transmission_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Cảnh báo tích truyền", var_app.check_transmission_report,
+                                                         "CẢNH BÁO TÍCH TRUYỀN", "_TrangChu_CanhBaoTichTruyen.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities27", eventname, result, var_app.transmission_report, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Cảnh báo tích truyền", var_app.check_transmission_report,
+                                                         "CẢNH BÁO TÍCH TRUYỀN", "_TrangChu_CanhBaoTichTruyen.png")
+
+def caseid_utilities28(self):
+    module_other_app.get_datachecklist("Utilities28")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.transmission_report_search(self, "Utilities28", eventname, result)
+
+def caseid_utilities29(self):
+    module_other_app.get_datachecklist("Utilities29")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.transmission_report_select_vehicle(self, "Utilities29", eventname, result)
+
+def caseid_utilities30(self):
+    module_other_app.get_datachecklist("Utilities30")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.transmission_report_checkbox(self, "Utilities30", eventname, result)
+
+
+def caseid_utilities31(self):
+    module_other_app.get_datachecklist("Utilities31")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities31", eventname, result, var_app.record_driver_card, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Ghi thẻ lái xe", var_app.check_record_driver_card,
+                                                         "GHI THẺ LÁI XE", "_TrangChu_GhiTheLaiXe.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities31", eventname, result, var_app.record_driver_card, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Ghi thẻ lái xe", var_app.check_record_driver_card,
+                                                         "GHI THẺ LÁI XE", "_TrangChu_GhiTheLaiXe.png")
+
+def caseid_utilities32(self):
+    module_other_app.get_datachecklist("Utilities32")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.record_driver_card_fill_info(self, "Utilities32", eventname, result)
+
+def caseid_utilities33(self):
+    module_other_app.get_datachecklist("Utilities33")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.record_driver_card_help(self, "Utilities33", eventname, result)
+
+
+def caseid_utilities34(self):
+    module_other_app.get_datachecklist("Utilities34")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    utilities.utilities.record_driver_card_icon(self, "Utilities34", eventname, result)
+
+
+def caseid_utilities35(self):
+    module_other_app.get_datachecklist("Utilities35")
+    eventname = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 42, 2))
+    result = str(module_other_app.readData(var_app.path_luutamthoi, 'Sheet1', 43, 2))
+    try:
+        utilities.move_module1(self, "Utilities35", eventname, result, var_app.contract_list, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách hợp đồng", var_app.check_contract_list,
+                                                         "DANH SÁCH HỢP ĐỒNG", "_TrangChu_DanhSachHopDong.png")
+    except:
+        utilities.general.utilities_back(self)
+        utilities.move_module1(self, "Utilities35", eventname, result, var_app.contract_list, 725, 1100, 175, 1100, 500,
+                                                        "Trang chủ - Danh sách hợp đồng", var_app.check_contract_list,
+                                                         "DANH SÁCH HỢP ĐỒNG", "_TrangChu_DanhSachHopDong.png")
+    utilities.general.utilities_back(self)
+
+
 
 
 

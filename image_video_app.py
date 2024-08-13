@@ -1,4 +1,6 @@
 import time
+
+import appium.webdriver.common.touch_action
 from selenium.webdriver.common.by import By
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common.exceptions import NoSuchElementException
@@ -11,8 +13,7 @@ import requests
 import json
 from retry import retry
 import homepage_app
-
-
+from selenium.webdriver.common.keys import Keys
 
 
 
@@ -626,16 +627,17 @@ class image_video:
         except:
             var_app.driver.find_element(By.XPATH, var_app.camera_monitoring_add_camera_reset1).click()
 
-        var_app.logging.info("--------------")
-        var_app.logging.info("Trang chủ - Giám sát camera - Thêm camera")
-        var_app.logging.info("Mã - " + code)
-        var_app.logging.info("Tên sự kiện - " + eventname)
-        var_app.logging.info("Kết quả - " + result)
-        var_app.logging.info("False")
-        var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_GiamSatCamera_ThemCamera_DatLai.png")
-        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
-        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_GiamSatCamera_ThemCamera_DatLai.png")
-        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, "Đang bị chữ hoa chữ thường")
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Giám sát camera - Thêm camera",
+                                              var_app.RESET, "ĐẶT LẠI", "_TrangChu_GiamSatCamera_ThemCamera_DatLai.png")
+
+
+        try:
+            checkdata = var_app.driver.find_element(By.XPATH, var_app.RESET).text
+            if checkdata == "Đặt lại":
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, "Đang bị chữ hoa chữ thường")
+        except:
+            pass
+
 
         time.sleep(2)
         var_app.driver.find_element(By.XPATH, var_app.IGREE).click()
@@ -1110,12 +1112,6 @@ class image_video:
             pass
 
 
-
-
-
-
-
-
     def see_again_video_dowload_and_cloud_search(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
         try:
@@ -1145,6 +1141,380 @@ class image_video:
         var_app.logging.info("True")
         module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
         image_video.see_again_video_back(self)
+
+
+
+
+
+
+
+
+
+
+    def see_image_camera_back(self):
+        var_app.driver.implicitly_wait(0.2)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_image_camera_back5).click()
+            time.sleep(1)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_image_camera_back1).click()
+            time.sleep(1)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_image_camera_back2).click()
+            time.sleep(1)
+        except:
+            pass
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_image_camera_back4).click()
+            time.sleep(1)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.see_image_camera_back3).click()
+            time.sleep(1)
+        except:
+            pass
+
+
+    def see_image_camera_search(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_nd10)
+        except:
+            image_video.see_image_camera_back(self)
+            homepage_app.move_module(self, "", "", "", var_app.see_nd10, 725, 765, 175, 765, 500, "", "", "", "")
+
+
+        var_app.driver.implicitly_wait(1)
+        n = 210
+        while (n < 1000):
+            n += 150
+            try:
+                var_app.driver.find_element(By.XPATH, var_app.see_image_camera_search_select).click()
+                time.sleep(2)
+                var_app.driver.tap([(200, n)])
+                time.sleep(2)
+                var_app.driver.find_element(By.XPATH, var_app.see_image_camera_search_select_icon).click()
+                time.sleep(2)
+                check_data = var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_search).text
+                print(check_data)
+                if check_data != "Tổng số hình ảnh: 0":
+                    print("đã click vào tọa độ 200, {}".format(n))
+                    break
+                else:
+                    print("đã click vào tọa độ 200, {}".format(n))
+            except:
+                print("đã click vào tọa độ 200, {}".format(n))
+                pass
+
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem ảnh Camera - NĐ10",
+                                              var_app.check_see_image_camera_search, "Tổng số hình ảnh: 0", "_TrangChu_XemAnhCamera_TimKiem.png")
+
+
+    def see_image_camera_icon_notification(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_nd10)
+        except:
+            image_video.see_image_camera_back(self)
+            homepage_app.move_module(self, "", "", "", var_app.see_nd10, 725, 765, 175, 765, 500, "", "", "", "")
+
+        var_app.driver.find_element(By.XPATH, var_app.see_image_camera_icon_notification).click()
+        time.sleep(1.5)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem ảnh Camera - NĐ10",
+                                              var_app.check_see_image_camera_icon_notification,
+                                                  "Các xe sử dụng gói cước không tích hợp tính năng xem video sẽ không được hiển thị trên tính năng này", "_TrangChu_XemAnhCamera_IconThongBao.png")
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.IGREE).click()
+            time.sleep(1.5)
+        except:
+            pass
+
+
+    def see_image_camera_select_image(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            check_data = var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_search).text
+            if check_data != "Tổng số hình ảnh: 0":
+                var_app.driver.tap([(200, 600)])
+            else:
+                image_video.see_image_camera_search(self, "", "", "")
+                var_app.driver.tap([(200, 600)])
+        except:
+            image_video.see_image_camera_search(self, "", "", "")
+            var_app.driver.tap([(200, 600)])
+
+        time.sleep(2.5)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Xem ảnh Camera - NĐ10",
+                                              var_app.check_see_image_camera_select_image, "CHI TIẾT ẢNH", "_TrangChu_XemAnhCamera_ClickVaoAnh.png")
+
+
+    def see_image_camera_select_image_detail_vehicle(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_select_image)
+        except:
+            image_video.see_image_camera_search(self, "", "", "")
+
+        var_app.logging.info("--------------")
+        var_app.logging.info("Trang chủ - Xem ảnh Camera - NĐ10")
+        var_app.logging.info("Mã - " + code)
+        var_app.logging.info("Tên sự kiện - " + eventname)
+        var_app.logging.info("Kết quả - " + result)
+        try:
+            check_text = var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_vehicle).get_attribute("content-desc")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_text)
+            var_app.logging.info(check_text)
+            if check_text != "":
+                var_app.logging.info("True")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+            else:
+                var_app.logging.info("False")
+                var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemAnhCamera_ClickVaoAnh_BienSo.png")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemAnhCamera_ClickVaoAnh_BienSo.png")
+        except:
+            var_app.logging.info("False")
+            var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_XemAnhCamera_ClickVaoAnh_BienSo.png")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_XemAnhCamera_ClickVaoAnh_BienSo.png")
+
+
+    def see_image_camera_select_image_detail(self, code, eventname, result, path_check, desire, path_image):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_select_image)
+        except:
+            image_video.see_image_camera_select_image(self, "", "", "")
+
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Xem ảnh Camera - NĐ10",
+                                              path_check, desire, path_image)
+
+
+
+    def see_image_camera_select_image_icon_download(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_select_image)
+        except:
+            image_video.see_image_camera_select_image(self, "", "", "")
+
+        var_app.driver.find_element(By.XPATH, var_app.see_image_camera_select_image_icon_download).click()
+        time.sleep(2)
+
+        try:
+            check_data = var_app.driver.find_element(By.XPATH, var_app.check_see_image_camera_select_image_icon_download).text
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_data)
+        except:
+            pass
+        module_other_app.write_result_displayed_try(code, eventname, result, "Quản trị - Danh sách xe",
+                                                var_app.check_see_image_camera_select_image_icon_download, "_TrangChu_XemAnhCamera_ClickVaoAnh_IconTaiXuong.png")
+
+        var_app.driver.press_keycode(4)
+        time.sleep(1)
+
+
+
+        image_video.see_image_camera_back(self)
+
+
+
+
+        # var_app.driver.implicitly_wait(1)
+        # if path_image == "_TrangChu_XemAnhCamera_ClickVaoAnh_DiaChi.png":
+        #     var_app.driver.find_element(By.XPATH, var_app.see_image_camera_select_image_detail_iconx).click()
+        #     time.sleep(2)
+
+
+
+
+
+
+
+
+
+    def export_video_back(self):
+        var_app.driver.implicitly_wait(0.2)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.export_video_back1).click()
+            time.sleep(1.3)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.export_video_back2).click()
+            time.sleep(1.3)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.export_video_back3).click()
+            time.sleep(1.3)
+        except:
+            pass
+
+
+    def export_video_search(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_export_video)
+        except:
+            image_video.see_image_camera_back(self)
+            homepage_app.move_module(self, "", "", "", var_app.export_video, 725, 765, 175, 765, 500, "", "", "", "")
+
+
+        var_app.driver.implicitly_wait(1)
+        n = 210
+        while (n < 1000):
+            n += 150
+            try:
+                var_app.driver.find_element(By.XPATH, var_app.export_video_search_select).click()
+                time.sleep(2)
+                var_app.driver.tap([(200, n)])
+                time.sleep(2)
+                check_data = var_app.driver.find_element(By.XPATH, var_app.check_export_video_search).text
+                print(check_data)
+                if check_data != "":
+                    print("đã click vào tọa độ 200, {} thiết bị {}.".format(n, check_data))
+                    break
+                else:
+                    print("đã click vào tọa độ 200, {} Không tìm thấy thiết bị {}.".format(n, check_data))
+            except:
+                print("đã click vào tọa độ 200, {} Không tìm thấy thiết bị.".format(n))
+                pass
+
+        module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Trích xuất video",
+                                              var_app.check_export_video_search, "", "_TrangChu_XemAnhCamera_TimKiem.png")
+
+
+    def export_video_Turn_on_wifi(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_export_video_search)
+        except:
+            image_video.export_video_search(self, "", "", "")
+
+        var_app.driver.find_element(By.XPATH, var_app.export_video_Turn_on_wifi).click()
+        time.sleep(1.5)
+        var_app.logging.info("--------------")
+        var_app.logging.info("Trang chủ - Trích xuất video")
+        var_app.logging.info("Mã - " + code)
+        var_app.logging.info("Tên sự kiện - " + eventname)
+        var_app.logging.info("Kết quả - " + result)
+        try:
+            check_text = var_app.driver.find_element(By.XPATH, var_app.check_export_video_Turn_on_wifi).text
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 11, check_text)
+            var_app.logging.info(check_text)
+            if check_text[0:29] == "Bật wifi thiết bị thành công!":
+                var_app.logging.info("True")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
+            else:
+                var_app.logging.info("False")
+                var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_TrichXuat_TimKiem.png")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+                module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_TrichXuat_TimKiem.png")
+        except:
+            var_app.logging.info("False")
+            var_app.driver.save_screenshot(var_app.imagepath + code + "_TrangChu_TrichXuat_TimKiem.png")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+            module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_TrangChu_TrichXuat_TimKiem.png")
+
+
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.CANCEL).click()
+            time.sleep(1.3)
+        except:
+            pass
+
+
+    def export_video_help(self, code, eventname, result):
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.bagps).click()
+            time.sleep(4)
+        except:
+            pass
+
+        var_app.driver.implicitly_wait(3)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.check_export_video)
+        except:
+            image_video.see_image_camera_back(self)
+            homepage_app.move_module(self, "", "", "", var_app.export_video, 725, 765, 175, 765, 500, "", "", "", "")
+
+        var_app.driver.find_element(By.XPATH, var_app.export_video_help).click()
+        time.sleep(4)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Trang chủ - Trích xuất video",
+                                              var_app.check_export_video_help, "[BA-SMARTCAMERA] HƯỚNG DẪN TRÍCH XUẤT DỮ LIỆU QUA USB TỪ CAMERA NGHỊ ĐỊNH 10",
+                                            "_TrangChu_XemAnhCamera_XemHuongDan.png")
+
+        var_app.driver.press_keycode(4)
+        time.sleep(0.5)
+        var_app.driver.press_keycode(4)
+        image_video.export_video_back(self)
+
+
+
 
 
 

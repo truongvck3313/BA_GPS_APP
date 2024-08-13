@@ -39,5 +39,17 @@
     "search_image_monitoring": "43C06120_C",
     "search_add_camera": "43C0",
     "search_group": "KPI"
+  },
+    "utilities": {
+    "hide_show_vihicle_search": "31C18122_C",
+    "select_hide_vehicle": "12C12822",
+    "fill_vehicle_name": "Trần Quang Trường",
+    "fill_vehicle_cccd": "020200",
+    "fill_vehicle_phone": "0835",
+    "fill_vehicle_address": "Lô 14 Nguyễn cảnh dị, hn",
+    "fill_vehicle_number_liscense": "790027",
+    "list_driver_search": "Nguyen Van B",
+    "transmission_warning_search": "60B05147",
+    "select_hide_note": "Trường test ẩn xe"
   }
 }

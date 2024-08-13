@@ -46,7 +46,10 @@ def move_module(self, code, eventname, result, link, startX, startY, endX, endY,
             login_app.login.login_v3(self, "43E02740", "12341234")
             var_app.driver.find_element(By.XPATH, var_app.homepage).click()
     time.sleep(1)
-    minitor_app.scroll_and_click(startX, startY, endX, endY, duration, link)
+    try:
+        minitor_app.scroll_and_click(startX, startY, endX, endY, duration, link)
+    except:
+        minitor_app.scroll_and_click_reverse(endX, startY, startX, endY, duration, link)
     time.sleep(2)
     module_other_app.write_result_text_try_if(code, eventname, result, path_module,
                                               path_check, desire, path_image)
@@ -324,6 +327,7 @@ class toolbar:
         time.sleep(1)
 
 
+    @retry(tries=3, delay=2, backoff=1, jitter=5, )
     def support_customer_link_affiliate(self, code, eventname, result, link_affiliate, path_check_iconx, path_check, desire, path_image):
         var_app.driver.implicitly_wait(1)
         try:
@@ -353,7 +357,11 @@ class toolbar:
             time.sleep(1)
             var_app.driver.find_element(By.XPATH, var_app.icon_support_customer).click()
             time.sleep(2.5)
-            var_app.driver.find_element(By.XPATH, link_affiliate).click()
+            try:
+                var_app.driver.find_element(By.XPATH, link_affiliate).click()
+            except:
+                var_app.driver.swipe(456, 1120, 456, 600, 500)
+                var_app.driver.find_element(By.XPATH, link_affiliate).click()
         time.sleep(2.5)
         module_other_app.write_result_text_try_if(code, eventname, result, "Trang Chủ - Thanh công cụ - Hỗ trợ khách hàng",
                                               path_check, desire, path_image)

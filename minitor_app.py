@@ -151,6 +151,23 @@ def scroll_and_click(startX, startY, endX, endY, duration, path_check):
     var_app.driver.find_element(By.XPATH, path_check).click()
     time.sleep(2.5)
 
+def scroll_and_click_reverse(startX, startY, endX, endY, duration, path_check):
+    var_app.driver.implicitly_wait(1)
+    n = 0
+    while (n < 6):
+        n += 1
+        try:
+            var_app.driver.find_element(By.XPATH, path_check).is_displayed()
+            break
+        except:
+            var_app.driver.swipe(endX, startY, startX, endY, duration)
+        time.sleep(0.5)
+    var_app.driver.find_element(By.XPATH, path_check).click()
+    time.sleep(2.5)
+
+#725, 1100, 175, 1100
+
+
 
 
 class overview:
@@ -344,12 +361,10 @@ class overview:
             pass
 
         var_app.driver.implicitly_wait(5)
-        try:
-            var_app.driver.find_element(By.XPATH, var_app.goto_google).click()
-        except:
-            login_app.login.check_logout(self)
-            login_app.login.login_v3(self, "43E02740", "12341234")
-            var_app.driver.find_element(By.XPATH, var_app.goto_google).click()
+        login_app.login.check_logout1(self, "43E02740", "43E02740", "12341234")
+        var_app.driver.find_element(By.XPATH, var_app.minitor).click()
+        time.sleep(1)
+        var_app.driver.find_element(By.XPATH, var_app.goto_google).click()
         time.sleep(3)
         module_other_app.write_result_displayed_try(code, eventname, result, "Giám sát - Icon đi tới Google",
                                                     var_app.check_goto_google, "_GiamSat_Goto_Google.png")
@@ -395,11 +410,12 @@ class overview:
 
         var_app.driver.implicitly_wait(5)
         try:
-            var_app.driver.find_element(By.XPATH, var_app.icon_change_map).click()
+            var_app.driver.find_element(By.XPATH, var_app.minitor).click()
         except:
-            login_app.login.check_logout(self)
             login_app.login.login_v3(self, "43E02740", "12341234")
-            var_app.driver.find_element(By.XPATH, var_app.icon_change_map).click()
+            var_app.driver.find_element(By.XPATH, var_app.minitor).click()
+        time.sleep(1)
+        var_app.driver.find_element(By.XPATH, var_app.icon_change_map).click()
         time.sleep(2)
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Icon thay đổi map")
