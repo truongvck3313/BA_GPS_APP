@@ -38,8 +38,15 @@ class overview:
         module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Tìm kiếm",
                                               var_app.check_vehiicle_namevehicle1, var_app.data['vehicle']['search'], "_Phuongtien_TimKiemPhuongTien.png")
 
+        var_app.driver.implicitly_wait(1)
         try:
             var_app.driver.find_element(By.XPATH, var_app.search_vehicle1_iconx1).click()
+            time.sleep(1)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.search_vehicle1_iconx2).click()
+            time.sleep(1)
         except:
             pass
         var_app.driver.find_element(By.XPATH, var_app.search_vehicle1).clear()
@@ -55,14 +62,14 @@ class overview:
             pass
 
         var_app.driver.implicitly_wait(5)
-        var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
-        time.sleep(1)
-
         try:
+            var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
+            time.sleep(2)
             var_app.driver.find_element(By.XPATH, var_app.vehicle_note).click()
         except:
             login_app.login.login_v3(self, "43E02740", "12341234")
             var_app.driver.find_element(By.XPATH, var_app.vehicle).click()
+            time.sleep(1.5)
             var_app.driver.find_element(By.XPATH, var_app.vehicle_note).click()
         time.sleep(1.5)
         module_other_app.write_result_text_try_if(code, eventname, result, "Phương tiện - Chú thích",
@@ -96,15 +103,21 @@ class overview:
         time.sleep(2)
         var_app.driver.find_element(By.XPATH, var_app.select_group_input1).send_keys(var_app.data['vehicle']['search_group'])
         time.sleep(2)
-        var_app.logging.info("--------------")
-        var_app.logging.info("Phương tiện - Chọn nhóm")
-        var_app.logging.info("Mã - " + code)
-        var_app.logging.info("Tên sự kiện - " + eventname)
-        var_app.logging.info("Kết quả - " + result)
-        var_app.logging.info("False")
-        var_app.driver.save_screenshot(var_app.imagepath + code + "_PhuongTien_ChonNhom_TimKiem.png")
-        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
-        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_PhuongTien_ChonNhom_TimKiem.png")
+        module_other_app.write_result_displayed_try(code, eventname, result, "Phương tiện - Chọn nhóm",
+                                                var_app.check_select_group_search, "_PhuongTien_ChonNhom_TimKiem.png")
+
+
+
+
+        # var_app.logging.info("--------------")
+        # var_app.logging.info("Phương tiện - Chọn nhóm")
+        # var_app.logging.info("Mã - " + code)
+        # var_app.logging.info("Tên sự kiện - " + eventname)
+        # var_app.logging.info("Kết quả - " + result)
+        # var_app.logging.info("False")
+        # var_app.driver.save_screenshot(var_app.imagepath + code + "_PhuongTien_ChonNhom_TimKiem.png")
+        # module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
+        # module_other_app.writeData(var_app.checklistpath, "Checklist", code, 9, code + "_PhuongTien_ChonNhom_TimKiem.png")
 
 
     def select_group_select(self, code, eventname, result):

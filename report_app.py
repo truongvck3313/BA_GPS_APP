@@ -60,6 +60,33 @@ class general:
                 pass
 
 
+    def select_vehicle2(self, select_vehicle, select_vehicle_iconsearch, check_text, desire):
+        var_app.driver.implicitly_wait(1)
+        n = 210
+        while (n < 1000):
+            n += 150
+            try:
+                var_app.driver.find_element(By.XPATH, select_vehicle).click()
+                time.sleep(2)
+                var_app.driver.tap([(200, n)])
+                time.sleep(2)
+                var_app.driver.find_element(By.XPATH, var_app.report_today).click()
+                time.sleep(2)
+                var_app.driver.find_element(By.XPATH, select_vehicle_iconsearch).click()
+                time.sleep(12)
+
+                check_select_vehicle = var_app.driver.find_element(By.XPATH, check_text).text
+                print(check_select_vehicle)
+                if check_select_vehicle == desire:
+                    print("đã click vào tọa độ 200, {} Phương tiện {}.".format(n, check_select_vehicle))
+                    break
+                else:
+                    print("đã click vào tọa độ 200, {} Phương tiện {}.".format(n, check_select_vehicle))
+            except:
+                print("đã click vào tọa độ 200, {} Không có dữ liệu.".format(n))
+                pass
+
+
 
     def select_vehicle1(self, select_vehicle, select_vehicle_iconsearch, check_text, desire, vehicle):
         var_app.driver.implicitly_wait(1)
@@ -159,14 +186,18 @@ class general:
         time.sleep(2.5)
 
 
-
-
-
-
-
-
-
-
+    def back_excel(self, number, desire):
+        var_app.driver.implicitly_wait(0.5)
+        i = 0
+        while (i < number):
+            i += 1
+            try:
+                var_app.driver.press_keycode(4)
+                time.sleep(3)
+                var_app.driver.find_element(By.XPATH, desire)
+                break
+            except:
+                pass
 class report:
 
 
@@ -293,6 +324,7 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.report_stop_export_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_report_stop)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - báo cáo dừng đỗ",
                                               var_app.check_report_stop_export_excel, "Lỗi xuất excel", "_BaoCao_BaoCaoDungDo_XuatExcel.png")
 
@@ -448,6 +480,7 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.detailed_activity_reports_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_detailed_activity_reports)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo chi tiết hoạt động",
                                               var_app.check_report_stop_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoChiTietHoatDong_XuatExcel.png")
 
@@ -638,6 +671,7 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.summary_report_of_activities_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_summary_report_of_activities)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo tổng hợp hoạt động",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoTongHopHoatDong_XuatExcel.png")
 
@@ -822,6 +856,7 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.summary_report_of_activities_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_report_entering_and_exiting_the_station)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo ra vào trạm",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoRaVaotram_XuatExcel.png")
 
@@ -1139,9 +1174,10 @@ class report:
         except:
             report.business_trip_report_search(self, "", "", "")
 
-
         var_app.driver.find_element(By.XPATH, var_app.business_trip_report_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_business_trip_report)
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo chuyến kinh doanh",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoChuyenKinhDoanh_XuatExcel.png")
 
@@ -1328,6 +1364,8 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.report_loss_of_signal_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_report_loss_of_signal)
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo mất tín hiệu",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoMatTinHieu_XuatExcel.png")
 
@@ -1522,6 +1560,8 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.fuel_dump_report_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_fuel_dump_report)
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo đổ hút nhiên liệu",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoDoHutNhienLieu_XuatExcel.png")
 
@@ -1713,6 +1753,8 @@ class report:
 
         var_app.driver.find_element(By.XPATH, var_app.engine_report_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_engine_report)
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo động cơ",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoDongCo_XuatExcel.png")
 
@@ -1966,9 +2008,10 @@ class report:
         except:
             report.fuel_consumption_report_search(self, "", "", "")
 
-
         var_app.driver.find_element(By.XPATH, var_app.fuel_consumption_report_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_fuel_consumption_report)
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo tiêu hao nhiên liệu",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoTieuHaoNhienLieu_XuatExcel.png")
 
@@ -2154,9 +2197,9 @@ class report:
         except:
             report.Comprehensive_fuel_consumption_report_search(self, "", "", "")
 
-
         var_app.driver.find_element(By.XPATH, var_app.Comprehensive_fuel_consumption_report_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_Comprehensive_fuel_consumption_report)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Báo cáo tồng hợp tiêu hao nhiên liệu",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_BaoCaoTongHopTieuHaoNhienLieu_XuatExcel.png")
 
@@ -2241,15 +2284,9 @@ class report:
             general.report_back(self)
             homepage_app.move_module(self, "", "", "", var_app.vehicle_speed, 725, 1100, 175, 1100, 500,  "", "", "", "")
 
+        general.select_vehicle2(self, var_app.report_select_vehicle, var_app.report_icon_search,
+                               var_app.check_report_search, "1")
 
-        var_app.driver.find_element(By.XPATH, var_app.report_select_vehicle).click()
-        time.sleep(2)
-        var_app.driver.tap([(200, 360)])
-        time.sleep(2)
-        var_app.driver.find_element(By.XPATH, var_app.report_today).click()
-        time.sleep(2)
-        var_app.driver.find_element(By.XPATH, var_app.report_icon_search).click()
-        time.sleep(3.5)
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Tốc độ của xe",
                                               var_app.check_report_search1, "", "_TrangChu_TocDoCuaXe_ChonPhuongTien.png")
 
@@ -2363,9 +2400,11 @@ class report:
         except:
             report.vehicle_speed_search(self, "", "", "")
 
-
         var_app.driver.find_element(By.XPATH, var_app.vehicle_speed_excel).click()
         time.sleep(2.5)
+        general.back_excel(self, 4, var_app.check_vehicle_speed)
+
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Tốc độ của xe",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_TocDoCuaXe_XuatExcel.png")
 

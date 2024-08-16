@@ -10,6 +10,7 @@ import module_other_app
 
 
 def ModuleTest():
+    var_app.driver.implicitly_wait(7)
     moduletest = ''.join(re.findall(r'\d+', var_app.moduletest))
     print(type(moduletest))
     print(moduletest)
@@ -22,7 +23,7 @@ def ModuleTest():
         if i == "2":
             minitor(self='')
         if i == "3":
-            minitor(self='')
+            route(self='')
         if i == "4":
             vehicle(self='')
         if i == "5":
@@ -6079,7 +6080,7 @@ def minitor(self):
 
 
 #3.Lộ trình
-def minitor(self):
+def route(self):
     list_mucdo1 = []
     list_mucdo2 = []
     list_mucdo3 = []

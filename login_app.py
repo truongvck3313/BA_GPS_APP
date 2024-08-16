@@ -401,18 +401,9 @@ class other_function:
             except:
                 pass
 
-
-        if code == "Login15" or code == "Login16" or code == "Login20":
-            time.sleep(3)
-            module_other_app.write_result_text_try_if_other(code, eventname, result, "Màn hình đăng nhập - Link liên kết",
-                                                  pathcheck, desire, pathimage)
-
-
-
-        if code == "Login17" or code == "Login18" or code == "Login19":
-            time.sleep(4)
-            module_other_app.write_result_text_try_if(code, eventname, result, "Màn hình đăng nhập - Link liên kết",
-                                                  pathcheck, desire, pathimage)
+        time.sleep(4)
+        module_other_app.write_result_text_try_if(code, eventname, result, "Màn hình đăng nhập - Link liên kết",
+                                              pathcheck, desire, pathimage)
 
         var_app.driver.press_keycode(4)
         time.sleep(1.5)

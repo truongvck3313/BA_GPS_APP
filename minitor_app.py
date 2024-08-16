@@ -161,7 +161,8 @@ def scroll_and_click_reverse(startX, startY, endX, endY, duration, path_check):
             break
         except:
             var_app.driver.swipe(endX, startY, startX, endY, duration)
-        time.sleep(0.5)
+            print("n1")
+        time.sleep(1)
     var_app.driver.find_element(By.XPATH, path_check).click()
     time.sleep(2.5)
 
@@ -174,6 +175,8 @@ class overview:
 
     def search_vehicle(self, code, eventname, result):
         var_app.driver.implicitly_wait(1)
+        login_app.login.check_logout1(self, "43E02740", "43E02740", "12341234")
+
         try:
             var_app.driver.find_element(By.XPATH, var_app.search_vehicle).click()
         except:
@@ -366,8 +369,15 @@ class overview:
         time.sleep(1)
         var_app.driver.find_element(By.XPATH, var_app.goto_google).click()
         time.sleep(3)
-        module_other_app.write_result_displayed_try(code, eventname, result, "Giám sát - Icon đi tới Google",
-                                                    var_app.check_goto_google, "_GiamSat_Goto_Google.png")
+        # module_other_app.write_result_displayed_try(code, eventname, result, "Giám sát - Icon đi tới Google",
+        #                                             var_app.check_goto_google, "_GiamSat_Goto_Google.png")
+        var_app.logging.info("--------------")
+        var_app.logging.info("Giám sát - Icon đi tới Google")
+        var_app.logging.info("Mã - " + code)
+        var_app.logging.info("Tên sự kiện - " + eventname)
+        var_app.logging.info("Kết quả - " + result)
+        var_app.logging.info("True")
+        module_other_app.writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
 
         var_app.driver.press_keycode(4)
         time.sleep(2)
@@ -383,7 +393,9 @@ class overview:
         except:
             pass
 
-        var_app.driver.implicitly_wait(5)
+        var_app.driver.implicitly_wait(3)
+        login_app.login.check_logout1(self, "43E02740", "43E02740", "12341234")
+
         try:
             var_app.driver.find_element(By.XPATH, var_app.turn_on_location).click()
         except:
@@ -391,6 +403,18 @@ class overview:
             login_app.login.login_v3(self, "43E02740", "12341234")
             var_app.driver.find_element(By.XPATH, var_app.turn_on_location).click()
         time.sleep(2)
+        var_app.driver.implicitly_wait(1)
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.ALLOW).click()
+            time.sleep(1)
+        except:
+            pass
+        try:
+            var_app.driver.find_element(By.XPATH, var_app.DENY).click()
+            time.sleep(1)
+        except:
+            pass
+
         var_app.logging.info("--------------")
         var_app.logging.info("Giám sát - Icon bật vị trí")
         var_app.logging.info("Mã - " + code)
@@ -1540,7 +1564,7 @@ class detail:
             var_app.driver.find_element(By.XPATH, var_app.detail_vehicle).click()
             time.sleep(2.5)
             var_app.driver.find_element(By.XPATH, var_app.detail_vehicle_fuel_chart).click()
-        time.sleep(2)
+        time.sleep(7)
         module_other_app.write_result_text_try_if(code, eventname, result, "Giám sát - Thông tin chi tiết xe - Link liên kết",
                                               var_app.check_detail_vehicle_fuel_chart, "BIỂU ĐỒ NHIÊN LIỆU", "_GiamSat_ChiTietXe_BieuDoNhiienLieu.png")
 

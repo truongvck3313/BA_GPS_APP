@@ -1,10 +1,8 @@
-import minitor_app
 import var_app
 import unittest
 import caseid_app
 import module_other_app
 import module_gps_appv3
-import route
 
 
 # adb kill-server
@@ -16,7 +14,7 @@ import route
 
 module_other_app.timerun()
 # pyinstaller.exe --icon=C:\Users\dungntk\ba_v2\ba_v2\icon_ba.ico .\test_main.py
-
+#Ngoài ra, bạn có thể sử dụng một công cụ như pip freeze tạo tệp requirements.txt, liệt kê tất cả các gói đã cài đặt và phiên bản của chúng. Sau đó, trên máy tính đích, bạn có thể sử dụng pip install -r requirements.txt
 
 
 class Test(unittest.TestCase):
@@ -235,7 +233,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_report62(self="")
         # caseid_app.caseid_report63(self="")
         # caseid_app.caseid_report64(self="")
-        #
+
         # caseid_app.caseid_report65(self="")
         # caseid_app.caseid_report66(self="")
         # caseid_app.caseid_report67(self="")
@@ -251,7 +249,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_report77(self="")
         # caseid_app.caseid_report78(self="")
         # caseid_app.caseid_report79(self="")
-        #
+
         # caseid_app.caseid_report80(self="")
         # caseid_app.caseid_report81(self="")
         # caseid_app.caseid_report82(self="")
@@ -642,7 +640,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_login20(self="")
         #
         #
-        # # Giám sát
+        # Giám sát
         # caseid_app.caseid_minitor01(self="")
         # caseid_app.caseid_minitor02(self="")
         # caseid_app.caseid_minitor03(self="")
@@ -838,7 +836,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_vehicle02(self="")
         # caseid_app.caseid_vehicle03(self="")
         # caseid_app.caseid_vehicle04(self="")
-        #
+
         # caseid_app.caseid_vehicle05(self="")
         # caseid_app.caseid_vehicle06(self="")
         # caseid_app.caseid_vehicle07(self="")
@@ -879,7 +877,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_toolbar06(self="")
         # caseid_app.caseid_toolbar07(self="")
         # caseid_app.caseid_toolbar08(self="")
-
+        #
         # caseid_app.caseid_toolbar09(self="")
         # caseid_app.caseid_toolbar10(self="")
         # caseid_app.caseid_toolbar11(self="")
@@ -893,7 +891,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_toolbar19(self="")
         # caseid_app.caseid_toolbar20(self="")
         # caseid_app.caseid_toolbar21(self="")
-        # #
+        #
         # caseid_app.caseid_toolbar22(self="")
         # caseid_app.caseid_toolbar23(self="")
         # caseid_app.caseid_toolbar24(self="")
@@ -984,7 +982,7 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_media62(self="")
         # caseid_app.caseid_media63(self="")
         # caseid_app.caseid_media64(self="")
-        #
+
         # caseid_app.caseid_media65(self="")
         # caseid_app.caseid_media66(self="")
         # caseid_app.caseid_media67(self="")
@@ -1173,6 +1171,8 @@ class Test(unittest.TestCase):
         # caseid_app.caseid_report167(self)
         # caseid_app.caseid_report168(self)
         # caseid_app.caseid_report169(self)
+        #
+
 
         # caseid_app.caseid_utilities01(self="")
         #

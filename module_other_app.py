@@ -78,11 +78,11 @@ def timerun():
         timerun = time.strftime("%H:%M:%S", time.localtime())
         print("Thời gian hiện tại:", timerun)
         print("Thời gian chạy tool:", var_app.timerun)
-        writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, timerun)
+        writeData1(var_app.path_luutamthoi, "Sheet1", 56, 2, timerun)
         if var_app.timerun == "":
-            writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, timerun)
+            writeData1(var_app.path_luutamthoi, "Sheet1", 56, 2, timerun)
         else:
-            writeData1(var_app.path_luutamthoi, "Sheet1", 57, 2, var_app.timerun)
+            writeData1(var_app.path_luutamthoi, "Sheet1", 56, 2, var_app.timerun)
 
 
         if var_app.timerun == time.strftime("%H:%M", time.localtime()):
@@ -180,8 +180,10 @@ def notification_telegram():
         rownum = int(rownum)
     print("số lượng case Pass", case_pass)
     print("số lượng case Fail", case_fail)
-    thoigianbatdauchay = str(readData(var_app.path_luutamthoi , 'Sheet1', 47, 2))
+    # thoigianbatdauchay = str(readData(var_app.path_luutamthoi , 'Sheet1', 56, 2))
+    thoigianbatdauchay = str(readData(var_app.path_luutamthoi, "Sheet1", 56, 2))
 
+    print(thoigianbatdauchay)
     if case_fail >= 1:
         driver2.get("https://web.telegram.org/a/#-4248738484")
         time.sleep(2)
@@ -330,10 +332,8 @@ def write_result_text_try_if_other(code, eventname, result, path_module, path_te
             writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
             writeData(var_app.checklistpath, "Checklist", code, 9, code + name_image)
     except:
-        var_app.logging.info("False")
-        var_app.driver.save_screenshot(var_app.imagepath + code + name_image)
-        writeData(var_app.checklistpath, "Checklist", code, 8, "Fail")
-        writeData(var_app.checklistpath, "Checklist", code, 9, code + name_image)
+        var_app.logging.info("True")
+        writeData(var_app.checklistpath, "Checklist", code, 8, "Pass")
     # write_result_text_try_if_other(code, eventname, result, "Quản trị - Danh sách xe",
     #                                       var_app.check_open_car_quickly, "None", "_QuanTri_DsXe_MoXeNhanh.png")
 

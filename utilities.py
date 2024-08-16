@@ -1,5 +1,7 @@
 import time
 from selenium.webdriver.common.by import By
+
+import report_app
 import var_app
 import module_other_app
 import homepage_app
@@ -148,8 +150,11 @@ class utilities:
             general.utilities_back(self)
             move_module1(self, "", "", "", var_app.hide_and_show_the_car, 725, 1100, 175, 1100, 500, "", "", "", "")
 
-        var_app.driver.find_element(By.XPATH, var_app.hide_and_show_the_car_excel).click()
+        var_app.driver.find_element(By.XPATH, var_app.check_hide_and_show_the_car).click()
         time.sleep(2)
+        report_app.general.back_excel(self, 4, var_app.check_vehicle_speed)
+
+
         module_other_app.write_result_text_try_if_other(code, eventname, result, "Trang chủ - Ẩn hiện xe",
                                               var_app.check_export_excel, "Lỗi xuất excel", "_TrangChu_AnHienXe_XuatExcel.png")
 

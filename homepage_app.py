@@ -49,8 +49,7 @@ def move_module(self, code, eventname, result, link, startX, startY, endX, endY,
     try:
         minitor_app.scroll_and_click(startX, startY, endX, endY, duration, link)
     except:
-        minitor_app.scroll_and_click_reverse(endX, startY, startX, endY, duration, link)
-    time.sleep(2)
+        minitor_app.scroll_and_click_reverse(startX, startY, endX, endY, duration, link)
     module_other_app.write_result_text_try_if(code, eventname, result, path_module,
                                               path_check, desire, path_image)
 

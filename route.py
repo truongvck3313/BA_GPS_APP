@@ -27,6 +27,7 @@ class overview:
             pass
 
         var_app.driver.implicitly_wait(5)
+        login_app.login.check_logout1(self, "43E02740", "43E02740", "12341234")
         try:
             var_app.driver.find_element(By.XPATH, var_app.route).click()
         except:
